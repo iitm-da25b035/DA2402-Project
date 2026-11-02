@@ -1,0 +1,16 @@
+{
+  "collection_date": "2026-11-01",
+  "start_year": 2017,
+  "include_citypair": false,
+  "excluded_names_pattern": "totalint|quikjet|bluedart",
+  "github_repo": "Vonter/india-aviation-traffic",
+  "github_commit": "e197170f131e43169620e4f8aa520350d4cbcba9",
+  "files_in_manifest": 150,
+  "downloaded": 142,
+  "cached": 0,
+  "failed": 8,
+  "parsed_rows": 5844,
+  "parsed_files": 142,
+  "files_with_parse_errors": 0,
+  "parquet_readback_validated": true
+}

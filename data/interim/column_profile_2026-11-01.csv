@@ -1,0 +1,2438 @@
+file,sheet,column_position,non_null,inferred_content_type
+Air Asia21.xlsx,Monthly_Template,0,72,text/mixed
+Air Asia21.xlsx,Monthly_Template,1,35,text/mixed
+Air Asia21.xlsx,Monthly_Template,2,35,text/mixed
+Air Asia21.xlsx,Monthly_Template,3,31,numeric-like
+Air Asia21.xlsx,Monthly_Template,4,31,numeric-like
+Air Asia21.xlsx,Monthly_Template,5,31,numeric-like
+Air Asia21.xlsx,Monthly_Template,6,31,numeric-like
+Air Asia21.xlsx,Monthly_Template,7,56,text/mixed
+Air Asia21.xlsx,Monthly_Template,8,24,text/mixed
+Air Asia21.xlsx,Monthly_Template,9,20,numeric-like
+Air Asia21.xlsx,Monthly_Template,10,20,numeric-like
+Air Asia21.xlsx,Monthly_Template,11,35,text/mixed
+Air Asia21.xlsx,Monthly_Template,12,21,text/mixed
+Air Asia21.xlsx,Monthly_Template,13,20,numeric-like
+Air Asia21.xlsx,Monthly_Template,14,35,text/mixed
+Air Asia21.xlsx,Monthly_Template,15,31,numeric-like
+Air Asia21.xlsx,Monthly_Template,16,56,text/mixed
+Air Asia22.xlsx,Monthly_Template,0,72,text/mixed
+Air Asia22.xlsx,Monthly_Template,1,37,text/mixed
+Air Asia22.xlsx,Monthly_Template,2,37,text/mixed
+Air Asia22.xlsx,Monthly_Template,3,33,numeric-like
+Air Asia22.xlsx,Monthly_Template,4,32,numeric-like
+Air Asia22.xlsx,Monthly_Template,5,32,numeric-like
+Air Asia22.xlsx,Monthly_Template,6,33,numeric-like
+Air Asia22.xlsx,Monthly_Template,7,56,text/mixed
+Air Asia22.xlsx,Monthly_Template,8,26,text/mixed
+Air Asia22.xlsx,Monthly_Template,9,21,numeric-like
+Air Asia22.xlsx,Monthly_Template,10,22,numeric-like
+Air Asia22.xlsx,Monthly_Template,11,36,text/mixed
+Air Asia22.xlsx,Monthly_Template,12,22,text/mixed
+Air Asia22.xlsx,Monthly_Template,13,20,numeric-like
+Air Asia22.xlsx,Monthly_Template,14,37,text/mixed
+Air Asia22.xlsx,Monthly_Template,15,33,numeric-like
+Air Asia22.xlsx,Monthly_Template,16,56,text/mixed
+Air Asia23.xlsx,Monthly_Template,0,72,text/mixed
+Air Asia23.xlsx,Monthly_Template,1,34,text/mixed
+Air Asia23.xlsx,Monthly_Template,2,34,text/mixed
+Air Asia23.xlsx,Monthly_Template,3,30,numeric-like
+Air Asia23.xlsx,Monthly_Template,4,30,numeric-like
+Air Asia23.xlsx,Monthly_Template,5,30,numeric-like
+Air Asia23.xlsx,Monthly_Template,6,30,numeric-like
+Air Asia23.xlsx,Monthly_Template,7,56,text/mixed
+Air Asia23.xlsx,Monthly_Template,8,25,text/mixed
+Air Asia23.xlsx,Monthly_Template,9,20,numeric-like
+Air Asia23.xlsx,Monthly_Template,10,21,numeric-like
+Air Asia23.xlsx,Monthly_Template,11,34,text/mixed
+Air Asia23.xlsx,Monthly_Template,12,22,text/mixed
+Air Asia23.xlsx,Monthly_Template,13,22,numeric-like
+Air Asia23.xlsx,Monthly_Template,14,34,text/mixed
+Air Asia23.xlsx,Monthly_Template,15,30,numeric-like
+Air Asia23.xlsx,Monthly_Template,16,56,text/mixed
+Air India21.xlsx,Monthly_Template,0,73,text/mixed
+Air India21.xlsx,Monthly_Template,1,48,numeric-like
+Air India21.xlsx,Monthly_Template,2,48,numeric-like
+Air India21.xlsx,Monthly_Template,3,44,numeric-like
+Air India21.xlsx,Monthly_Template,4,44,numeric-like
+Air India21.xlsx,Monthly_Template,5,44,numeric-like
+Air India21.xlsx,Monthly_Template,6,44,numeric-like
+Air India21.xlsx,Monthly_Template,7,56,text/mixed
+Air India21.xlsx,Monthly_Template,8,48,numeric-like
+Air India21.xlsx,Monthly_Template,9,16,text/mixed
+Air India21.xlsx,Monthly_Template,10,44,numeric-like
+Air India21.xlsx,Monthly_Template,11,48,numeric-like
+Air India21.xlsx,Monthly_Template,12,45,numeric-like
+Air India21.xlsx,Monthly_Template,13,16,text/mixed
+Air India21.xlsx,Monthly_Template,14,48,numeric-like
+Air India21.xlsx,Monthly_Template,15,44,numeric-like
+Air India21.xlsx,Monthly_Template,16,56,text/mixed
+Air India22.xlsx,Monthly_Template,0,72,text/mixed
+Air India22.xlsx,Monthly_Template,1,43,numeric-like
+Air India22.xlsx,Monthly_Template,2,43,numeric-like
+Air India22.xlsx,Monthly_Template,3,39,numeric-like
+Air India22.xlsx,Monthly_Template,4,39,numeric-like
+Air India22.xlsx,Monthly_Template,5,39,numeric-like
+Air India22.xlsx,Monthly_Template,6,39,numeric-like
+Air India22.xlsx,Monthly_Template,7,56,text/mixed
+Air India22.xlsx,Monthly_Template,8,40,numeric-like
+Air India22.xlsx,Monthly_Template,9,19,text/mixed
+Air India22.xlsx,Monthly_Template,10,36,numeric-like
+Air India22.xlsx,Monthly_Template,11,43,numeric-like
+Air India22.xlsx,Monthly_Template,12,37,numeric-like
+Air India22.xlsx,Monthly_Template,13,21,numeric-like
+Air India22.xlsx,Monthly_Template,14,43,numeric-like
+Air India22.xlsx,Monthly_Template,15,39,numeric-like
+Air India22.xlsx,Monthly_Template,16,56,text/mixed
+Air India23.xlsx,Monthly_Template,0,72,text/mixed
+Air India23.xlsx,Monthly_Template,1,42,numeric-like
+Air India23.xlsx,Monthly_Template,2,42,numeric-like
+Air India23.xlsx,Monthly_Template,3,38,numeric-like
+Air India23.xlsx,Monthly_Template,4,38,numeric-like
+Air India23.xlsx,Monthly_Template,5,38,numeric-like
+Air India23.xlsx,Monthly_Template,6,38,numeric-like
+Air India23.xlsx,Monthly_Template,7,56,text/mixed
+Air India23.xlsx,Monthly_Template,8,39,text/mixed
+Air India23.xlsx,Monthly_Template,9,32,numeric-like
+Air India23.xlsx,Monthly_Template,10,35,numeric-like
+Air India23.xlsx,Monthly_Template,11,42,numeric-like
+Air India23.xlsx,Monthly_Template,12,39,numeric-like
+Air India23.xlsx,Monthly_Template,13,33,numeric-like
+Air India23.xlsx,Monthly_Template,14,42,numeric-like
+Air India23.xlsx,Monthly_Template,15,38,numeric-like
+Air India23.xlsx,Monthly_Template,16,56,text/mixed
+Air India24.xlsx,Monthly_Template,0,72,text/mixed
+Air India24.xlsx,Monthly_Template,1,50,numeric-like
+Air India24.xlsx,Monthly_Template,2,50,numeric-like
+Air India24.xlsx,Monthly_Template,3,46,numeric-like
+Air India24.xlsx,Monthly_Template,4,46,numeric-like
+Air India24.xlsx,Monthly_Template,5,46,numeric-like
+Air India24.xlsx,Monthly_Template,6,46,numeric-like
+Air India24.xlsx,Monthly_Template,7,56,text/mixed
+Air India24.xlsx,Monthly_Template,8,48,numeric-like
+Air India24.xlsx,Monthly_Template,9,35,numeric-like
+Air India24.xlsx,Monthly_Template,10,44,numeric-like
+Air India24.xlsx,Monthly_Template,11,50,numeric-like
+Air India24.xlsx,Monthly_Template,12,47,numeric-like
+Air India24.xlsx,Monthly_Template,13,39,numeric-like
+Air India24.xlsx,Monthly_Template,14,51,numeric-like
+Air India24.xlsx,Monthly_Template,15,46,numeric-like
+Air India24.xlsx,Monthly_Template,16,56,text/mixed
+Air India25.xlsx,Monthly_Template,0,72,text/mixed
+Air India25.xlsx,Monthly_Template,1,49,numeric-like
+Air India25.xlsx,Monthly_Template,2,49,numeric-like
+Air India25.xlsx,Monthly_Template,3,45,numeric-like
+Air India25.xlsx,Monthly_Template,4,45,numeric-like
+Air India25.xlsx,Monthly_Template,5,45,numeric-like
+Air India25.xlsx,Monthly_Template,6,45,numeric-like
+Air India25.xlsx,Monthly_Template,7,45,numeric-like
+Air India25.xlsx,Monthly_Template,8,49,numeric-like
+Air India25.xlsx,Monthly_Template,9,45,numeric-like
+Air India25.xlsx,Monthly_Template,10,45,numeric-like
+Air India25.xlsx,Monthly_Template,11,49,numeric-like
+Air India25.xlsx,Monthly_Template,12,46,numeric-like
+Air India25.xlsx,Monthly_Template,13,45,numeric-like
+Air India25.xlsx,Monthly_Template,14,49,numeric-like
+Air India25.xlsx,Monthly_Template,15,45,numeric-like
+Air India25.xlsx,Monthly_Template,16,45,numeric-like
+Air India26.xlsx,Monthly_Template,0,72,text/mixed
+Air India26.xlsx,Monthly_Template,1,43,numeric-like
+Air India26.xlsx,Monthly_Template,2,43,numeric-like
+Air India26.xlsx,Monthly_Template,3,39,numeric-like
+Air India26.xlsx,Monthly_Template,4,39,numeric-like
+Air India26.xlsx,Monthly_Template,5,39,numeric-like
+Air India26.xlsx,Monthly_Template,6,39,numeric-like
+Air India26.xlsx,Monthly_Template,7,33,numeric-like
+Air India26.xlsx,Monthly_Template,8,43,numeric-like
+Air India26.xlsx,Monthly_Template,9,39,numeric-like
+Air India26.xlsx,Monthly_Template,10,39,numeric-like
+Air India26.xlsx,Monthly_Template,11,43,numeric-like
+Air India26.xlsx,Monthly_Template,12,40,numeric-like
+Air India26.xlsx,Monthly_Template,13,39,numeric-like
+Air India26.xlsx,Monthly_Template,14,43,numeric-like
+Air India26.xlsx,Monthly_Template,15,39,numeric-like
+Air India26.xlsx,Monthly_Template,16,33,numeric-like
+Air taxi23.xlsx,Monthly_Template,0,72,text/mixed
+Air taxi23.xlsx,Monthly_Template,1,12,text/mixed
+Air taxi23.xlsx,Monthly_Template,2,12,text/mixed
+Air taxi23.xlsx,Monthly_Template,3,8,text/mixed
+Air taxi23.xlsx,Monthly_Template,4,8,text/mixed
+Air taxi23.xlsx,Monthly_Template,5,8,text/mixed
+Air taxi23.xlsx,Monthly_Template,6,8,text/mixed
+Air taxi23.xlsx,Monthly_Template,7,56,text/mixed
+Air taxi23.xlsx,Monthly_Template,8,12,text/mixed
+Air taxi23.xlsx,Monthly_Template,9,8,text/mixed
+Air taxi23.xlsx,Monthly_Template,10,8,text/mixed
+Air taxi23.xlsx,Monthly_Template,11,12,text/mixed
+Air taxi23.xlsx,Monthly_Template,12,9,text/mixed
+Air taxi23.xlsx,Monthly_Template,13,8,text/mixed
+Air taxi23.xlsx,Monthly_Template,14,12,text/mixed
+Air taxi23.xlsx,Monthly_Template,15,8,text/mixed
+Air taxi23.xlsx,Monthly_Template,16,56,text/mixed
+Flybig21.xlsx,Monthly_Template,0,72,text/mixed
+Flybig21.xlsx,Monthly_Template,1,24,text/mixed
+Flybig21.xlsx,Monthly_Template,2,24,text/mixed
+Flybig21.xlsx,Monthly_Template,3,20,numeric-like
+Flybig21.xlsx,Monthly_Template,4,20,numeric-like
+Flybig21.xlsx,Monthly_Template,5,20,numeric-like
+Flybig21.xlsx,Monthly_Template,6,20,numeric-like
+Flybig21.xlsx,Monthly_Template,7,56,text/mixed
+Flybig21.xlsx,Monthly_Template,8,14,text/mixed
+Flybig21.xlsx,Monthly_Template,9,10,text/mixed
+Flybig21.xlsx,Monthly_Template,10,10,text/mixed
+Flybig21.xlsx,Monthly_Template,11,24,text/mixed
+Flybig21.xlsx,Monthly_Template,12,11,text/mixed
+Flybig21.xlsx,Monthly_Template,13,10,text/mixed
+Flybig21.xlsx,Monthly_Template,14,24,text/mixed
+Flybig21.xlsx,Monthly_Template,15,20,numeric-like
+Flybig21.xlsx,Monthly_Template,16,56,text/mixed
+Flybig22.xlsx,Monthly_Template,0,72,text/mixed
+Flybig22.xlsx,Monthly_Template,1,26,text/mixed
+Flybig22.xlsx,Monthly_Template,2,26,text/mixed
+Flybig22.xlsx,Monthly_Template,3,22,numeric-like
+Flybig22.xlsx,Monthly_Template,4,22,numeric-like
+Flybig22.xlsx,Monthly_Template,5,22,numeric-like
+Flybig22.xlsx,Monthly_Template,6,22,numeric-like
+Flybig22.xlsx,Monthly_Template,7,56,text/mixed
+Flybig22.xlsx,Monthly_Template,8,12,text/mixed
+Flybig22.xlsx,Monthly_Template,9,8,text/mixed
+Flybig22.xlsx,Monthly_Template,10,8,text/mixed
+Flybig22.xlsx,Monthly_Template,11,26,text/mixed
+Flybig22.xlsx,Monthly_Template,12,11,text/mixed
+Flybig22.xlsx,Monthly_Template,13,10,text/mixed
+Flybig22.xlsx,Monthly_Template,14,26,text/mixed
+Flybig22.xlsx,Monthly_Template,15,22,numeric-like
+Flybig22.xlsx,Monthly_Template,16,56,text/mixed
+Flybig23.xlsx,Monthly_Template,0,72,text/mixed
+Flybig23.xlsx,Monthly_Template,1,24,text/mixed
+Flybig23.xlsx,Monthly_Template,2,24,text/mixed
+Flybig23.xlsx,Monthly_Template,3,20,numeric-like
+Flybig23.xlsx,Monthly_Template,4,20,numeric-like
+Flybig23.xlsx,Monthly_Template,5,20,numeric-like
+Flybig23.xlsx,Monthly_Template,6,20,numeric-like
+Flybig23.xlsx,Monthly_Template,7,56,text/mixed
+Flybig23.xlsx,Monthly_Template,8,12,text/mixed
+Flybig23.xlsx,Monthly_Template,9,8,text/mixed
+Flybig23.xlsx,Monthly_Template,10,8,text/mixed
+Flybig23.xlsx,Monthly_Template,11,24,text/mixed
+Flybig23.xlsx,Monthly_Template,12,13,text/mixed
+Flybig23.xlsx,Monthly_Template,13,12,text/mixed
+Flybig23.xlsx,Monthly_Template,14,24,text/mixed
+Flybig23.xlsx,Monthly_Template,15,20,numeric-like
+Flybig23.xlsx,Monthly_Template,16,56,text/mixed
+Flybig24.xlsx,Monthly_Template,0,72,text/mixed
+Flybig24.xlsx,Monthly_Template,1,24,text/mixed
+Flybig24.xlsx,Monthly_Template,2,24,text/mixed
+Flybig24.xlsx,Monthly_Template,3,20,numeric-like
+Flybig24.xlsx,Monthly_Template,4,20,numeric-like
+Flybig24.xlsx,Monthly_Template,5,20,numeric-like
+Flybig24.xlsx,Monthly_Template,6,20,numeric-like
+Flybig24.xlsx,Monthly_Template,7,56,text/mixed
+Flybig24.xlsx,Monthly_Template,8,17,text/mixed
+Flybig24.xlsx,Monthly_Template,9,13,text/mixed
+Flybig24.xlsx,Monthly_Template,10,13,text/mixed
+Flybig24.xlsx,Monthly_Template,11,24,text/mixed
+Flybig24.xlsx,Monthly_Template,12,13,text/mixed
+Flybig24.xlsx,Monthly_Template,13,12,text/mixed
+Flybig24.xlsx,Monthly_Template,14,24,text/mixed
+Flybig24.xlsx,Monthly_Template,15,20,numeric-like
+Flybig24.xlsx,Monthly_Template,16,56,text/mixed
+Flybig25.xlsx,Monthly_Template,0,72,text/mixed
+Flybig25.xlsx,Monthly_Template,1,22,text/mixed
+Flybig25.xlsx,Monthly_Template,2,22,text/mixed
+Flybig25.xlsx,Monthly_Template,3,18,text/mixed
+Flybig25.xlsx,Monthly_Template,4,18,text/mixed
+Flybig25.xlsx,Monthly_Template,5,18,text/mixed
+Flybig25.xlsx,Monthly_Template,6,18,text/mixed
+Flybig25.xlsx,Monthly_Template,7,15,text/mixed
+Flybig25.xlsx,Monthly_Template,8,22,text/mixed
+Flybig25.xlsx,Monthly_Template,9,18,text/mixed
+Flybig25.xlsx,Monthly_Template,10,18,text/mixed
+Flybig25.xlsx,Monthly_Template,11,22,text/mixed
+Flybig25.xlsx,Monthly_Template,12,19,text/mixed
+Flybig25.xlsx,Monthly_Template,13,18,text/mixed
+Flybig25.xlsx,Monthly_Template,14,22,text/mixed
+Flybig25.xlsx,Monthly_Template,15,18,text/mixed
+Flybig25.xlsx,Monthly_Template,16,15,text/mixed
+Spicejet20.xlsx,Monthly_Template,0,72,text/mixed
+Spicejet20.xlsx,Monthly_Template,1,47,numeric-like
+Spicejet20.xlsx,Monthly_Template,2,47,numeric-like
+Spicejet20.xlsx,Monthly_Template,3,43,numeric-like
+Spicejet20.xlsx,Monthly_Template,4,41,numeric-like
+Spicejet20.xlsx,Monthly_Template,5,41,numeric-like
+Spicejet20.xlsx,Monthly_Template,6,41,numeric-like
+Spicejet20.xlsx,Monthly_Template,7,56,text/mixed
+Spicejet20.xlsx,Monthly_Template,8,43,numeric-like
+Spicejet20.xlsx,Monthly_Template,9,8,text/mixed
+Spicejet20.xlsx,Monthly_Template,10,39,numeric-like
+Spicejet20.xlsx,Monthly_Template,11,45,numeric-like
+Spicejet20.xlsx,Monthly_Template,12,38,numeric-like
+Spicejet20.xlsx,Monthly_Template,13,8,text/mixed
+Spicejet20.xlsx,Monthly_Template,14,47,numeric-like
+Spicejet20.xlsx,Monthly_Template,15,43,numeric-like
+Spicejet20.xlsx,Monthly_Template,16,56,text/mixed
+TruJet17.xlsx,Sheet1,0,18,text/mixed
+TruJet17.xlsx,Sheet1,1,15,numeric-like
+TruJet17.xlsx,Sheet1,2,14,numeric-like
+TruJet17.xlsx,Sheet1,3,14,numeric-like
+TruJet17.xlsx,Sheet1,4,14,numeric-like
+TruJet17.xlsx,Sheet1,5,14,numeric-like
+TruJet17.xlsx,Sheet1,6,14,numeric-like
+TruJet17.xlsx,Sheet1,7,14,numeric-like
+TruJet17.xlsx,Sheet1,8,15,numeric-like
+TruJet17.xlsx,Sheet1,9,14,numeric-like
+TruJet17.xlsx,Sheet1,10,14,numeric-like
+TruJet17.xlsx,Sheet1,11,15,numeric-like
+TruJet17.xlsx,Sheet1,12,14,numeric-like
+TruJet17.xlsx,Sheet1,13,14,numeric-like
+TruJet17.xlsx,Sheet1,14,14,numeric-like
+TruJet17.xlsx,Sheet1,15,14,numeric-like
+TruJet17.xlsx,Sheet1,16,14,numeric-like
+TruJet18.xlsx,trujet18,0,18,text/mixed
+TruJet18.xlsx,trujet18,1,15,numeric-like
+TruJet18.xlsx,trujet18,2,14,numeric-like
+TruJet18.xlsx,trujet18,3,14,numeric-like
+TruJet18.xlsx,trujet18,4,14,numeric-like
+TruJet18.xlsx,trujet18,5,14,numeric-like
+TruJet18.xlsx,trujet18,6,14,numeric-like
+TruJet18.xlsx,trujet18,7,14,numeric-like
+TruJet18.xlsx,trujet18,8,15,numeric-like
+TruJet18.xlsx,trujet18,9,14,numeric-like
+TruJet18.xlsx,trujet18,10,14,numeric-like
+TruJet18.xlsx,trujet18,11,15,numeric-like
+TruJet18.xlsx,trujet18,12,14,numeric-like
+TruJet18.xlsx,trujet18,13,14,numeric-like
+TruJet18.xlsx,trujet18,14,14,numeric-like
+TruJet18.xlsx,trujet18,15,14,numeric-like
+TruJet18.xlsx,trujet18,16,14,numeric-like
+Trujet20.xlsx,Monthly_Template,0,72,text/mixed
+Trujet20.xlsx,Monthly_Template,1,23,text/mixed
+Trujet20.xlsx,Monthly_Template,2,23,text/mixed
+Trujet20.xlsx,Monthly_Template,3,19,text/mixed
+Trujet20.xlsx,Monthly_Template,4,19,text/mixed
+Trujet20.xlsx,Monthly_Template,5,19,text/mixed
+Trujet20.xlsx,Monthly_Template,6,19,text/mixed
+Trujet20.xlsx,Monthly_Template,7,56,text/mixed
+Trujet20.xlsx,Monthly_Template,8,12,text/mixed
+Trujet20.xlsx,Monthly_Template,9,8,text/mixed
+Trujet20.xlsx,Monthly_Template,10,8,text/mixed
+Trujet20.xlsx,Monthly_Template,11,23,text/mixed
+Trujet20.xlsx,Monthly_Template,12,9,text/mixed
+Trujet20.xlsx,Monthly_Template,13,8,text/mixed
+Trujet20.xlsx,Monthly_Template,14,23,text/mixed
+Trujet20.xlsx,Monthly_Template,15,19,text/mixed
+Trujet20.xlsx,Monthly_Template,16,56,text/mixed
+air deccan20.xlsx,Monthly_Template,0,72,text/mixed
+air deccan20.xlsx,Monthly_Template,1,13,text/mixed
+air deccan20.xlsx,Monthly_Template,2,13,text/mixed
+air deccan20.xlsx,Monthly_Template,3,9,text/mixed
+air deccan20.xlsx,Monthly_Template,4,10,text/mixed
+air deccan20.xlsx,Monthly_Template,5,9,text/mixed
+air deccan20.xlsx,Monthly_Template,6,9,text/mixed
+air deccan20.xlsx,Monthly_Template,7,56,text/mixed
+air deccan20.xlsx,Monthly_Template,8,12,text/mixed
+air deccan20.xlsx,Monthly_Template,9,8,text/mixed
+air deccan20.xlsx,Monthly_Template,10,8,text/mixed
+air deccan20.xlsx,Monthly_Template,11,12,text/mixed
+air deccan20.xlsx,Monthly_Template,12,9,text/mixed
+air deccan20.xlsx,Monthly_Template,13,8,text/mixed
+air deccan20.xlsx,Monthly_Template,14,12,text/mixed
+air deccan20.xlsx,Monthly_Template,15,8,text/mixed
+air deccan20.xlsx,Monthly_Template,16,56,text/mixed
+air heritage20.xlsx,Monthly_Template,0,72,text/mixed
+air heritage20.xlsx,Monthly_Template,1,15,text/mixed
+air heritage20.xlsx,Monthly_Template,2,15,text/mixed
+air heritage20.xlsx,Monthly_Template,3,11,text/mixed
+air heritage20.xlsx,Monthly_Template,4,11,text/mixed
+air heritage20.xlsx,Monthly_Template,5,11,text/mixed
+air heritage20.xlsx,Monthly_Template,6,11,text/mixed
+air heritage20.xlsx,Monthly_Template,7,56,text/mixed
+air heritage20.xlsx,Monthly_Template,8,12,text/mixed
+air heritage20.xlsx,Monthly_Template,9,8,text/mixed
+air heritage20.xlsx,Monthly_Template,10,8,text/mixed
+air heritage20.xlsx,Monthly_Template,11,15,text/mixed
+air heritage20.xlsx,Monthly_Template,12,9,text/mixed
+air heritage20.xlsx,Monthly_Template,13,8,text/mixed
+air heritage20.xlsx,Monthly_Template,14,15,text/mixed
+air heritage20.xlsx,Monthly_Template,15,11,text/mixed
+air heritage20.xlsx,Monthly_Template,16,56,text/mixed
+air heritage21.xlsx,Monthly_Template,0,72,text/mixed
+air heritage21.xlsx,Monthly_Template,1,12,text/mixed
+air heritage21.xlsx,Monthly_Template,2,12,text/mixed
+air heritage21.xlsx,Monthly_Template,3,8,text/mixed
+air heritage21.xlsx,Monthly_Template,4,8,text/mixed
+air heritage21.xlsx,Monthly_Template,5,8,text/mixed
+air heritage21.xlsx,Monthly_Template,6,8,text/mixed
+air heritage21.xlsx,Monthly_Template,7,56,text/mixed
+air heritage21.xlsx,Monthly_Template,8,12,text/mixed
+air heritage21.xlsx,Monthly_Template,9,8,text/mixed
+air heritage21.xlsx,Monthly_Template,10,8,text/mixed
+air heritage21.xlsx,Monthly_Template,11,12,text/mixed
+air heritage21.xlsx,Monthly_Template,12,9,text/mixed
+air heritage21.xlsx,Monthly_Template,13,8,text/mixed
+air heritage21.xlsx,Monthly_Template,14,12,text/mixed
+air heritage21.xlsx,Monthly_Template,15,8,text/mixed
+air heritage21.xlsx,Monthly_Template,16,56,text/mixed
+air india express21.xlsx,Monthly_Template,0,73,text/mixed
+air india express21.xlsx,Monthly_Template,1,30,text/mixed
+air india express21.xlsx,Monthly_Template,2,30,text/mixed
+air india express21.xlsx,Monthly_Template,3,26,numeric-like
+air india express21.xlsx,Monthly_Template,4,26,numeric-like
+air india express21.xlsx,Monthly_Template,5,26,numeric-like
+air india express21.xlsx,Monthly_Template,6,26,numeric-like
+air india express21.xlsx,Monthly_Template,7,56,text/mixed
+air india express21.xlsx,Monthly_Template,8,30,text/mixed
+air india express21.xlsx,Monthly_Template,9,22,numeric-like
+air india express21.xlsx,Monthly_Template,10,26,numeric-like
+air india express21.xlsx,Monthly_Template,11,30,text/mixed
+air india express21.xlsx,Monthly_Template,12,27,numeric-like
+air india express21.xlsx,Monthly_Template,13,23,numeric-like
+air india express21.xlsx,Monthly_Template,14,30,text/mixed
+air india express21.xlsx,Monthly_Template,15,26,numeric-like
+air india express21.xlsx,Monthly_Template,16,56,text/mixed
+air india express22.xlsx,Monthly_Template,0,72,text/mixed
+air india express22.xlsx,Monthly_Template,1,28,text/mixed
+air india express22.xlsx,Monthly_Template,2,28,text/mixed
+air india express22.xlsx,Monthly_Template,3,24,numeric-like
+air india express22.xlsx,Monthly_Template,4,24,numeric-like
+air india express22.xlsx,Monthly_Template,5,24,numeric-like
+air india express22.xlsx,Monthly_Template,6,24,numeric-like
+air india express22.xlsx,Monthly_Template,7,56,text/mixed
+air india express22.xlsx,Monthly_Template,8,25,text/mixed
+air india express22.xlsx,Monthly_Template,9,19,text/mixed
+air india express22.xlsx,Monthly_Template,10,21,numeric-like
+air india express22.xlsx,Monthly_Template,11,28,text/mixed
+air india express22.xlsx,Monthly_Template,12,25,numeric-like
+air india express22.xlsx,Monthly_Template,13,23,numeric-like
+air india express22.xlsx,Monthly_Template,14,28,text/mixed
+air india express22.xlsx,Monthly_Template,15,24,numeric-like
+air india express22.xlsx,Monthly_Template,16,56,text/mixed
+air india express23.xlsx,Monthly_Template,0,72,text/mixed
+air india express23.xlsx,Monthly_Template,1,32,text/mixed
+air india express23.xlsx,Monthly_Template,2,32,text/mixed
+air india express23.xlsx,Monthly_Template,3,28,numeric-like
+air india express23.xlsx,Monthly_Template,4,28,numeric-like
+air india express23.xlsx,Monthly_Template,5,28,numeric-like
+air india express23.xlsx,Monthly_Template,6,28,numeric-like
+air india express23.xlsx,Monthly_Template,7,56,text/mixed
+air india express23.xlsx,Monthly_Template,8,29,text/mixed
+air india express23.xlsx,Monthly_Template,9,19,text/mixed
+air india express23.xlsx,Monthly_Template,10,25,numeric-like
+air india express23.xlsx,Monthly_Template,11,32,text/mixed
+air india express23.xlsx,Monthly_Template,12,28,numeric-like
+air india express23.xlsx,Monthly_Template,13,26,numeric-like
+air india express23.xlsx,Monthly_Template,14,32,text/mixed
+air india express23.xlsx,Monthly_Template,15,28,numeric-like
+air india express23.xlsx,Monthly_Template,16,56,text/mixed
+air india express24.xlsx,Monthly_Template,0,72,text/mixed
+air india express24.xlsx,Monthly_Template,1,44,numeric-like
+air india express24.xlsx,Monthly_Template,2,44,numeric-like
+air india express24.xlsx,Monthly_Template,3,40,numeric-like
+air india express24.xlsx,Monthly_Template,4,40,numeric-like
+air india express24.xlsx,Monthly_Template,5,40,numeric-like
+air india express24.xlsx,Monthly_Template,6,40,numeric-like
+air india express24.xlsx,Monthly_Template,7,56,text/mixed
+air india express24.xlsx,Monthly_Template,8,38,text/mixed
+air india express24.xlsx,Monthly_Template,9,19,text/mixed
+air india express24.xlsx,Monthly_Template,10,34,numeric-like
+air india express24.xlsx,Monthly_Template,11,44,numeric-like
+air india express24.xlsx,Monthly_Template,12,35,numeric-like
+air india express24.xlsx,Monthly_Template,13,20,numeric-like
+air india express24.xlsx,Monthly_Template,14,44,numeric-like
+air india express24.xlsx,Monthly_Template,15,40,numeric-like
+air india express24.xlsx,Monthly_Template,16,56,text/mixed
+air india express25.xlsx,Monthly_Template,0,72,text/mixed
+air india express25.xlsx,Monthly_Template,1,53,numeric-like
+air india express25.xlsx,Monthly_Template,2,53,numeric-like
+air india express25.xlsx,Monthly_Template,3,49,numeric-like
+air india express25.xlsx,Monthly_Template,4,49,numeric-like
+air india express25.xlsx,Monthly_Template,5,49,numeric-like
+air india express25.xlsx,Monthly_Template,6,49,numeric-like
+air india express25.xlsx,Monthly_Template,7,49,numeric-like
+air india express25.xlsx,Monthly_Template,8,53,numeric-like
+air india express25.xlsx,Monthly_Template,9,49,numeric-like
+air india express25.xlsx,Monthly_Template,10,49,numeric-like
+air india express25.xlsx,Monthly_Template,11,53,numeric-like
+air india express25.xlsx,Monthly_Template,12,50,numeric-like
+air india express25.xlsx,Monthly_Template,13,49,numeric-like
+air india express25.xlsx,Monthly_Template,14,53,numeric-like
+air india express25.xlsx,Monthly_Template,15,49,numeric-like
+air india express25.xlsx,Monthly_Template,16,49,numeric-like
+air india express26.xlsx,Monthly_Template,0,72,text/mixed
+air india express26.xlsx,Monthly_Template,1,40,numeric-like
+air india express26.xlsx,Monthly_Template,2,40,numeric-like
+air india express26.xlsx,Monthly_Template,3,36,numeric-like
+air india express26.xlsx,Monthly_Template,4,36,numeric-like
+air india express26.xlsx,Monthly_Template,5,36,numeric-like
+air india express26.xlsx,Monthly_Template,6,36,numeric-like
+air india express26.xlsx,Monthly_Template,7,36,numeric-like
+air india express26.xlsx,Monthly_Template,8,40,numeric-like
+air india express26.xlsx,Monthly_Template,9,36,numeric-like
+air india express26.xlsx,Monthly_Template,10,36,numeric-like
+air india express26.xlsx,Monthly_Template,11,40,numeric-like
+air india express26.xlsx,Monthly_Template,12,37,numeric-like
+air india express26.xlsx,Monthly_Template,13,36,numeric-like
+air india express26.xlsx,Monthly_Template,14,40,numeric-like
+air india express26.xlsx,Monthly_Template,15,36,numeric-like
+air india express26.xlsx,Monthly_Template,16,36,numeric-like
+air india20.xlsx,Monthly_Template,0,72,text/mixed
+air india20.xlsx,Monthly_Template,1,47,numeric-like
+air india20.xlsx,Monthly_Template,2,47,numeric-like
+air india20.xlsx,Monthly_Template,3,43,numeric-like
+air india20.xlsx,Monthly_Template,4,43,numeric-like
+air india20.xlsx,Monthly_Template,5,43,numeric-like
+air india20.xlsx,Monthly_Template,6,43,numeric-like
+air india20.xlsx,Monthly_Template,7,56,text/mixed
+air india20.xlsx,Monthly_Template,8,44,numeric-like
+air india20.xlsx,Monthly_Template,9,19,text/mixed
+air india20.xlsx,Monthly_Template,10,43,numeric-like
+air india20.xlsx,Monthly_Template,11,47,numeric-like
+air india20.xlsx,Monthly_Template,12,42,numeric-like
+air india20.xlsx,Monthly_Template,13,20,numeric-like
+air india20.xlsx,Monthly_Template,14,47,numeric-like
+air india20.xlsx,Monthly_Template,15,43,numeric-like
+air india20.xlsx,Monthly_Template,16,56,text/mixed
+air taxi21.xlsx,Monthly_Template,0,72,text/mixed
+air taxi21.xlsx,Monthly_Template,1,21,text/mixed
+air taxi21.xlsx,Monthly_Template,2,21,text/mixed
+air taxi21.xlsx,Monthly_Template,3,17,text/mixed
+air taxi21.xlsx,Monthly_Template,4,16,text/mixed
+air taxi21.xlsx,Monthly_Template,5,16,text/mixed
+air taxi21.xlsx,Monthly_Template,6,17,text/mixed
+air taxi21.xlsx,Monthly_Template,7,56,text/mixed
+air taxi21.xlsx,Monthly_Template,8,14,text/mixed
+air taxi21.xlsx,Monthly_Template,9,10,text/mixed
+air taxi21.xlsx,Monthly_Template,10,10,text/mixed
+air taxi21.xlsx,Monthly_Template,11,20,text/mixed
+air taxi21.xlsx,Monthly_Template,12,11,text/mixed
+air taxi21.xlsx,Monthly_Template,13,10,text/mixed
+air taxi21.xlsx,Monthly_Template,14,20,text/mixed
+air taxi21.xlsx,Monthly_Template,15,17,text/mixed
+air taxi21.xlsx,Monthly_Template,16,56,text/mixed
+air taxi22.xlsx,Monthly_Template,0,72,text/mixed
+air taxi22.xlsx,Monthly_Template,1,12,text/mixed
+air taxi22.xlsx,Monthly_Template,2,12,text/mixed
+air taxi22.xlsx,Monthly_Template,3,8,text/mixed
+air taxi22.xlsx,Monthly_Template,4,8,text/mixed
+air taxi22.xlsx,Monthly_Template,5,8,text/mixed
+air taxi22.xlsx,Monthly_Template,6,8,text/mixed
+air taxi22.xlsx,Monthly_Template,7,46,text/mixed
+air taxi22.xlsx,Monthly_Template,8,12,text/mixed
+air taxi22.xlsx,Monthly_Template,9,8,text/mixed
+air taxi22.xlsx,Monthly_Template,10,8,text/mixed
+air taxi22.xlsx,Monthly_Template,11,12,text/mixed
+air taxi22.xlsx,Monthly_Template,12,9,text/mixed
+air taxi22.xlsx,Monthly_Template,13,8,text/mixed
+air taxi22.xlsx,Monthly_Template,14,12,text/mixed
+air taxi22.xlsx,Monthly_Template,15,8,text/mixed
+air taxi22.xlsx,Monthly_Template,16,46,text/mixed
+airasia18.xlsx,airasia18,0,18,text/mixed
+airasia18.xlsx,airasia18,1,15,numeric-like
+airasia18.xlsx,airasia18,2,14,numeric-like
+airasia18.xlsx,airasia18,3,14,numeric-like
+airasia18.xlsx,airasia18,4,14,numeric-like
+airasia18.xlsx,airasia18,5,14,numeric-like
+airasia18.xlsx,airasia18,6,14,numeric-like
+airasia18.xlsx,airasia18,7,14,numeric-like
+airasia18.xlsx,airasia18,8,15,numeric-like
+airasia18.xlsx,airasia18,9,14,numeric-like
+airasia18.xlsx,airasia18,10,14,numeric-like
+airasia18.xlsx,airasia18,11,15,numeric-like
+airasia18.xlsx,airasia18,12,15,numeric-like
+airasia18.xlsx,airasia18,13,14,numeric-like
+airasia18.xlsx,airasia18,14,14,numeric-like
+airasia18.xlsx,airasia18,15,14,numeric-like
+airasia18.xlsx,airasia18,16,14,numeric-like
+airasia18.xlsx,airasia18,17,3,text/mixed
+airasia18.xlsx,airasia18,18,5,text/mixed
+airasia19.xlsx,Monthly_Template,0,72,text/mixed
+airasia19.xlsx,Monthly_Template,1,24,text/mixed
+airasia19.xlsx,Monthly_Template,2,24,text/mixed
+airasia19.xlsx,Monthly_Template,3,20,numeric-like
+airasia19.xlsx,Monthly_Template,4,20,numeric-like
+airasia19.xlsx,Monthly_Template,5,20,numeric-like
+airasia19.xlsx,Monthly_Template,6,20,numeric-like
+airasia19.xlsx,Monthly_Template,7,56,text/mixed
+airasia19.xlsx,Monthly_Template,8,24,text/mixed
+airasia19.xlsx,Monthly_Template,9,20,numeric-like
+airasia19.xlsx,Monthly_Template,10,20,numeric-like
+airasia19.xlsx,Monthly_Template,11,24,text/mixed
+airasia19.xlsx,Monthly_Template,12,21,text/mixed
+airasia19.xlsx,Monthly_Template,13,20,numeric-like
+airasia19.xlsx,Monthly_Template,14,24,text/mixed
+airasia19.xlsx,Monthly_Template,15,20,numeric-like
+airasia19.xlsx,Monthly_Template,16,56,text/mixed
+airasia20.xlsx,Monthly_Template,0,72,text/mixed
+airasia20.xlsx,Monthly_Template,1,27,text/mixed
+airasia20.xlsx,Monthly_Template,2,27,text/mixed
+airasia20.xlsx,Monthly_Template,3,23,numeric-like
+airasia20.xlsx,Monthly_Template,4,22,numeric-like
+airasia20.xlsx,Monthly_Template,5,22,numeric-like
+airasia20.xlsx,Monthly_Template,6,22,numeric-like
+airasia20.xlsx,Monthly_Template,7,56,text/mixed
+airasia20.xlsx,Monthly_Template,8,24,text/mixed
+airasia20.xlsx,Monthly_Template,9,20,numeric-like
+airasia20.xlsx,Monthly_Template,10,20,numeric-like
+airasia20.xlsx,Monthly_Template,11,26,text/mixed
+airasia20.xlsx,Monthly_Template,12,21,text/mixed
+airasia20.xlsx,Monthly_Template,13,19,text/mixed
+airasia20.xlsx,Monthly_Template,14,27,text/mixed
+airasia20.xlsx,Monthly_Template,15,23,numeric-like
+airasia20.xlsx,Monthly_Template,16,56,text/mixed
+aircarnival17.xlsx,Sheet1,0,19,text/mixed
+aircarnival17.xlsx,Sheet1,1,7,text/mixed
+aircarnival17.xlsx,Sheet1,2,6,numeric-like
+aircarnival17.xlsx,Sheet1,3,6,numeric-like
+aircarnival17.xlsx,Sheet1,4,6,numeric-like
+aircarnival17.xlsx,Sheet1,5,6,numeric-like
+aircarnival17.xlsx,Sheet1,6,6,numeric-like
+aircarnival17.xlsx,Sheet1,7,6,numeric-like
+aircarnival17.xlsx,Sheet1,8,7,text/mixed
+aircarnival17.xlsx,Sheet1,9,6,numeric-like
+aircarnival17.xlsx,Sheet1,10,6,numeric-like
+aircarnival17.xlsx,Sheet1,11,7,text/mixed
+aircarnival17.xlsx,Sheet1,12,7,text/mixed
+aircarnival17.xlsx,Sheet1,13,6,numeric-like
+aircarnival17.xlsx,Sheet1,14,6,numeric-like
+aircarnival17.xlsx,Sheet1,15,6,numeric-like
+aircarnival17.xlsx,Sheet1,16,6,numeric-like
+aircarnival17.xlsx,Sheet1,17,3,text/mixed
+aircarnival17.xlsx,Sheet1,18,6,text/mixed
+aircosta17.xlsx,Sheet1,0,19,text/mixed
+aircosta17.xlsx,Sheet1,1,5,text/mixed
+aircosta17.xlsx,Sheet1,2,4,text/mixed
+aircosta17.xlsx,Sheet1,3,4,text/mixed
+aircosta17.xlsx,Sheet1,4,4,text/mixed
+aircosta17.xlsx,Sheet1,5,4,text/mixed
+aircosta17.xlsx,Sheet1,6,4,text/mixed
+aircosta17.xlsx,Sheet1,7,4,text/mixed
+aircosta17.xlsx,Sheet1,8,5,text/mixed
+aircosta17.xlsx,Sheet1,9,4,text/mixed
+aircosta17.xlsx,Sheet1,10,4,text/mixed
+aircosta17.xlsx,Sheet1,11,5,text/mixed
+aircosta17.xlsx,Sheet1,12,5,text/mixed
+aircosta17.xlsx,Sheet1,13,4,text/mixed
+aircosta17.xlsx,Sheet1,14,4,text/mixed
+aircosta17.xlsx,Sheet1,15,4,text/mixed
+aircosta17.xlsx,Sheet1,16,4,text/mixed
+aircosta17.xlsx,Sheet1,17,3,text/mixed
+aircosta17.xlsx,Sheet1,18,6,text/mixed
+airdeccan21.xlsx,Monthly_Template,0,72,text/mixed
+airdeccan21.xlsx,Monthly_Template,1,12,text/mixed
+airdeccan21.xlsx,Monthly_Template,2,12,text/mixed
+airdeccan21.xlsx,Monthly_Template,3,8,text/mixed
+airdeccan21.xlsx,Monthly_Template,4,8,text/mixed
+airdeccan21.xlsx,Monthly_Template,5,8,text/mixed
+airdeccan21.xlsx,Monthly_Template,6,8,text/mixed
+airdeccan21.xlsx,Monthly_Template,7,56,text/mixed
+airdeccan21.xlsx,Monthly_Template,8,12,text/mixed
+airdeccan21.xlsx,Monthly_Template,9,8,text/mixed
+airdeccan21.xlsx,Monthly_Template,10,8,text/mixed
+airdeccan21.xlsx,Monthly_Template,11,12,text/mixed
+airdeccan21.xlsx,Monthly_Template,12,9,text/mixed
+airdeccan21.xlsx,Monthly_Template,13,8,text/mixed
+airdeccan21.xlsx,Monthly_Template,14,12,text/mixed
+airdeccan21.xlsx,Monthly_Template,15,8,text/mixed
+airdeccan21.xlsx,Monthly_Template,16,56,text/mixed
+airheritage19.xlsx,Monthly_Template,0,72,text/mixed
+airheritage19.xlsx,Monthly_Template,1,18,text/mixed
+airheritage19.xlsx,Monthly_Template,2,18,text/mixed
+airheritage19.xlsx,Monthly_Template,3,14,text/mixed
+airheritage19.xlsx,Monthly_Template,4,14,text/mixed
+airheritage19.xlsx,Monthly_Template,5,14,text/mixed
+airheritage19.xlsx,Monthly_Template,6,14,text/mixed
+airheritage19.xlsx,Monthly_Template,7,56,text/mixed
+airheritage19.xlsx,Monthly_Template,8,18,text/mixed
+airheritage19.xlsx,Monthly_Template,9,14,text/mixed
+airheritage19.xlsx,Monthly_Template,10,14,text/mixed
+airheritage19.xlsx,Monthly_Template,11,18,text/mixed
+airheritage19.xlsx,Monthly_Template,12,15,text/mixed
+airheritage19.xlsx,Monthly_Template,13,14,text/mixed
+airheritage19.xlsx,Monthly_Template,14,18,text/mixed
+airheritage19.xlsx,Monthly_Template,15,14,text/mixed
+airheritage19.xlsx,Monthly_Template,16,56,text/mixed
+airindia17.xlsx,Sheet1,0,54,text/mixed
+airindia17.xlsx,Sheet1,1,45,numeric-like
+airindia17.xlsx,Sheet1,2,42,numeric-like
+airindia17.xlsx,Sheet1,3,42,numeric-like
+airindia17.xlsx,Sheet1,4,42,numeric-like
+airindia17.xlsx,Sheet1,5,42,numeric-like
+airindia17.xlsx,Sheet1,6,42,numeric-like
+airindia17.xlsx,Sheet1,7,42,numeric-like
+airindia17.xlsx,Sheet1,8,45,numeric-like
+airindia17.xlsx,Sheet1,9,42,numeric-like
+airindia17.xlsx,Sheet1,10,42,numeric-like
+airindia17.xlsx,Sheet1,11,45,numeric-like
+airindia17.xlsx,Sheet1,12,42,numeric-like
+airindia17.xlsx,Sheet1,13,42,numeric-like
+airindia17.xlsx,Sheet1,14,42,numeric-like
+airindia17.xlsx,Sheet1,15,42,numeric-like
+airindia17.xlsx,Sheet1,16,42,numeric-like
+airindia18.xlsx,airindia18,0,54,text/mixed
+airindia18.xlsx,airindia18,1,45,numeric-like
+airindia18.xlsx,airindia18,2,42,numeric-like
+airindia18.xlsx,airindia18,3,42,numeric-like
+airindia18.xlsx,airindia18,4,42,numeric-like
+airindia18.xlsx,airindia18,5,42,numeric-like
+airindia18.xlsx,airindia18,6,42,numeric-like
+airindia18.xlsx,airindia18,7,42,numeric-like
+airindia18.xlsx,airindia18,8,45,numeric-like
+airindia18.xlsx,airindia18,9,42,numeric-like
+airindia18.xlsx,airindia18,10,42,numeric-like
+airindia18.xlsx,airindia18,11,45,numeric-like
+airindia18.xlsx,airindia18,12,42,numeric-like
+airindia18.xlsx,airindia18,13,42,numeric-like
+airindia18.xlsx,airindia18,14,42,numeric-like
+airindia18.xlsx,airindia18,15,42,numeric-like
+airindia18.xlsx,airindia18,16,42,numeric-like
+airindia19.xlsx,Monthly_Template,0,72,text/mixed
+airindia19.xlsx,Monthly_Template,1,48,numeric-like
+airindia19.xlsx,Monthly_Template,2,48,numeric-like
+airindia19.xlsx,Monthly_Template,3,44,numeric-like
+airindia19.xlsx,Monthly_Template,4,44,numeric-like
+airindia19.xlsx,Monthly_Template,5,44,numeric-like
+airindia19.xlsx,Monthly_Template,6,44,numeric-like
+airindia19.xlsx,Monthly_Template,7,56,text/mixed
+airindia19.xlsx,Monthly_Template,8,48,numeric-like
+airindia19.xlsx,Monthly_Template,9,44,numeric-like
+airindia19.xlsx,Monthly_Template,10,44,numeric-like
+airindia19.xlsx,Monthly_Template,11,48,numeric-like
+airindia19.xlsx,Monthly_Template,12,45,numeric-like
+airindia19.xlsx,Monthly_Template,13,44,numeric-like
+airindia19.xlsx,Monthly_Template,14,48,numeric-like
+airindia19.xlsx,Monthly_Template,15,44,numeric-like
+airindia19.xlsx,Monthly_Template,16,56,text/mixed
+airindiaexpress17.xlsx,Sheet1,0,36,text/mixed
+airindiaexpress17.xlsx,Sheet1,1,30,numeric-like
+airindiaexpress17.xlsx,Sheet1,2,28,numeric-like
+airindiaexpress17.xlsx,Sheet1,3,28,numeric-like
+airindiaexpress17.xlsx,Sheet1,4,28,numeric-like
+airindiaexpress17.xlsx,Sheet1,5,28,numeric-like
+airindiaexpress17.xlsx,Sheet1,6,28,numeric-like
+airindiaexpress17.xlsx,Sheet1,7,28,numeric-like
+airindiaexpress17.xlsx,Sheet1,8,30,numeric-like
+airindiaexpress17.xlsx,Sheet1,9,28,numeric-like
+airindiaexpress17.xlsx,Sheet1,10,28,numeric-like
+airindiaexpress17.xlsx,Sheet1,11,30,numeric-like
+airindiaexpress17.xlsx,Sheet1,12,29,numeric-like
+airindiaexpress17.xlsx,Sheet1,13,28,numeric-like
+airindiaexpress17.xlsx,Sheet1,14,28,numeric-like
+airindiaexpress17.xlsx,Sheet1,15,28,numeric-like
+airindiaexpress17.xlsx,Sheet1,16,28,numeric-like
+airindiaexpress17.xlsx,Sheet1,17,6,text/mixed
+airindiaexpress18.xlsx,airindiaexpress18,0,36,text/mixed
+airindiaexpress18.xlsx,airindiaexpress18,1,30,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,2,28,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,3,28,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,4,28,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,5,28,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,6,28,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,7,28,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,8,30,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,9,28,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,10,28,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,11,30,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,12,29,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,13,28,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,14,28,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,15,28,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,16,28,numeric-like
+airindiaexpress18.xlsx,airindiaexpress18,17,6,text/mixed
+airindiaexpress19.xlsx,Monthly_Template,0,72,text/mixed
+airindiaexpress19.xlsx,Monthly_Template,1,36,text/mixed
+airindiaexpress19.xlsx,Monthly_Template,2,36,text/mixed
+airindiaexpress19.xlsx,Monthly_Template,3,32,numeric-like
+airindiaexpress19.xlsx,Monthly_Template,4,32,numeric-like
+airindiaexpress19.xlsx,Monthly_Template,5,32,numeric-like
+airindiaexpress19.xlsx,Monthly_Template,6,32,numeric-like
+airindiaexpress19.xlsx,Monthly_Template,7,56,text/mixed
+airindiaexpress19.xlsx,Monthly_Template,8,36,text/mixed
+airindiaexpress19.xlsx,Monthly_Template,9,32,numeric-like
+airindiaexpress19.xlsx,Monthly_Template,10,32,numeric-like
+airindiaexpress19.xlsx,Monthly_Template,11,36,text/mixed
+airindiaexpress19.xlsx,Monthly_Template,12,33,numeric-like
+airindiaexpress19.xlsx,Monthly_Template,13,32,numeric-like
+airindiaexpress19.xlsx,Monthly_Template,14,36,text/mixed
+airindiaexpress19.xlsx,Monthly_Template,15,32,numeric-like
+airindiaexpress19.xlsx,Monthly_Template,16,56,text/mixed
+airindiaexpress20.xlsx,Monthly_Template,0,72,text/mixed
+airindiaexpress20.xlsx,Monthly_Template,1,35,text/mixed
+airindiaexpress20.xlsx,Monthly_Template,2,35,text/mixed
+airindiaexpress20.xlsx,Monthly_Template,3,31,numeric-like
+airindiaexpress20.xlsx,Monthly_Template,4,30,numeric-like
+airindiaexpress20.xlsx,Monthly_Template,5,30,numeric-like
+airindiaexpress20.xlsx,Monthly_Template,6,30,numeric-like
+airindiaexpress20.xlsx,Monthly_Template,7,56,text/mixed
+airindiaexpress20.xlsx,Monthly_Template,8,35,text/mixed
+airindiaexpress20.xlsx,Monthly_Template,9,23,numeric-like
+airindiaexpress20.xlsx,Monthly_Template,10,31,numeric-like
+airindiaexpress20.xlsx,Monthly_Template,11,34,text/mixed
+airindiaexpress20.xlsx,Monthly_Template,12,31,numeric-like
+airindiaexpress20.xlsx,Monthly_Template,13,23,numeric-like
+airindiaexpress20.xlsx,Monthly_Template,14,35,text/mixed
+airindiaexpress20.xlsx,Monthly_Template,15,31,numeric-like
+airindiaexpress20.xlsx,Monthly_Template,16,56,text/mixed
+airodisha18.xlsx,airodisha18,0,20,text/mixed
+airodisha18.xlsx,airodisha18,1,14,numeric-like
+airodisha18.xlsx,airodisha18,2,13,numeric-like
+airodisha18.xlsx,airodisha18,3,13,numeric-like
+airodisha18.xlsx,airodisha18,4,13,numeric-like
+airodisha18.xlsx,airodisha18,5,13,numeric-like
+airodisha18.xlsx,airodisha18,6,13,numeric-like
+airodisha18.xlsx,airodisha18,7,13,text/mixed
+airodisha18.xlsx,airodisha18,8,14,text/mixed
+airodisha18.xlsx,airodisha18,9,13,numeric-like
+airodisha18.xlsx,airodisha18,10,13,numeric-like
+airodisha18.xlsx,airodisha18,11,14,text/mixed
+airodisha18.xlsx,airodisha18,12,14,text/mixed
+airodisha18.xlsx,airodisha18,13,13,numeric-like
+airodisha18.xlsx,airodisha18,14,13,numeric-like
+airodisha18.xlsx,airodisha18,15,13,numeric-like
+airodisha18.xlsx,airodisha18,16,13,text/mixed
+airodisha18.xlsx,airodisha18,17,3,text/mixed
+airodisha18.xlsx,airodisha18,18,6,text/mixed
+airpegasus17.xlsx,Sheet1,0,19,text/mixed
+airpegasus17.xlsx,Sheet1,1,3,text/mixed
+airpegasus17.xlsx,Sheet1,2,2,text/mixed
+airpegasus17.xlsx,Sheet1,3,2,text/mixed
+airpegasus17.xlsx,Sheet1,4,2,text/mixed
+airpegasus17.xlsx,Sheet1,5,2,text/mixed
+airpegasus17.xlsx,Sheet1,6,2,text/mixed
+airpegasus17.xlsx,Sheet1,7,2,text/mixed
+airpegasus17.xlsx,Sheet1,8,3,text/mixed
+airpegasus17.xlsx,Sheet1,9,2,text/mixed
+airpegasus17.xlsx,Sheet1,10,2,text/mixed
+airpegasus17.xlsx,Sheet1,11,3,text/mixed
+airpegasus17.xlsx,Sheet1,12,3,text/mixed
+airpegasus17.xlsx,Sheet1,13,2,text/mixed
+airpegasus17.xlsx,Sheet1,14,2,text/mixed
+airpegasus17.xlsx,Sheet1,15,2,text/mixed
+airpegasus17.xlsx,Sheet1,16,2,text/mixed
+airpegasus17.xlsx,Sheet1,17,3,text/mixed
+airpegasus17.xlsx,Sheet1,18,6,text/mixed
+aix connect 24.xlsx,Monthly_Template,0,72,text/mixed
+aix connect 24.xlsx,Monthly_Template,1,29,text/mixed
+aix connect 24.xlsx,Monthly_Template,2,29,text/mixed
+aix connect 24.xlsx,Monthly_Template,3,25,numeric-like
+aix connect 24.xlsx,Monthly_Template,4,25,numeric-like
+aix connect 24.xlsx,Monthly_Template,5,25,numeric-like
+aix connect 24.xlsx,Monthly_Template,6,25,numeric-like
+aix connect 24.xlsx,Monthly_Template,7,56,text/mixed
+aix connect 24.xlsx,Monthly_Template,8,21,text/mixed
+aix connect 24.xlsx,Monthly_Template,9,16,text/mixed
+aix connect 24.xlsx,Monthly_Template,10,17,text/mixed
+aix connect 24.xlsx,Monthly_Template,11,29,text/mixed
+aix connect 24.xlsx,Monthly_Template,12,18,text/mixed
+aix connect 24.xlsx,Monthly_Template,13,16,text/mixed
+aix connect 24.xlsx,Monthly_Template,14,29,text/mixed
+aix connect 24.xlsx,Monthly_Template,15,25,numeric-like
+aix connect 24.xlsx,Monthly_Template,16,56,text/mixed
+akasa air 22.xlsx,Monthly_Template,0,72,text/mixed
+akasa air 22.xlsx,Monthly_Template,1,17,text/mixed
+akasa air 22.xlsx,Monthly_Template,2,17,text/mixed
+akasa air 22.xlsx,Monthly_Template,3,13,text/mixed
+akasa air 22.xlsx,Monthly_Template,4,13,text/mixed
+akasa air 22.xlsx,Monthly_Template,5,13,text/mixed
+akasa air 22.xlsx,Monthly_Template,6,13,text/mixed
+akasa air 22.xlsx,Monthly_Template,7,56,text/mixed
+akasa air 22.xlsx,Monthly_Template,8,17,text/mixed
+akasa air 22.xlsx,Monthly_Template,9,9,text/mixed
+akasa air 22.xlsx,Monthly_Template,10,13,text/mixed
+akasa air 22.xlsx,Monthly_Template,11,17,text/mixed
+akasa air 22.xlsx,Monthly_Template,12,14,text/mixed
+akasa air 22.xlsx,Monthly_Template,13,11,text/mixed
+akasa air 22.xlsx,Monthly_Template,14,17,text/mixed
+akasa air 22.xlsx,Monthly_Template,15,13,text/mixed
+akasa air 22.xlsx,Monthly_Template,16,56,text/mixed
+akasa air 23.xlsx,Monthly_Template,0,72,text/mixed
+akasa air 23.xlsx,Monthly_Template,1,30,text/mixed
+akasa air 23.xlsx,Monthly_Template,2,30,text/mixed
+akasa air 23.xlsx,Monthly_Template,3,26,numeric-like
+akasa air 23.xlsx,Monthly_Template,4,26,numeric-like
+akasa air 23.xlsx,Monthly_Template,5,26,numeric-like
+akasa air 23.xlsx,Monthly_Template,6,26,numeric-like
+akasa air 23.xlsx,Monthly_Template,7,53,text/mixed
+akasa air 23.xlsx,Monthly_Template,8,25,text/mixed
+akasa air 23.xlsx,Monthly_Template,9,13,text/mixed
+akasa air 23.xlsx,Monthly_Template,10,21,numeric-like
+akasa air 23.xlsx,Monthly_Template,11,30,text/mixed
+akasa air 23.xlsx,Monthly_Template,12,27,numeric-like
+akasa air 23.xlsx,Monthly_Template,13,20,numeric-like
+akasa air 23.xlsx,Monthly_Template,14,30,text/mixed
+akasa air 23.xlsx,Monthly_Template,15,26,numeric-like
+akasa air 23.xlsx,Monthly_Template,16,53,text/mixed
+akasa air 24.xlsx,Monthly_Template,0,72,text/mixed
+akasa air 24.xlsx,Monthly_Template,1,43,numeric-like
+akasa air 24.xlsx,Monthly_Template,2,43,numeric-like
+akasa air 24.xlsx,Monthly_Template,3,39,numeric-like
+akasa air 24.xlsx,Monthly_Template,4,39,numeric-like
+akasa air 24.xlsx,Monthly_Template,5,39,numeric-like
+akasa air 24.xlsx,Monthly_Template,6,39,numeric-like
+akasa air 24.xlsx,Monthly_Template,7,52,text/mixed
+akasa air 24.xlsx,Monthly_Template,8,38,text/mixed
+akasa air 24.xlsx,Monthly_Template,9,25,numeric-like
+akasa air 24.xlsx,Monthly_Template,10,34,numeric-like
+akasa air 24.xlsx,Monthly_Template,11,43,numeric-like
+akasa air 24.xlsx,Monthly_Template,12,37,numeric-like
+akasa air 24.xlsx,Monthly_Template,13,27,numeric-like
+akasa air 24.xlsx,Monthly_Template,14,43,numeric-like
+akasa air 24.xlsx,Monthly_Template,15,39,numeric-like
+akasa air 24.xlsx,Monthly_Template,16,52,text/mixed
+akasa air 25.xlsx,Monthly_Template,0,72,text/mixed
+akasa air 25.xlsx,Monthly_Template,1,44,numeric-like
+akasa air 25.xlsx,Monthly_Template,2,44,numeric-like
+akasa air 25.xlsx,Monthly_Template,3,40,numeric-like
+akasa air 25.xlsx,Monthly_Template,4,40,numeric-like
+akasa air 25.xlsx,Monthly_Template,5,40,numeric-like
+akasa air 25.xlsx,Monthly_Template,6,40,numeric-like
+akasa air 25.xlsx,Monthly_Template,7,39,numeric-like
+akasa air 25.xlsx,Monthly_Template,8,44,numeric-like
+akasa air 25.xlsx,Monthly_Template,9,40,numeric-like
+akasa air 25.xlsx,Monthly_Template,10,40,numeric-like
+akasa air 25.xlsx,Monthly_Template,11,44,numeric-like
+akasa air 25.xlsx,Monthly_Template,12,41,numeric-like
+akasa air 25.xlsx,Monthly_Template,13,40,numeric-like
+akasa air 25.xlsx,Monthly_Template,14,44,numeric-like
+akasa air 25.xlsx,Monthly_Template,15,40,numeric-like
+akasa air 25.xlsx,Monthly_Template,16,39,numeric-like
+akasa air 26.xlsx,Monthly_Template,0,72,text/mixed
+akasa air 26.xlsx,Monthly_Template,1,45,numeric-like
+akasa air 26.xlsx,Monthly_Template,2,45,numeric-like
+akasa air 26.xlsx,Monthly_Template,3,41,numeric-like
+akasa air 26.xlsx,Monthly_Template,4,41,numeric-like
+akasa air 26.xlsx,Monthly_Template,5,41,numeric-like
+akasa air 26.xlsx,Monthly_Template,6,41,numeric-like
+akasa air 26.xlsx,Monthly_Template,7,34,numeric-like
+akasa air 26.xlsx,Monthly_Template,8,45,numeric-like
+akasa air 26.xlsx,Monthly_Template,9,41,numeric-like
+akasa air 26.xlsx,Monthly_Template,10,41,numeric-like
+akasa air 26.xlsx,Monthly_Template,11,45,numeric-like
+akasa air 26.xlsx,Monthly_Template,12,42,numeric-like
+akasa air 26.xlsx,Monthly_Template,13,41,numeric-like
+akasa air 26.xlsx,Monthly_Template,14,45,numeric-like
+akasa air 26.xlsx,Monthly_Template,15,41,numeric-like
+akasa air 26.xlsx,Monthly_Template,16,34,numeric-like
+alliance air20.xlsx,Monthly_Template,0,72,text/mixed
+alliance air20.xlsx,Monthly_Template,1,26,text/mixed
+alliance air20.xlsx,Monthly_Template,2,26,text/mixed
+alliance air20.xlsx,Monthly_Template,3,22,numeric-like
+alliance air20.xlsx,Monthly_Template,4,22,numeric-like
+alliance air20.xlsx,Monthly_Template,5,22,numeric-like
+alliance air20.xlsx,Monthly_Template,6,22,numeric-like
+alliance air20.xlsx,Monthly_Template,7,56,text/mixed
+alliance air20.xlsx,Monthly_Template,8,23,text/mixed
+alliance air20.xlsx,Monthly_Template,9,8,text/mixed
+alliance air20.xlsx,Monthly_Template,10,19,text/mixed
+alliance air20.xlsx,Monthly_Template,11,26,text/mixed
+alliance air20.xlsx,Monthly_Template,12,20,text/mixed
+alliance air20.xlsx,Monthly_Template,13,9,text/mixed
+alliance air20.xlsx,Monthly_Template,14,26,text/mixed
+alliance air20.xlsx,Monthly_Template,15,22,numeric-like
+alliance air20.xlsx,Monthly_Template,16,56,text/mixed
+alliance air21.xlsx,Monthly_Template,0,72,text/mixed
+alliance air21.xlsx,Monthly_Template,1,24,text/mixed
+alliance air21.xlsx,Monthly_Template,2,24,text/mixed
+alliance air21.xlsx,Monthly_Template,3,20,numeric-like
+alliance air21.xlsx,Monthly_Template,4,20,numeric-like
+alliance air21.xlsx,Monthly_Template,5,20,numeric-like
+alliance air21.xlsx,Monthly_Template,6,20,numeric-like
+alliance air21.xlsx,Monthly_Template,7,56,text/mixed
+alliance air21.xlsx,Monthly_Template,8,24,text/mixed
+alliance air21.xlsx,Monthly_Template,9,8,text/mixed
+alliance air21.xlsx,Monthly_Template,10,20,numeric-like
+alliance air21.xlsx,Monthly_Template,11,24,text/mixed
+alliance air21.xlsx,Monthly_Template,12,21,text/mixed
+alliance air21.xlsx,Monthly_Template,13,13,text/mixed
+alliance air21.xlsx,Monthly_Template,14,24,text/mixed
+alliance air21.xlsx,Monthly_Template,15,20,numeric-like
+alliance air21.xlsx,Monthly_Template,16,56,text/mixed
+alliance air22.xlsx,Monthly_Template,0,72,text/mixed
+alliance air22.xlsx,Monthly_Template,1,25,text/mixed
+alliance air22.xlsx,Monthly_Template,2,25,text/mixed
+alliance air22.xlsx,Monthly_Template,3,21,numeric-like
+alliance air22.xlsx,Monthly_Template,4,21,numeric-like
+alliance air22.xlsx,Monthly_Template,5,21,numeric-like
+alliance air22.xlsx,Monthly_Template,6,21,numeric-like
+alliance air22.xlsx,Monthly_Template,7,56,text/mixed
+alliance air22.xlsx,Monthly_Template,8,24,text/mixed
+alliance air22.xlsx,Monthly_Template,9,10,text/mixed
+alliance air22.xlsx,Monthly_Template,10,20,numeric-like
+alliance air22.xlsx,Monthly_Template,11,25,text/mixed
+alliance air22.xlsx,Monthly_Template,12,21,text/mixed
+alliance air22.xlsx,Monthly_Template,13,10,text/mixed
+alliance air22.xlsx,Monthly_Template,14,25,text/mixed
+alliance air22.xlsx,Monthly_Template,15,21,numeric-like
+alliance air22.xlsx,Monthly_Template,16,56,text/mixed
+alliance air23.xlsx,Monthly_Template,0,72,text/mixed
+alliance air23.xlsx,Monthly_Template,1,48,numeric-like
+alliance air23.xlsx,Monthly_Template,2,48,numeric-like
+alliance air23.xlsx,Monthly_Template,3,44,numeric-like
+alliance air23.xlsx,Monthly_Template,4,44,numeric-like
+alliance air23.xlsx,Monthly_Template,5,44,numeric-like
+alliance air23.xlsx,Monthly_Template,6,44,numeric-like
+alliance air23.xlsx,Monthly_Template,7,56,text/mixed
+alliance air23.xlsx,Monthly_Template,8,36,text/mixed
+alliance air23.xlsx,Monthly_Template,9,20,numeric-like
+alliance air23.xlsx,Monthly_Template,10,32,numeric-like
+alliance air23.xlsx,Monthly_Template,11,48,numeric-like
+alliance air23.xlsx,Monthly_Template,12,41,numeric-like
+alliance air23.xlsx,Monthly_Template,13,34,numeric-like
+alliance air23.xlsx,Monthly_Template,14,48,numeric-like
+alliance air23.xlsx,Monthly_Template,15,44,numeric-like
+alliance air23.xlsx,Monthly_Template,16,56,text/mixed
+alliance air24.xlsx,Monthly_Template,0,72,text/mixed
+alliance air24.xlsx,Monthly_Template,1,44,numeric-like
+alliance air24.xlsx,Monthly_Template,2,44,numeric-like
+alliance air24.xlsx,Monthly_Template,3,40,numeric-like
+alliance air24.xlsx,Monthly_Template,4,40,numeric-like
+alliance air24.xlsx,Monthly_Template,5,40,numeric-like
+alliance air24.xlsx,Monthly_Template,6,40,numeric-like
+alliance air24.xlsx,Monthly_Template,7,56,text/mixed
+alliance air24.xlsx,Monthly_Template,8,43,numeric-like
+alliance air24.xlsx,Monthly_Template,9,23,numeric-like
+alliance air24.xlsx,Monthly_Template,10,39,numeric-like
+alliance air24.xlsx,Monthly_Template,11,43,numeric-like
+alliance air24.xlsx,Monthly_Template,12,37,numeric-like
+alliance air24.xlsx,Monthly_Template,13,29,numeric-like
+alliance air24.xlsx,Monthly_Template,14,43,numeric-like
+alliance air24.xlsx,Monthly_Template,15,40,numeric-like
+alliance air24.xlsx,Monthly_Template,16,56,text/mixed
+alliance air25.xlsx,Monthly_Template,0,72,text/mixed
+alliance air25.xlsx,Monthly_Template,1,25,text/mixed
+alliance air25.xlsx,Monthly_Template,2,25,text/mixed
+alliance air25.xlsx,Monthly_Template,3,21,numeric-like
+alliance air25.xlsx,Monthly_Template,4,21,numeric-like
+alliance air25.xlsx,Monthly_Template,5,21,numeric-like
+alliance air25.xlsx,Monthly_Template,6,21,numeric-like
+alliance air25.xlsx,Monthly_Template,7,19,text/mixed
+alliance air25.xlsx,Monthly_Template,8,25,text/mixed
+alliance air25.xlsx,Monthly_Template,9,21,numeric-like
+alliance air25.xlsx,Monthly_Template,10,21,numeric-like
+alliance air25.xlsx,Monthly_Template,11,25,text/mixed
+alliance air25.xlsx,Monthly_Template,12,22,text/mixed
+alliance air25.xlsx,Monthly_Template,13,21,numeric-like
+alliance air25.xlsx,Monthly_Template,14,25,text/mixed
+alliance air25.xlsx,Monthly_Template,15,21,numeric-like
+alliance air25.xlsx,Monthly_Template,16,19,text/mixed
+alliance air26.xlsx,Monthly_Template,0,72,text/mixed
+alliance air26.xlsx,Monthly_Template,1,32,text/mixed
+alliance air26.xlsx,Monthly_Template,2,32,text/mixed
+alliance air26.xlsx,Monthly_Template,3,28,numeric-like
+alliance air26.xlsx,Monthly_Template,4,28,numeric-like
+alliance air26.xlsx,Monthly_Template,5,28,numeric-like
+alliance air26.xlsx,Monthly_Template,6,28,numeric-like
+alliance air26.xlsx,Monthly_Template,7,19,text/mixed
+alliance air26.xlsx,Monthly_Template,8,32,text/mixed
+alliance air26.xlsx,Monthly_Template,9,28,numeric-like
+alliance air26.xlsx,Monthly_Template,10,28,numeric-like
+alliance air26.xlsx,Monthly_Template,11,32,text/mixed
+alliance air26.xlsx,Monthly_Template,12,29,numeric-like
+alliance air26.xlsx,Monthly_Template,13,28,numeric-like
+alliance air26.xlsx,Monthly_Template,14,32,text/mixed
+alliance air26.xlsx,Monthly_Template,15,28,numeric-like
+alliance air26.xlsx,Monthly_Template,16,19,text/mixed
+alliance17.xlsx,Sheet1,0,36,text/mixed
+alliance17.xlsx,Sheet1,1,30,numeric-like
+alliance17.xlsx,Sheet1,2,28,numeric-like
+alliance17.xlsx,Sheet1,3,28,numeric-like
+alliance17.xlsx,Sheet1,4,28,numeric-like
+alliance17.xlsx,Sheet1,5,28,numeric-like
+alliance17.xlsx,Sheet1,6,28,numeric-like
+alliance17.xlsx,Sheet1,7,28,text/mixed
+alliance17.xlsx,Sheet1,8,30,numeric-like
+alliance17.xlsx,Sheet1,9,28,numeric-like
+alliance17.xlsx,Sheet1,10,28,numeric-like
+alliance17.xlsx,Sheet1,11,30,numeric-like
+alliance17.xlsx,Sheet1,12,29,numeric-like
+alliance17.xlsx,Sheet1,13,28,numeric-like
+alliance17.xlsx,Sheet1,14,28,numeric-like
+alliance17.xlsx,Sheet1,15,28,numeric-like
+alliance17.xlsx,Sheet1,16,28,text/mixed
+alliance18.xlsx,alliance18,0,18,text/mixed
+alliance18.xlsx,alliance18,1,15,numeric-like
+alliance18.xlsx,alliance18,2,14,numeric-like
+alliance18.xlsx,alliance18,3,14,numeric-like
+alliance18.xlsx,alliance18,4,14,numeric-like
+alliance18.xlsx,alliance18,5,14,numeric-like
+alliance18.xlsx,alliance18,6,14,numeric-like
+alliance18.xlsx,alliance18,7,14,numeric-like
+alliance18.xlsx,alliance18,8,15,numeric-like
+alliance18.xlsx,alliance18,9,14,numeric-like
+alliance18.xlsx,alliance18,10,14,numeric-like
+alliance18.xlsx,alliance18,11,15,numeric-like
+alliance18.xlsx,alliance18,12,15,numeric-like
+alliance18.xlsx,alliance18,13,14,numeric-like
+alliance18.xlsx,alliance18,14,14,numeric-like
+alliance18.xlsx,alliance18,15,14,numeric-like
+alliance18.xlsx,alliance18,16,14,numeric-like
+alliance19.xlsx,Monthly_Template,0,72,text/mixed
+alliance19.xlsx,Monthly_Template,1,27,text/mixed
+alliance19.xlsx,Monthly_Template,2,27,text/mixed
+alliance19.xlsx,Monthly_Template,3,23,numeric-like
+alliance19.xlsx,Monthly_Template,4,23,numeric-like
+alliance19.xlsx,Monthly_Template,5,23,numeric-like
+alliance19.xlsx,Monthly_Template,6,23,numeric-like
+alliance19.xlsx,Monthly_Template,7,56,text/mixed
+alliance19.xlsx,Monthly_Template,8,27,text/mixed
+alliance19.xlsx,Monthly_Template,9,23,numeric-like
+alliance19.xlsx,Monthly_Template,10,23,numeric-like
+alliance19.xlsx,Monthly_Template,11,27,text/mixed
+alliance19.xlsx,Monthly_Template,12,24,text/mixed
+alliance19.xlsx,Monthly_Template,13,23,numeric-like
+alliance19.xlsx,Monthly_Template,14,27,text/mixed
+alliance19.xlsx,Monthly_Template,15,23,numeric-like
+alliance19.xlsx,Monthly_Template,16,56,text/mixed
+deccanair17.xlsx,Sheet1,0,19,text/mixed
+deccanair17.xlsx,Sheet1,1,4,text/mixed
+deccanair17.xlsx,Sheet1,2,3,text/mixed
+deccanair17.xlsx,Sheet1,3,3,text/mixed
+deccanair17.xlsx,Sheet1,4,3,text/mixed
+deccanair17.xlsx,Sheet1,5,3,text/mixed
+deccanair17.xlsx,Sheet1,6,3,text/mixed
+deccanair17.xlsx,Sheet1,7,3,text/mixed
+deccanair17.xlsx,Sheet1,8,4,text/mixed
+deccanair17.xlsx,Sheet1,9,3,text/mixed
+deccanair17.xlsx,Sheet1,10,3,text/mixed
+deccanair17.xlsx,Sheet1,11,4,text/mixed
+deccanair17.xlsx,Sheet1,12,3,text/mixed
+deccanair17.xlsx,Sheet1,13,3,text/mixed
+deccanair17.xlsx,Sheet1,14,3,text/mixed
+deccanair17.xlsx,Sheet1,15,3,text/mixed
+deccanair17.xlsx,Sheet1,16,3,text/mixed
+deccanair18.xlsx,deccanair18,0,18,text/mixed
+deccanair18.xlsx,deccanair18,1,15,numeric-like
+deccanair18.xlsx,deccanair18,2,14,numeric-like
+deccanair18.xlsx,deccanair18,3,14,numeric-like
+deccanair18.xlsx,deccanair18,4,14,numeric-like
+deccanair18.xlsx,deccanair18,5,14,numeric-like
+deccanair18.xlsx,deccanair18,6,14,numeric-like
+deccanair18.xlsx,deccanair18,7,14,text/mixed
+deccanair18.xlsx,deccanair18,8,15,numeric-like
+deccanair18.xlsx,deccanair18,9,14,numeric-like
+deccanair18.xlsx,deccanair18,10,14,numeric-like
+deccanair18.xlsx,deccanair18,11,15,numeric-like
+deccanair18.xlsx,deccanair18,12,15,numeric-like
+deccanair18.xlsx,deccanair18,13,14,numeric-like
+deccanair18.xlsx,deccanair18,14,14,numeric-like
+deccanair18.xlsx,deccanair18,15,14,numeric-like
+deccanair18.xlsx,deccanair18,16,14,text/mixed
+deccanair18.xlsx,deccanair18,17,3,text/mixed
+deccanair18.xlsx,deccanair18,18,6,text/mixed
+fly91 24.xlsx,Monthly_Template,0,72,text/mixed
+fly91 24.xlsx,Monthly_Template,1,24,text/mixed
+fly91 24.xlsx,Monthly_Template,2,24,text/mixed
+fly91 24.xlsx,Monthly_Template,3,20,numeric-like
+fly91 24.xlsx,Monthly_Template,4,20,numeric-like
+fly91 24.xlsx,Monthly_Template,5,20,numeric-like
+fly91 24.xlsx,Monthly_Template,6,20,numeric-like
+fly91 24.xlsx,Monthly_Template,7,55,text/mixed
+fly91 24.xlsx,Monthly_Template,8,12,text/mixed
+fly91 24.xlsx,Monthly_Template,9,8,text/mixed
+fly91 24.xlsx,Monthly_Template,10,8,text/mixed
+fly91 24.xlsx,Monthly_Template,11,24,text/mixed
+fly91 24.xlsx,Monthly_Template,12,9,text/mixed
+fly91 24.xlsx,Monthly_Template,13,8,text/mixed
+fly91 24.xlsx,Monthly_Template,14,24,text/mixed
+fly91 24.xlsx,Monthly_Template,15,20,numeric-like
+fly91 24.xlsx,Monthly_Template,16,55,text/mixed
+fly91 25.xlsx,Monthly_Template,0,72,text/mixed
+fly91 25.xlsx,Monthly_Template,1,26,text/mixed
+fly91 25.xlsx,Monthly_Template,2,26,text/mixed
+fly91 25.xlsx,Monthly_Template,3,22,numeric-like
+fly91 25.xlsx,Monthly_Template,4,22,numeric-like
+fly91 25.xlsx,Monthly_Template,5,22,numeric-like
+fly91 25.xlsx,Monthly_Template,6,22,numeric-like
+fly91 25.xlsx,Monthly_Template,7,20,numeric-like
+fly91 25.xlsx,Monthly_Template,8,26,text/mixed
+fly91 25.xlsx,Monthly_Template,9,22,numeric-like
+fly91 25.xlsx,Monthly_Template,10,22,numeric-like
+fly91 25.xlsx,Monthly_Template,11,26,text/mixed
+fly91 25.xlsx,Monthly_Template,12,23,text/mixed
+fly91 25.xlsx,Monthly_Template,13,22,numeric-like
+fly91 25.xlsx,Monthly_Template,14,26,text/mixed
+fly91 25.xlsx,Monthly_Template,15,22,numeric-like
+fly91 25.xlsx,Monthly_Template,16,20,numeric-like
+fly91 26.xlsx,Monthly_Template,0,72,text/mixed
+fly91 26.xlsx,Monthly_Template,1,28,text/mixed
+fly91 26.xlsx,Monthly_Template,2,28,text/mixed
+fly91 26.xlsx,Monthly_Template,3,24,numeric-like
+fly91 26.xlsx,Monthly_Template,4,24,numeric-like
+fly91 26.xlsx,Monthly_Template,5,24,numeric-like
+fly91 26.xlsx,Monthly_Template,6,24,numeric-like
+fly91 26.xlsx,Monthly_Template,7,19,text/mixed
+fly91 26.xlsx,Monthly_Template,8,28,text/mixed
+fly91 26.xlsx,Monthly_Template,9,24,numeric-like
+fly91 26.xlsx,Monthly_Template,10,24,numeric-like
+fly91 26.xlsx,Monthly_Template,11,28,text/mixed
+fly91 26.xlsx,Monthly_Template,12,25,numeric-like
+fly91 26.xlsx,Monthly_Template,13,24,numeric-like
+fly91 26.xlsx,Monthly_Template,14,28,text/mixed
+fly91 26.xlsx,Monthly_Template,15,24,numeric-like
+fly91 26.xlsx,Monthly_Template,16,19,text/mixed
+go air20.xlsx,Monthly_Template,0,72,text/mixed
+go air20.xlsx,Monthly_Template,1,36,text/mixed
+go air20.xlsx,Monthly_Template,2,35,text/mixed
+go air20.xlsx,Monthly_Template,3,32,numeric-like
+go air20.xlsx,Monthly_Template,4,32,numeric-like
+go air20.xlsx,Monthly_Template,5,32,numeric-like
+go air20.xlsx,Monthly_Template,6,32,numeric-like
+go air20.xlsx,Monthly_Template,7,56,text/mixed
+go air20.xlsx,Monthly_Template,8,28,text/mixed
+go air20.xlsx,Monthly_Template,9,8,text/mixed
+go air20.xlsx,Monthly_Template,10,24,numeric-like
+go air20.xlsx,Monthly_Template,11,36,text/mixed
+go air20.xlsx,Monthly_Template,12,25,numeric-like
+go air20.xlsx,Monthly_Template,13,8,text/mixed
+go air20.xlsx,Monthly_Template,14,36,text/mixed
+go air20.xlsx,Monthly_Template,15,32,numeric-like
+go air20.xlsx,Monthly_Template,16,56,text/mixed
+go air21.xlsx,Monthly_Template,0,73,text/mixed
+go air21.xlsx,Monthly_Template,1,44,numeric-like
+go air21.xlsx,Monthly_Template,2,44,numeric-like
+go air21.xlsx,Monthly_Template,3,40,numeric-like
+go air21.xlsx,Monthly_Template,4,39,numeric-like
+go air21.xlsx,Monthly_Template,5,38,numeric-like
+go air21.xlsx,Monthly_Template,6,39,numeric-like
+go air21.xlsx,Monthly_Template,7,56,text/mixed
+go air21.xlsx,Monthly_Template,8,39,text/mixed
+go air21.xlsx,Monthly_Template,9,8,text/mixed
+go air21.xlsx,Monthly_Template,10,35,numeric-like
+go air21.xlsx,Monthly_Template,11,42,numeric-like
+go air21.xlsx,Monthly_Template,12,39,numeric-like
+go air21.xlsx,Monthly_Template,13,13,text/mixed
+go air21.xlsx,Monthly_Template,14,44,numeric-like
+go air21.xlsx,Monthly_Template,15,40,numeric-like
+go air21.xlsx,Monthly_Template,16,56,text/mixed
+go air22.xlsx,Monthly_Template,0,72,text/mixed
+go air22.xlsx,Monthly_Template,1,48,numeric-like
+go air22.xlsx,Monthly_Template,2,48,numeric-like
+go air22.xlsx,Monthly_Template,3,44,numeric-like
+go air22.xlsx,Monthly_Template,4,44,numeric-like
+go air22.xlsx,Monthly_Template,5,44,numeric-like
+go air22.xlsx,Monthly_Template,6,44,numeric-like
+go air22.xlsx,Monthly_Template,7,56,text/mixed
+go air22.xlsx,Monthly_Template,8,42,numeric-like
+go air22.xlsx,Monthly_Template,9,9,text/mixed
+go air22.xlsx,Monthly_Template,10,38,numeric-like
+go air22.xlsx,Monthly_Template,11,48,numeric-like
+go air22.xlsx,Monthly_Template,12,45,numeric-like
+go air22.xlsx,Monthly_Template,13,23,numeric-like
+go air22.xlsx,Monthly_Template,14,48,numeric-like
+go air22.xlsx,Monthly_Template,15,44,numeric-like
+go air22.xlsx,Monthly_Template,16,56,text/mixed
+go air23.xlsx,Monthly_Template,0,72,text/mixed
+go air23.xlsx,Monthly_Template,1,29,text/mixed
+go air23.xlsx,Monthly_Template,2,29,text/mixed
+go air23.xlsx,Monthly_Template,3,25,numeric-like
+go air23.xlsx,Monthly_Template,4,25,numeric-like
+go air23.xlsx,Monthly_Template,5,25,numeric-like
+go air23.xlsx,Monthly_Template,6,25,numeric-like
+go air23.xlsx,Monthly_Template,7,56,text/mixed
+go air23.xlsx,Monthly_Template,8,28,text/mixed
+go air23.xlsx,Monthly_Template,9,8,text/mixed
+go air23.xlsx,Monthly_Template,10,24,numeric-like
+go air23.xlsx,Monthly_Template,11,29,text/mixed
+go air23.xlsx,Monthly_Template,12,26,numeric-like
+go air23.xlsx,Monthly_Template,13,16,text/mixed
+go air23.xlsx,Monthly_Template,14,29,text/mixed
+go air23.xlsx,Monthly_Template,15,25,numeric-like
+go air23.xlsx,Monthly_Template,16,56,text/mixed
+go air24.xlsx,Monthly_Template,0,72,text/mixed
+go air24.xlsx,Monthly_Template,1,12,text/mixed
+go air24.xlsx,Monthly_Template,2,12,text/mixed
+go air24.xlsx,Monthly_Template,3,8,text/mixed
+go air24.xlsx,Monthly_Template,4,8,text/mixed
+go air24.xlsx,Monthly_Template,5,8,text/mixed
+go air24.xlsx,Monthly_Template,6,8,text/mixed
+go air24.xlsx,Monthly_Template,7,39,text/mixed
+go air24.xlsx,Monthly_Template,8,12,text/mixed
+go air24.xlsx,Monthly_Template,9,8,text/mixed
+go air24.xlsx,Monthly_Template,10,8,text/mixed
+go air24.xlsx,Monthly_Template,11,12,text/mixed
+go air24.xlsx,Monthly_Template,12,9,text/mixed
+go air24.xlsx,Monthly_Template,13,8,text/mixed
+go air24.xlsx,Monthly_Template,14,12,text/mixed
+go air24.xlsx,Monthly_Template,15,8,text/mixed
+go air24.xlsx,Monthly_Template,16,41,text/mixed
+goair17.xlsx,Sheet1,0,36,text/mixed
+goair17.xlsx,Sheet1,1,30,numeric-like
+goair17.xlsx,Sheet1,2,28,numeric-like
+goair17.xlsx,Sheet1,3,28,numeric-like
+goair17.xlsx,Sheet1,4,28,numeric-like
+goair17.xlsx,Sheet1,5,28,numeric-like
+goair17.xlsx,Sheet1,6,28,numeric-like
+goair17.xlsx,Sheet1,7,28,text/mixed
+goair17.xlsx,Sheet1,8,30,numeric-like
+goair17.xlsx,Sheet1,9,28,numeric-like
+goair17.xlsx,Sheet1,10,28,numeric-like
+goair17.xlsx,Sheet1,11,30,numeric-like
+goair17.xlsx,Sheet1,12,29,numeric-like
+goair17.xlsx,Sheet1,13,28,numeric-like
+goair17.xlsx,Sheet1,14,28,numeric-like
+goair17.xlsx,Sheet1,15,28,numeric-like
+goair17.xlsx,Sheet1,16,28,text/mixed
+goair17.xlsx,Sheet1,17,7,text/mixed
+goair18.xlsx,goair18,0,55,text/mixed
+goair18.xlsx,goair18,1,25,text/mixed
+goair18.xlsx,goair18,2,22,numeric-like
+goair18.xlsx,goair18,3,22,numeric-like
+goair18.xlsx,goair18,4,22,numeric-like
+goair18.xlsx,goair18,5,22,numeric-like
+goair18.xlsx,goair18,6,22,numeric-like
+goair18.xlsx,goair18,7,22,numeric-like
+goair18.xlsx,goair18,8,25,text/mixed
+goair18.xlsx,goair18,9,22,numeric-like
+goair18.xlsx,goair18,10,22,numeric-like
+goair18.xlsx,goair18,11,25,text/mixed
+goair18.xlsx,goair18,12,23,numeric-like
+goair18.xlsx,goair18,13,22,numeric-like
+goair18.xlsx,goair18,14,22,numeric-like
+goair18.xlsx,goair18,15,22,numeric-like
+goair18.xlsx,goair18,16,22,numeric-like
+goair18.xlsx,goair18,17,7,text/mixed
+goair19.xlsx,Monthly_Template,0,72,text/mixed
+goair19.xlsx,Monthly_Template,1,38,text/mixed
+goair19.xlsx,Monthly_Template,2,38,text/mixed
+goair19.xlsx,Monthly_Template,3,34,numeric-like
+goair19.xlsx,Monthly_Template,4,34,numeric-like
+goair19.xlsx,Monthly_Template,5,34,numeric-like
+goair19.xlsx,Monthly_Template,6,34,numeric-like
+goair19.xlsx,Monthly_Template,7,56,text/mixed
+goair19.xlsx,Monthly_Template,8,38,text/mixed
+goair19.xlsx,Monthly_Template,9,34,numeric-like
+goair19.xlsx,Monthly_Template,10,34,numeric-like
+goair19.xlsx,Monthly_Template,11,38,text/mixed
+goair19.xlsx,Monthly_Template,12,35,numeric-like
+goair19.xlsx,Monthly_Template,13,34,numeric-like
+goair19.xlsx,Monthly_Template,14,38,text/mixed
+goair19.xlsx,Monthly_Template,15,34,numeric-like
+goair19.xlsx,Monthly_Template,16,56,text/mixed
+india one air22.xlsx,Monthly_Template,0,72,text/mixed
+india one air22.xlsx,Monthly_Template,1,20,text/mixed
+india one air22.xlsx,Monthly_Template,2,20,text/mixed
+india one air22.xlsx,Monthly_Template,3,16,text/mixed
+india one air22.xlsx,Monthly_Template,4,16,text/mixed
+india one air22.xlsx,Monthly_Template,5,16,text/mixed
+india one air22.xlsx,Monthly_Template,6,16,text/mixed
+india one air22.xlsx,Monthly_Template,7,56,text/mixed
+india one air22.xlsx,Monthly_Template,8,14,text/mixed
+india one air22.xlsx,Monthly_Template,9,10,text/mixed
+india one air22.xlsx,Monthly_Template,10,10,text/mixed
+india one air22.xlsx,Monthly_Template,11,20,text/mixed
+india one air22.xlsx,Monthly_Template,12,15,text/mixed
+india one air22.xlsx,Monthly_Template,13,14,text/mixed
+india one air22.xlsx,Monthly_Template,14,20,text/mixed
+india one air22.xlsx,Monthly_Template,15,16,text/mixed
+india one air22.xlsx,Monthly_Template,16,56,text/mixed
+india one air23.xlsx,Monthly_Template,0,72,text/mixed
+india one air23.xlsx,Monthly_Template,1,35,text/mixed
+india one air23.xlsx,Monthly_Template,2,35,text/mixed
+india one air23.xlsx,Monthly_Template,3,31,numeric-like
+india one air23.xlsx,Monthly_Template,4,31,numeric-like
+india one air23.xlsx,Monthly_Template,5,31,numeric-like
+india one air23.xlsx,Monthly_Template,6,31,numeric-like
+india one air23.xlsx,Monthly_Template,7,56,text/mixed
+india one air23.xlsx,Monthly_Template,8,12,text/mixed
+india one air23.xlsx,Monthly_Template,9,8,text/mixed
+india one air23.xlsx,Monthly_Template,10,8,text/mixed
+india one air23.xlsx,Monthly_Template,11,35,text/mixed
+india one air23.xlsx,Monthly_Template,12,9,text/mixed
+india one air23.xlsx,Monthly_Template,13,8,text/mixed
+india one air23.xlsx,Monthly_Template,14,35,text/mixed
+india one air23.xlsx,Monthly_Template,15,31,numeric-like
+india one air23.xlsx,Monthly_Template,16,56,text/mixed
+india one air24.xlsx,Monthly_Template,0,72,text/mixed
+india one air24.xlsx,Monthly_Template,1,30,text/mixed
+india one air24.xlsx,Monthly_Template,2,30,text/mixed
+india one air24.xlsx,Monthly_Template,3,26,numeric-like
+india one air24.xlsx,Monthly_Template,4,26,numeric-like
+india one air24.xlsx,Monthly_Template,5,26,numeric-like
+india one air24.xlsx,Monthly_Template,6,26,numeric-like
+india one air24.xlsx,Monthly_Template,7,56,text/mixed
+india one air24.xlsx,Monthly_Template,8,12,text/mixed
+india one air24.xlsx,Monthly_Template,9,8,text/mixed
+india one air24.xlsx,Monthly_Template,10,8,text/mixed
+india one air24.xlsx,Monthly_Template,11,30,text/mixed
+india one air24.xlsx,Monthly_Template,12,9,text/mixed
+india one air24.xlsx,Monthly_Template,13,8,text/mixed
+india one air24.xlsx,Monthly_Template,14,30,text/mixed
+india one air24.xlsx,Monthly_Template,15,26,numeric-like
+india one air24.xlsx,Monthly_Template,16,56,text/mixed
+india one air25.xlsx,Monthly_Template,0,72,text/mixed
+india one air25.xlsx,Monthly_Template,1,24,text/mixed
+india one air25.xlsx,Monthly_Template,2,24,text/mixed
+india one air25.xlsx,Monthly_Template,3,20,numeric-like
+india one air25.xlsx,Monthly_Template,4,20,numeric-like
+india one air25.xlsx,Monthly_Template,5,20,numeric-like
+india one air25.xlsx,Monthly_Template,6,20,numeric-like
+india one air25.xlsx,Monthly_Template,7,17,text/mixed
+india one air25.xlsx,Monthly_Template,8,24,text/mixed
+india one air25.xlsx,Monthly_Template,9,20,numeric-like
+india one air25.xlsx,Monthly_Template,10,20,numeric-like
+india one air25.xlsx,Monthly_Template,11,24,text/mixed
+india one air25.xlsx,Monthly_Template,12,21,text/mixed
+india one air25.xlsx,Monthly_Template,13,20,numeric-like
+india one air25.xlsx,Monthly_Template,14,24,text/mixed
+india one air25.xlsx,Monthly_Template,15,20,numeric-like
+india one air25.xlsx,Monthly_Template,16,17,text/mixed
+india one air26.xlsx,Monthly_Template,0,72,text/mixed
+india one air26.xlsx,Monthly_Template,1,24,text/mixed
+india one air26.xlsx,Monthly_Template,2,24,text/mixed
+india one air26.xlsx,Monthly_Template,3,20,numeric-like
+india one air26.xlsx,Monthly_Template,4,20,numeric-like
+india one air26.xlsx,Monthly_Template,5,20,numeric-like
+india one air26.xlsx,Monthly_Template,6,20,numeric-like
+india one air26.xlsx,Monthly_Template,7,13,text/mixed
+india one air26.xlsx,Monthly_Template,8,24,text/mixed
+india one air26.xlsx,Monthly_Template,9,20,numeric-like
+india one air26.xlsx,Monthly_Template,10,20,numeric-like
+india one air26.xlsx,Monthly_Template,11,24,text/mixed
+india one air26.xlsx,Monthly_Template,12,21,text/mixed
+india one air26.xlsx,Monthly_Template,13,20,numeric-like
+india one air26.xlsx,Monthly_Template,14,24,text/mixed
+india one air26.xlsx,Monthly_Template,15,20,numeric-like
+india one air26.xlsx,Monthly_Template,16,13,text/mixed
+indigo17.xlsx,Sheet1,0,54,text/mixed
+indigo17.xlsx,Sheet1,1,45,numeric-like
+indigo17.xlsx,Sheet1,2,42,numeric-like
+indigo17.xlsx,Sheet1,3,42,numeric-like
+indigo17.xlsx,Sheet1,4,42,numeric-like
+indigo17.xlsx,Sheet1,5,42,numeric-like
+indigo17.xlsx,Sheet1,6,42,numeric-like
+indigo17.xlsx,Sheet1,7,42,text/mixed
+indigo17.xlsx,Sheet1,8,45,numeric-like
+indigo17.xlsx,Sheet1,9,42,numeric-like
+indigo17.xlsx,Sheet1,10,42,numeric-like
+indigo17.xlsx,Sheet1,11,45,numeric-like
+indigo17.xlsx,Sheet1,12,43,numeric-like
+indigo17.xlsx,Sheet1,13,42,numeric-like
+indigo17.xlsx,Sheet1,14,42,numeric-like
+indigo17.xlsx,Sheet1,15,42,numeric-like
+indigo17.xlsx,Sheet1,16,42,text/mixed
+indigo18.xlsx,indigo18,0,36,text/mixed
+indigo18.xlsx,indigo18,1,30,numeric-like
+indigo18.xlsx,indigo18,2,28,numeric-like
+indigo18.xlsx,indigo18,3,28,numeric-like
+indigo18.xlsx,indigo18,4,28,numeric-like
+indigo18.xlsx,indigo18,5,28,numeric-like
+indigo18.xlsx,indigo18,6,28,numeric-like
+indigo18.xlsx,indigo18,7,28,numeric-like
+indigo18.xlsx,indigo18,8,30,numeric-like
+indigo18.xlsx,indigo18,9,28,numeric-like
+indigo18.xlsx,indigo18,10,28,numeric-like
+indigo18.xlsx,indigo18,11,30,numeric-like
+indigo18.xlsx,indigo18,12,29,numeric-like
+indigo18.xlsx,indigo18,13,28,numeric-like
+indigo18.xlsx,indigo18,14,28,numeric-like
+indigo18.xlsx,indigo18,15,28,numeric-like
+indigo18.xlsx,indigo18,16,28,numeric-like
+indigo19.xlsx,Monthly_Template,0,72,text/mixed
+indigo19.xlsx,Monthly_Template,1,39,text/mixed
+indigo19.xlsx,Monthly_Template,2,39,text/mixed
+indigo19.xlsx,Monthly_Template,3,35,numeric-like
+indigo19.xlsx,Monthly_Template,4,35,numeric-like
+indigo19.xlsx,Monthly_Template,5,35,numeric-like
+indigo19.xlsx,Monthly_Template,6,35,numeric-like
+indigo19.xlsx,Monthly_Template,7,56,text/mixed
+indigo19.xlsx,Monthly_Template,8,39,text/mixed
+indigo19.xlsx,Monthly_Template,9,35,numeric-like
+indigo19.xlsx,Monthly_Template,10,35,numeric-like
+indigo19.xlsx,Monthly_Template,11,39,text/mixed
+indigo19.xlsx,Monthly_Template,12,36,numeric-like
+indigo19.xlsx,Monthly_Template,13,35,numeric-like
+indigo19.xlsx,Monthly_Template,14,39,text/mixed
+indigo19.xlsx,Monthly_Template,15,35,numeric-like
+indigo19.xlsx,Monthly_Template,16,56,text/mixed
+indigo20.xlsx,Monthly_Template,0,72,text/mixed
+indigo20.xlsx,Monthly_Template,1,44,numeric-like
+indigo20.xlsx,Monthly_Template,2,44,numeric-like
+indigo20.xlsx,Monthly_Template,3,40,numeric-like
+indigo20.xlsx,Monthly_Template,4,40,numeric-like
+indigo20.xlsx,Monthly_Template,5,40,numeric-like
+indigo20.xlsx,Monthly_Template,6,40,numeric-like
+indigo20.xlsx,Monthly_Template,7,56,text/mixed
+indigo20.xlsx,Monthly_Template,8,42,numeric-like
+indigo20.xlsx,Monthly_Template,9,19,text/mixed
+indigo20.xlsx,Monthly_Template,10,39,numeric-like
+indigo20.xlsx,Monthly_Template,11,44,numeric-like
+indigo20.xlsx,Monthly_Template,12,39,numeric-like
+indigo20.xlsx,Monthly_Template,13,19,text/mixed
+indigo20.xlsx,Monthly_Template,14,44,numeric-like
+indigo20.xlsx,Monthly_Template,15,40,numeric-like
+indigo20.xlsx,Monthly_Template,16,56,text/mixed
+indigo21.xlsx,Monthly_Template,0,72,text/mixed
+indigo21.xlsx,Monthly_Template,1,48,numeric-like
+indigo21.xlsx,Monthly_Template,2,48,numeric-like
+indigo21.xlsx,Monthly_Template,3,44,numeric-like
+indigo21.xlsx,Monthly_Template,4,44,numeric-like
+indigo21.xlsx,Monthly_Template,5,44,numeric-like
+indigo21.xlsx,Monthly_Template,6,44,numeric-like
+indigo21.xlsx,Monthly_Template,7,56,text/mixed
+indigo21.xlsx,Monthly_Template,8,48,numeric-like
+indigo21.xlsx,Monthly_Template,9,26,numeric-like
+indigo21.xlsx,Monthly_Template,10,44,numeric-like
+indigo21.xlsx,Monthly_Template,11,48,numeric-like
+indigo21.xlsx,Monthly_Template,12,44,numeric-like
+indigo21.xlsx,Monthly_Template,13,31,numeric-like
+indigo21.xlsx,Monthly_Template,14,48,numeric-like
+indigo21.xlsx,Monthly_Template,15,44,numeric-like
+indigo21.xlsx,Monthly_Template,16,56,text/mixed
+indigo22.xlsx,Monthly_Template,0,72,text/mixed
+indigo22.xlsx,Monthly_Template,1,55,numeric-like
+indigo22.xlsx,Monthly_Template,2,55,numeric-like
+indigo22.xlsx,Monthly_Template,3,51,numeric-like
+indigo22.xlsx,Monthly_Template,4,51,numeric-like
+indigo22.xlsx,Monthly_Template,5,51,numeric-like
+indigo22.xlsx,Monthly_Template,6,51,numeric-like
+indigo22.xlsx,Monthly_Template,7,56,numeric-like
+indigo22.xlsx,Monthly_Template,8,55,numeric-like
+indigo22.xlsx,Monthly_Template,9,31,numeric-like
+indigo22.xlsx,Monthly_Template,10,51,numeric-like
+indigo22.xlsx,Monthly_Template,11,55,numeric-like
+indigo22.xlsx,Monthly_Template,12,52,numeric-like
+indigo22.xlsx,Monthly_Template,13,43,numeric-like
+indigo22.xlsx,Monthly_Template,14,55,numeric-like
+indigo22.xlsx,Monthly_Template,15,51,numeric-like
+indigo22.xlsx,Monthly_Template,16,56,numeric-like
+indigo23.xlsx,Monthly_Template,0,72,text/mixed
+indigo23.xlsx,Monthly_Template,1,51,numeric-like
+indigo23.xlsx,Monthly_Template,2,51,numeric-like
+indigo23.xlsx,Monthly_Template,3,47,numeric-like
+indigo23.xlsx,Monthly_Template,4,47,numeric-like
+indigo23.xlsx,Monthly_Template,5,47,numeric-like
+indigo23.xlsx,Monthly_Template,6,47,numeric-like
+indigo23.xlsx,Monthly_Template,7,56,text/mixed
+indigo23.xlsx,Monthly_Template,8,51,numeric-like
+indigo23.xlsx,Monthly_Template,9,35,numeric-like
+indigo23.xlsx,Monthly_Template,10,47,numeric-like
+indigo23.xlsx,Monthly_Template,11,51,numeric-like
+indigo23.xlsx,Monthly_Template,12,48,numeric-like
+indigo23.xlsx,Monthly_Template,13,47,numeric-like
+indigo23.xlsx,Monthly_Template,14,51,numeric-like
+indigo23.xlsx,Monthly_Template,15,47,numeric-like
+indigo23.xlsx,Monthly_Template,16,56,text/mixed
+indigo24.xlsx,Monthly_Template,0,72,text/mixed
+indigo24.xlsx,Monthly_Template,1,60,numeric-like
+indigo24.xlsx,Monthly_Template,2,60,numeric-like
+indigo24.xlsx,Monthly_Template,3,56,numeric-like
+indigo24.xlsx,Monthly_Template,4,47,numeric-like
+indigo24.xlsx,Monthly_Template,5,47,numeric-like
+indigo24.xlsx,Monthly_Template,6,47,numeric-like
+indigo24.xlsx,Monthly_Template,7,56,text/mixed
+indigo24.xlsx,Monthly_Template,8,60,numeric-like
+indigo24.xlsx,Monthly_Template,9,49,numeric-like
+indigo24.xlsx,Monthly_Template,10,56,numeric-like
+indigo24.xlsx,Monthly_Template,11,51,numeric-like
+indigo24.xlsx,Monthly_Template,12,57,numeric-like
+indigo24.xlsx,Monthly_Template,13,52,numeric-like
+indigo24.xlsx,Monthly_Template,14,60,numeric-like
+indigo24.xlsx,Monthly_Template,15,56,numeric-like
+indigo24.xlsx,Monthly_Template,16,56,numeric-like
+indigo25.xlsx,Monthly_Template,0,72,text/mixed
+indigo25.xlsx,Monthly_Template,1,60,numeric-like
+indigo25.xlsx,Monthly_Template,2,60,numeric-like
+indigo25.xlsx,Monthly_Template,3,56,numeric-like
+indigo25.xlsx,Monthly_Template,4,56,numeric-like
+indigo25.xlsx,Monthly_Template,5,56,numeric-like
+indigo25.xlsx,Monthly_Template,6,56,numeric-like
+indigo25.xlsx,Monthly_Template,7,56,numeric-like
+indigo25.xlsx,Monthly_Template,8,60,numeric-like
+indigo25.xlsx,Monthly_Template,9,56,numeric-like
+indigo25.xlsx,Monthly_Template,10,56,numeric-like
+indigo25.xlsx,Monthly_Template,11,60,numeric-like
+indigo25.xlsx,Monthly_Template,12,57,numeric-like
+indigo25.xlsx,Monthly_Template,13,56,numeric-like
+indigo25.xlsx,Monthly_Template,14,60,numeric-like
+indigo25.xlsx,Monthly_Template,15,56,numeric-like
+indigo25.xlsx,Monthly_Template,16,56,numeric-like
+indigo26.xlsx,Monthly_Template,0,72,text/mixed
+indigo26.xlsx,Monthly_Template,1,48,numeric-like
+indigo26.xlsx,Monthly_Template,2,48,numeric-like
+indigo26.xlsx,Monthly_Template,3,44,numeric-like
+indigo26.xlsx,Monthly_Template,4,44,numeric-like
+indigo26.xlsx,Monthly_Template,5,44,numeric-like
+indigo26.xlsx,Monthly_Template,6,44,numeric-like
+indigo26.xlsx,Monthly_Template,7,31,numeric-like
+indigo26.xlsx,Monthly_Template,8,48,numeric-like
+indigo26.xlsx,Monthly_Template,9,44,numeric-like
+indigo26.xlsx,Monthly_Template,10,44,numeric-like
+indigo26.xlsx,Monthly_Template,11,48,numeric-like
+indigo26.xlsx,Monthly_Template,12,45,numeric-like
+indigo26.xlsx,Monthly_Template,13,44,numeric-like
+indigo26.xlsx,Monthly_Template,14,48,numeric-like
+indigo26.xlsx,Monthly_Template,15,44,numeric-like
+indigo26.xlsx,Monthly_Template,16,40,numeric-like
+jetairways17.xlsx,Sheet1,0,72,text/mixed
+jetairways17.xlsx,Sheet1,1,60,numeric-like
+jetairways17.xlsx,Sheet1,2,56,numeric-like
+jetairways17.xlsx,Sheet1,3,56,numeric-like
+jetairways17.xlsx,Sheet1,4,56,numeric-like
+jetairways17.xlsx,Sheet1,5,56,numeric-like
+jetairways17.xlsx,Sheet1,6,56,numeric-like
+jetairways17.xlsx,Sheet1,7,56,numeric-like
+jetairways17.xlsx,Sheet1,8,60,numeric-like
+jetairways17.xlsx,Sheet1,9,56,numeric-like
+jetairways17.xlsx,Sheet1,10,56,numeric-like
+jetairways17.xlsx,Sheet1,11,60,numeric-like
+jetairways17.xlsx,Sheet1,12,57,numeric-like
+jetairways17.xlsx,Sheet1,13,56,numeric-like
+jetairways17.xlsx,Sheet1,14,56,numeric-like
+jetairways17.xlsx,Sheet1,15,56,numeric-like
+jetairways17.xlsx,Sheet1,16,56,numeric-like
+jetairways18.xlsx,jetairways18,0,72,text/mixed
+jetairways18.xlsx,jetairways18,1,59,numeric-like
+jetairways18.xlsx,jetairways18,2,55,numeric-like
+jetairways18.xlsx,jetairways18,3,55,numeric-like
+jetairways18.xlsx,jetairways18,4,55,numeric-like
+jetairways18.xlsx,jetairways18,5,55,numeric-like
+jetairways18.xlsx,jetairways18,6,55,numeric-like
+jetairways18.xlsx,jetairways18,7,55,numeric-like
+jetairways18.xlsx,jetairways18,8,59,numeric-like
+jetairways18.xlsx,jetairways18,9,55,numeric-like
+jetairways18.xlsx,jetairways18,10,55,numeric-like
+jetairways18.xlsx,jetairways18,11,59,numeric-like
+jetairways18.xlsx,jetairways18,12,56,numeric-like
+jetairways18.xlsx,jetairways18,13,55,numeric-like
+jetairways18.xlsx,jetairways18,14,55,numeric-like
+jetairways18.xlsx,jetairways18,15,55,numeric-like
+jetairways18.xlsx,jetairways18,16,55,numeric-like
+jetairways19.xlsx,jetairways19,0,72,text/mixed
+jetairways19.xlsx,jetairways19,1,36,text/mixed
+jetairways19.xlsx,jetairways19,2,32,numeric-like
+jetairways19.xlsx,jetairways19,3,32,numeric-like
+jetairways19.xlsx,jetairways19,4,32,numeric-like
+jetairways19.xlsx,jetairways19,5,32,numeric-like
+jetairways19.xlsx,jetairways19,6,32,numeric-like
+jetairways19.xlsx,jetairways19,7,32,text/mixed
+jetairways19.xlsx,jetairways19,8,36,text/mixed
+jetairways19.xlsx,jetairways19,9,32,numeric-like
+jetairways19.xlsx,jetairways19,10,32,numeric-like
+jetairways19.xlsx,jetairways19,11,36,text/mixed
+jetairways19.xlsx,jetairways19,12,33,numeric-like
+jetairways19.xlsx,jetairways19,13,32,numeric-like
+jetairways19.xlsx,jetairways19,14,32,numeric-like
+jetairways19.xlsx,jetairways19,15,32,numeric-like
+jetairways19.xlsx,jetairways19,16,32,text/mixed
+jetlite17.xlsx,Sheet1,0,36,text/mixed
+jetlite17.xlsx,Sheet1,1,30,numeric-like
+jetlite17.xlsx,Sheet1,2,28,numeric-like
+jetlite17.xlsx,Sheet1,3,28,numeric-like
+jetlite17.xlsx,Sheet1,4,28,numeric-like
+jetlite17.xlsx,Sheet1,5,28,numeric-like
+jetlite17.xlsx,Sheet1,6,28,numeric-like
+jetlite17.xlsx,Sheet1,7,28,text/mixed
+jetlite17.xlsx,Sheet1,8,30,numeric-like
+jetlite17.xlsx,Sheet1,9,28,numeric-like
+jetlite17.xlsx,Sheet1,10,28,numeric-like
+jetlite17.xlsx,Sheet1,11,30,numeric-like
+jetlite17.xlsx,Sheet1,12,29,numeric-like
+jetlite17.xlsx,Sheet1,13,28,numeric-like
+jetlite17.xlsx,Sheet1,14,28,numeric-like
+jetlite17.xlsx,Sheet1,15,28,numeric-like
+jetlite17.xlsx,Sheet1,16,28,text/mixed
+jetlite17.xlsx,Sheet1,17,6,text/mixed
+jetlite18.xlsx,jetlite18,0,36,text/mixed
+jetlite18.xlsx,jetlite18,1,30,numeric-like
+jetlite18.xlsx,jetlite18,2,28,numeric-like
+jetlite18.xlsx,jetlite18,3,28,numeric-like
+jetlite18.xlsx,jetlite18,4,28,numeric-like
+jetlite18.xlsx,jetlite18,5,28,numeric-like
+jetlite18.xlsx,jetlite18,6,28,numeric-like
+jetlite18.xlsx,jetlite18,7,28,text/mixed
+jetlite18.xlsx,jetlite18,8,30,numeric-like
+jetlite18.xlsx,jetlite18,9,28,numeric-like
+jetlite18.xlsx,jetlite18,10,28,numeric-like
+jetlite18.xlsx,jetlite18,11,30,numeric-like
+jetlite18.xlsx,jetlite18,12,29,numeric-like
+jetlite18.xlsx,jetlite18,13,28,numeric-like
+jetlite18.xlsx,jetlite18,14,28,numeric-like
+jetlite18.xlsx,jetlite18,15,28,numeric-like
+jetlite18.xlsx,jetlite18,16,28,text/mixed
+jetlite18.xlsx,jetlite18,17,6,text/mixed
+jetlite19.xlsx,jetlite19,0,36,text/mixed
+jetlite19.xlsx,jetlite19,1,18,text/mixed
+jetlite19.xlsx,jetlite19,2,16,numeric-like
+jetlite19.xlsx,jetlite19,3,16,numeric-like
+jetlite19.xlsx,jetlite19,4,16,numeric-like
+jetlite19.xlsx,jetlite19,5,16,numeric-like
+jetlite19.xlsx,jetlite19,6,16,numeric-like
+jetlite19.xlsx,jetlite19,7,16,text/mixed
+jetlite19.xlsx,jetlite19,8,18,text/mixed
+jetlite19.xlsx,jetlite19,9,16,numeric-like
+jetlite19.xlsx,jetlite19,10,16,numeric-like
+jetlite19.xlsx,jetlite19,11,18,text/mixed
+jetlite19.xlsx,jetlite19,12,17,numeric-like
+jetlite19.xlsx,jetlite19,13,16,numeric-like
+jetlite19.xlsx,jetlite19,14,16,numeric-like
+jetlite19.xlsx,jetlite19,15,16,numeric-like
+jetlite19.xlsx,jetlite19,16,16,text/mixed
+jetlite19.xlsx,jetlite19,17,5,text/mixed
+pawan hans20.xlsx,Monthly_Template,0,72,text/mixed
+pawan hans20.xlsx,Monthly_Template,1,23,text/mixed
+pawan hans20.xlsx,Monthly_Template,2,23,text/mixed
+pawan hans20.xlsx,Monthly_Template,3,19,text/mixed
+pawan hans20.xlsx,Monthly_Template,4,19,text/mixed
+pawan hans20.xlsx,Monthly_Template,5,19,text/mixed
+pawan hans20.xlsx,Monthly_Template,6,19,text/mixed
+pawan hans20.xlsx,Monthly_Template,7,56,text/mixed
+pawan hans20.xlsx,Monthly_Template,8,13,text/mixed
+pawan hans20.xlsx,Monthly_Template,9,9,text/mixed
+pawan hans20.xlsx,Monthly_Template,10,9,text/mixed
+pawan hans20.xlsx,Monthly_Template,11,23,text/mixed
+pawan hans20.xlsx,Monthly_Template,12,10,text/mixed
+pawan hans20.xlsx,Monthly_Template,13,9,text/mixed
+pawan hans20.xlsx,Monthly_Template,14,23,text/mixed
+pawan hans20.xlsx,Monthly_Template,15,19,text/mixed
+pawan hans20.xlsx,Monthly_Template,16,56,text/mixed
+pawanhans19.xlsx,Monthly_Template,0,72,text/mixed
+pawanhans19.xlsx,Monthly_Template,1,20,text/mixed
+pawanhans19.xlsx,Monthly_Template,2,20,text/mixed
+pawanhans19.xlsx,Monthly_Template,3,16,text/mixed
+pawanhans19.xlsx,Monthly_Template,4,16,text/mixed
+pawanhans19.xlsx,Monthly_Template,5,16,text/mixed
+pawanhans19.xlsx,Monthly_Template,6,16,text/mixed
+pawanhans19.xlsx,Monthly_Template,7,56,text/mixed
+pawanhans19.xlsx,Monthly_Template,8,20,text/mixed
+pawanhans19.xlsx,Monthly_Template,9,16,text/mixed
+pawanhans19.xlsx,Monthly_Template,10,16,text/mixed
+pawanhans19.xlsx,Monthly_Template,11,20,text/mixed
+pawanhans19.xlsx,Monthly_Template,12,17,text/mixed
+pawanhans19.xlsx,Monthly_Template,13,16,text/mixed
+pawanhans19.xlsx,Monthly_Template,14,20,text/mixed
+pawanhans19.xlsx,Monthly_Template,15,16,text/mixed
+pawanhans19.xlsx,Monthly_Template,16,56,text/mixed
+pawanhans21.xlsx,Monthly_Template,0,72,text/mixed
+pawanhans21.xlsx,Monthly_Template,1,23,text/mixed
+pawanhans21.xlsx,Monthly_Template,2,23,text/mixed
+pawanhans21.xlsx,Monthly_Template,3,19,text/mixed
+pawanhans21.xlsx,Monthly_Template,4,19,text/mixed
+pawanhans21.xlsx,Monthly_Template,5,19,text/mixed
+pawanhans21.xlsx,Monthly_Template,6,19,text/mixed
+pawanhans21.xlsx,Monthly_Template,7,56,text/mixed
+pawanhans21.xlsx,Monthly_Template,8,12,text/mixed
+pawanhans21.xlsx,Monthly_Template,9,8,text/mixed
+pawanhans21.xlsx,Monthly_Template,10,8,text/mixed
+pawanhans21.xlsx,Monthly_Template,11,23,text/mixed
+pawanhans21.xlsx,Monthly_Template,12,9,text/mixed
+pawanhans21.xlsx,Monthly_Template,13,8,text/mixed
+pawanhans21.xlsx,Monthly_Template,14,23,text/mixed
+pawanhans21.xlsx,Monthly_Template,15,19,text/mixed
+pawanhans21.xlsx,Monthly_Template,16,56,text/mixed
+pawanhans22.xlsx,Monthly_Template,0,72,text/mixed
+pawanhans22.xlsx,Monthly_Template,1,12,text/mixed
+pawanhans22.xlsx,Monthly_Template,2,12,text/mixed
+pawanhans22.xlsx,Monthly_Template,3,8,text/mixed
+pawanhans22.xlsx,Monthly_Template,4,8,text/mixed
+pawanhans22.xlsx,Monthly_Template,5,8,text/mixed
+pawanhans22.xlsx,Monthly_Template,6,8,text/mixed
+pawanhans22.xlsx,Monthly_Template,7,44,text/mixed
+pawanhans22.xlsx,Monthly_Template,8,12,text/mixed
+pawanhans22.xlsx,Monthly_Template,9,8,text/mixed
+pawanhans22.xlsx,Monthly_Template,10,8,text/mixed
+pawanhans22.xlsx,Monthly_Template,11,12,text/mixed
+pawanhans22.xlsx,Monthly_Template,12,9,text/mixed
+pawanhans22.xlsx,Monthly_Template,13,8,text/mixed
+pawanhans22.xlsx,Monthly_Template,14,12,text/mixed
+pawanhans22.xlsx,Monthly_Template,15,8,text/mixed
+pawanhans22.xlsx,Monthly_Template,16,44,text/mixed
+spicejet17.xlsx,Sheet1,0,54,text/mixed
+spicejet17.xlsx,Sheet1,1,45,numeric-like
+spicejet17.xlsx,Sheet1,2,42,numeric-like
+spicejet17.xlsx,Sheet1,3,42,numeric-like
+spicejet17.xlsx,Sheet1,4,42,numeric-like
+spicejet17.xlsx,Sheet1,5,42,numeric-like
+spicejet17.xlsx,Sheet1,6,42,numeric-like
+spicejet17.xlsx,Sheet1,7,42,text/mixed
+spicejet17.xlsx,Sheet1,8,45,numeric-like
+spicejet17.xlsx,Sheet1,9,42,numeric-like
+spicejet17.xlsx,Sheet1,10,42,numeric-like
+spicejet17.xlsx,Sheet1,11,45,numeric-like
+spicejet17.xlsx,Sheet1,12,43,numeric-like
+spicejet17.xlsx,Sheet1,13,42,numeric-like
+spicejet17.xlsx,Sheet1,14,42,numeric-like
+spicejet17.xlsx,Sheet1,15,42,numeric-like
+spicejet17.xlsx,Sheet1,16,42,text/mixed
+spicejet18.xlsx,spicejet18,0,72,text/mixed
+spicejet18.xlsx,spicejet18,1,41,numeric-like
+spicejet18.xlsx,spicejet18,2,37,numeric-like
+spicejet18.xlsx,spicejet18,3,37,numeric-like
+spicejet18.xlsx,spicejet18,4,37,numeric-like
+spicejet18.xlsx,spicejet18,5,37,numeric-like
+spicejet18.xlsx,spicejet18,6,37,numeric-like
+spicejet18.xlsx,spicejet18,7,37,numeric-like
+spicejet18.xlsx,spicejet18,8,41,numeric-like
+spicejet18.xlsx,spicejet18,9,37,numeric-like
+spicejet18.xlsx,spicejet18,10,37,numeric-like
+spicejet18.xlsx,spicejet18,11,41,numeric-like
+spicejet18.xlsx,spicejet18,12,38,numeric-like
+spicejet18.xlsx,spicejet18,13,37,numeric-like
+spicejet18.xlsx,spicejet18,14,37,numeric-like
+spicejet18.xlsx,spicejet18,15,37,numeric-like
+spicejet18.xlsx,spicejet18,16,37,numeric-like
+spicejet19.xlsx,Monthly_Template,0,72,text/mixed
+spicejet19.xlsx,Monthly_Template,1,51,numeric-like
+spicejet19.xlsx,Monthly_Template,2,51,numeric-like
+spicejet19.xlsx,Monthly_Template,3,47,numeric-like
+spicejet19.xlsx,Monthly_Template,4,47,numeric-like
+spicejet19.xlsx,Monthly_Template,5,47,numeric-like
+spicejet19.xlsx,Monthly_Template,6,47,numeric-like
+spicejet19.xlsx,Monthly_Template,7,56,text/mixed
+spicejet19.xlsx,Monthly_Template,8,51,numeric-like
+spicejet19.xlsx,Monthly_Template,9,47,numeric-like
+spicejet19.xlsx,Monthly_Template,10,47,numeric-like
+spicejet19.xlsx,Monthly_Template,11,51,numeric-like
+spicejet19.xlsx,Monthly_Template,12,48,numeric-like
+spicejet19.xlsx,Monthly_Template,13,47,numeric-like
+spicejet19.xlsx,Monthly_Template,14,51,numeric-like
+spicejet19.xlsx,Monthly_Template,15,47,numeric-like
+spicejet19.xlsx,Monthly_Template,16,56,text/mixed
+spicejet21.xlsx,Monthly_Template,0,73,text/mixed
+spicejet21.xlsx,Monthly_Template,1,48,numeric-like
+spicejet21.xlsx,Monthly_Template,2,48,numeric-like
+spicejet21.xlsx,Monthly_Template,3,44,numeric-like
+spicejet21.xlsx,Monthly_Template,4,44,numeric-like
+spicejet21.xlsx,Monthly_Template,5,44,numeric-like
+spicejet21.xlsx,Monthly_Template,6,44,numeric-like
+spicejet21.xlsx,Monthly_Template,7,56,text/mixed
+spicejet21.xlsx,Monthly_Template,8,48,numeric-like
+spicejet21.xlsx,Monthly_Template,9,8,text/mixed
+spicejet21.xlsx,Monthly_Template,10,44,numeric-like
+spicejet21.xlsx,Monthly_Template,11,48,numeric-like
+spicejet21.xlsx,Monthly_Template,12,45,numeric-like
+spicejet21.xlsx,Monthly_Template,13,10,text/mixed
+spicejet21.xlsx,Monthly_Template,14,48,numeric-like
+spicejet21.xlsx,Monthly_Template,15,44,numeric-like
+spicejet21.xlsx,Monthly_Template,16,56,text/mixed
+spicejet22.xlsx,Monthly_Template,0,72,text/mixed
+spicejet22.xlsx,Monthly_Template,1,58,numeric-like
+spicejet22.xlsx,Monthly_Template,2,58,numeric-like
+spicejet22.xlsx,Monthly_Template,3,54,numeric-like
+spicejet22.xlsx,Monthly_Template,4,54,numeric-like
+spicejet22.xlsx,Monthly_Template,5,54,numeric-like
+spicejet22.xlsx,Monthly_Template,6,54,numeric-like
+spicejet22.xlsx,Monthly_Template,7,56,numeric-like
+spicejet22.xlsx,Monthly_Template,8,58,numeric-like
+spicejet22.xlsx,Monthly_Template,9,8,text/mixed
+spicejet22.xlsx,Monthly_Template,10,54,numeric-like
+spicejet22.xlsx,Monthly_Template,11,58,numeric-like
+spicejet22.xlsx,Monthly_Template,12,55,numeric-like
+spicejet22.xlsx,Monthly_Template,13,12,text/mixed
+spicejet22.xlsx,Monthly_Template,14,58,numeric-like
+spicejet22.xlsx,Monthly_Template,15,54,numeric-like
+spicejet22.xlsx,Monthly_Template,16,56,numeric-like
+spicejet23.xlsx,Monthly_Template,0,72,text/mixed
+spicejet23.xlsx,Monthly_Template,1,60,numeric-like
+spicejet23.xlsx,Monthly_Template,2,60,numeric-like
+spicejet23.xlsx,Monthly_Template,3,56,numeric-like
+spicejet23.xlsx,Monthly_Template,4,55,numeric-like
+spicejet23.xlsx,Monthly_Template,5,55,numeric-like
+spicejet23.xlsx,Monthly_Template,6,55,numeric-like
+spicejet23.xlsx,Monthly_Template,7,56,numeric-like
+spicejet23.xlsx,Monthly_Template,8,60,numeric-like
+spicejet23.xlsx,Monthly_Template,9,8,text/mixed
+spicejet23.xlsx,Monthly_Template,10,56,numeric-like
+spicejet23.xlsx,Monthly_Template,11,58,numeric-like
+spicejet23.xlsx,Monthly_Template,12,57,numeric-like
+spicejet23.xlsx,Monthly_Template,13,18,text/mixed
+spicejet23.xlsx,Monthly_Template,14,60,numeric-like
+spicejet23.xlsx,Monthly_Template,15,56,numeric-like
+spicejet23.xlsx,Monthly_Template,16,56,numeric-like
+spicejet24.xlsx,Monthly_Template,0,72,text/mixed
+spicejet24.xlsx,Monthly_Template,1,57,numeric-like
+spicejet24.xlsx,Monthly_Template,2,57,numeric-like
+spicejet24.xlsx,Monthly_Template,3,53,numeric-like
+spicejet24.xlsx,Monthly_Template,4,53,numeric-like
+spicejet24.xlsx,Monthly_Template,5,53,numeric-like
+spicejet24.xlsx,Monthly_Template,6,53,numeric-like
+spicejet24.xlsx,Monthly_Template,7,56,numeric-like
+spicejet24.xlsx,Monthly_Template,8,54,numeric-like
+spicejet24.xlsx,Monthly_Template,9,21,numeric-like
+spicejet24.xlsx,Monthly_Template,10,50,numeric-like
+spicejet24.xlsx,Monthly_Template,11,57,numeric-like
+spicejet24.xlsx,Monthly_Template,12,48,numeric-like
+spicejet24.xlsx,Monthly_Template,13,18,text/mixed
+spicejet24.xlsx,Monthly_Template,14,57,numeric-like
+spicejet24.xlsx,Monthly_Template,15,53,numeric-like
+spicejet24.xlsx,Monthly_Template,16,56,numeric-like
+spicejet25.xlsx,Monthly_Template,0,72,text/mixed
+spicejet25.xlsx,Monthly_Template,1,54,numeric-like
+spicejet25.xlsx,Monthly_Template,2,54,numeric-like
+spicejet25.xlsx,Monthly_Template,3,50,numeric-like
+spicejet25.xlsx,Monthly_Template,4,50,numeric-like
+spicejet25.xlsx,Monthly_Template,5,50,numeric-like
+spicejet25.xlsx,Monthly_Template,6,50,numeric-like
+spicejet25.xlsx,Monthly_Template,7,50,numeric-like
+spicejet25.xlsx,Monthly_Template,8,54,numeric-like
+spicejet25.xlsx,Monthly_Template,9,50,numeric-like
+spicejet25.xlsx,Monthly_Template,10,50,numeric-like
+spicejet25.xlsx,Monthly_Template,11,54,numeric-like
+spicejet25.xlsx,Monthly_Template,12,51,numeric-like
+spicejet25.xlsx,Monthly_Template,13,50,numeric-like
+spicejet25.xlsx,Monthly_Template,14,54,numeric-like
+spicejet25.xlsx,Monthly_Template,15,50,numeric-like
+spicejet25.xlsx,Monthly_Template,16,50,numeric-like
+spicejet26.xlsx,Monthly_Template,0,72,text/mixed
+spicejet26.xlsx,Monthly_Template,1,45,numeric-like
+spicejet26.xlsx,Monthly_Template,2,45,numeric-like
+spicejet26.xlsx,Monthly_Template,3,41,numeric-like
+spicejet26.xlsx,Monthly_Template,4,41,numeric-like
+spicejet26.xlsx,Monthly_Template,5,41,numeric-like
+spicejet26.xlsx,Monthly_Template,6,41,numeric-like
+spicejet26.xlsx,Monthly_Template,7,36,numeric-like
+spicejet26.xlsx,Monthly_Template,8,45,numeric-like
+spicejet26.xlsx,Monthly_Template,9,41,numeric-like
+spicejet26.xlsx,Monthly_Template,10,41,numeric-like
+spicejet26.xlsx,Monthly_Template,11,45,numeric-like
+spicejet26.xlsx,Monthly_Template,12,42,numeric-like
+spicejet26.xlsx,Monthly_Template,13,41,numeric-like
+spicejet26.xlsx,Monthly_Template,14,45,numeric-like
+spicejet26.xlsx,Monthly_Template,15,41,numeric-like
+spicejet26.xlsx,Monthly_Template,16,36,numeric-like
+star air20.xlsx,Monthly_Template,0,72,text/mixed
+star air20.xlsx,Monthly_Template,1,23,text/mixed
+star air20.xlsx,Monthly_Template,2,23,text/mixed
+star air20.xlsx,Monthly_Template,3,19,text/mixed
+star air20.xlsx,Monthly_Template,4,19,text/mixed
+star air20.xlsx,Monthly_Template,5,19,text/mixed
+star air20.xlsx,Monthly_Template,6,19,text/mixed
+star air20.xlsx,Monthly_Template,7,56,text/mixed
+star air20.xlsx,Monthly_Template,8,12,text/mixed
+star air20.xlsx,Monthly_Template,9,8,text/mixed
+star air20.xlsx,Monthly_Template,10,8,text/mixed
+star air20.xlsx,Monthly_Template,11,23,text/mixed
+star air20.xlsx,Monthly_Template,12,9,text/mixed
+star air20.xlsx,Monthly_Template,13,8,text/mixed
+star air20.xlsx,Monthly_Template,14,23,text/mixed
+star air20.xlsx,Monthly_Template,15,19,text/mixed
+star air20.xlsx,Monthly_Template,16,56,text/mixed
+star air21.xlsx,Monthly_Template,0,72,text/mixed
+star air21.xlsx,Monthly_Template,1,24,text/mixed
+star air21.xlsx,Monthly_Template,2,24,text/mixed
+star air21.xlsx,Monthly_Template,3,20,numeric-like
+star air21.xlsx,Monthly_Template,4,20,numeric-like
+star air21.xlsx,Monthly_Template,5,20,numeric-like
+star air21.xlsx,Monthly_Template,6,20,numeric-like
+star air21.xlsx,Monthly_Template,7,56,text/mixed
+star air21.xlsx,Monthly_Template,8,12,text/mixed
+star air21.xlsx,Monthly_Template,9,8,text/mixed
+star air21.xlsx,Monthly_Template,10,8,text/mixed
+star air21.xlsx,Monthly_Template,11,24,text/mixed
+star air21.xlsx,Monthly_Template,12,9,text/mixed
+star air21.xlsx,Monthly_Template,13,8,text/mixed
+star air21.xlsx,Monthly_Template,14,24,text/mixed
+star air21.xlsx,Monthly_Template,15,20,numeric-like
+star air21.xlsx,Monthly_Template,16,56,text/mixed
+star air22.xlsx,Monthly_Template,0,72,text/mixed
+star air22.xlsx,Monthly_Template,1,24,text/mixed
+star air22.xlsx,Monthly_Template,2,24,text/mixed
+star air22.xlsx,Monthly_Template,3,20,numeric-like
+star air22.xlsx,Monthly_Template,4,20,numeric-like
+star air22.xlsx,Monthly_Template,5,20,numeric-like
+star air22.xlsx,Monthly_Template,6,20,numeric-like
+star air22.xlsx,Monthly_Template,7,56,text/mixed
+star air22.xlsx,Monthly_Template,8,12,text/mixed
+star air22.xlsx,Monthly_Template,9,8,text/mixed
+star air22.xlsx,Monthly_Template,10,8,text/mixed
+star air22.xlsx,Monthly_Template,11,24,text/mixed
+star air22.xlsx,Monthly_Template,12,10,text/mixed
+star air22.xlsx,Monthly_Template,13,9,text/mixed
+star air22.xlsx,Monthly_Template,14,24,text/mixed
+star air22.xlsx,Monthly_Template,15,20,numeric-like
+star air22.xlsx,Monthly_Template,16,56,text/mixed
+star air23.xlsx,Monthly_Template,0,72,text/mixed
+star air23.xlsx,Monthly_Template,1,24,text/mixed
+star air23.xlsx,Monthly_Template,2,24,text/mixed
+star air23.xlsx,Monthly_Template,3,20,numeric-like
+star air23.xlsx,Monthly_Template,4,20,numeric-like
+star air23.xlsx,Monthly_Template,5,20,numeric-like
+star air23.xlsx,Monthly_Template,6,20,numeric-like
+star air23.xlsx,Monthly_Template,7,56,text/mixed
+star air23.xlsx,Monthly_Template,8,12,text/mixed
+star air23.xlsx,Monthly_Template,9,8,text/mixed
+star air23.xlsx,Monthly_Template,10,8,text/mixed
+star air23.xlsx,Monthly_Template,11,24,text/mixed
+star air23.xlsx,Monthly_Template,12,9,text/mixed
+star air23.xlsx,Monthly_Template,13,8,text/mixed
+star air23.xlsx,Monthly_Template,14,24,text/mixed
+star air23.xlsx,Monthly_Template,15,20,numeric-like
+star air23.xlsx,Monthly_Template,16,56,text/mixed
+star air24.xlsx,Monthly_Template,0,72,text/mixed
+star air24.xlsx,Monthly_Template,1,24,text/mixed
+star air24.xlsx,Monthly_Template,2,24,text/mixed
+star air24.xlsx,Monthly_Template,3,20,numeric-like
+star air24.xlsx,Monthly_Template,4,20,numeric-like
+star air24.xlsx,Monthly_Template,5,20,numeric-like
+star air24.xlsx,Monthly_Template,6,20,numeric-like
+star air24.xlsx,Monthly_Template,7,56,text/mixed
+star air24.xlsx,Monthly_Template,8,13,text/mixed
+star air24.xlsx,Monthly_Template,9,9,text/mixed
+star air24.xlsx,Monthly_Template,10,9,text/mixed
+star air24.xlsx,Monthly_Template,11,24,text/mixed
+star air24.xlsx,Monthly_Template,12,9,text/mixed
+star air24.xlsx,Monthly_Template,13,8,text/mixed
+star air24.xlsx,Monthly_Template,14,24,text/mixed
+star air24.xlsx,Monthly_Template,15,20,numeric-like
+star air24.xlsx,Monthly_Template,16,56,text/mixed
+star air25.xlsx,Monthly_Template,0,72,text/mixed
+star air25.xlsx,Monthly_Template,1,24,text/mixed
+star air25.xlsx,Monthly_Template,2,24,text/mixed
+star air25.xlsx,Monthly_Template,3,20,numeric-like
+star air25.xlsx,Monthly_Template,4,20,numeric-like
+star air25.xlsx,Monthly_Template,5,20,numeric-like
+star air25.xlsx,Monthly_Template,6,20,numeric-like
+star air25.xlsx,Monthly_Template,7,17,text/mixed
+star air25.xlsx,Monthly_Template,8,24,text/mixed
+star air25.xlsx,Monthly_Template,9,20,numeric-like
+star air25.xlsx,Monthly_Template,10,20,numeric-like
+star air25.xlsx,Monthly_Template,11,24,text/mixed
+star air25.xlsx,Monthly_Template,12,21,text/mixed
+star air25.xlsx,Monthly_Template,13,20,numeric-like
+star air25.xlsx,Monthly_Template,14,24,text/mixed
+star air25.xlsx,Monthly_Template,15,20,numeric-like
+star air25.xlsx,Monthly_Template,16,17,text/mixed
+star air26.xlsx,Monthly_Template,0,72,text/mixed
+star air26.xlsx,Monthly_Template,1,21,text/mixed
+star air26.xlsx,Monthly_Template,2,21,text/mixed
+star air26.xlsx,Monthly_Template,3,17,text/mixed
+star air26.xlsx,Monthly_Template,4,17,text/mixed
+star air26.xlsx,Monthly_Template,5,17,text/mixed
+star air26.xlsx,Monthly_Template,6,17,text/mixed
+star air26.xlsx,Monthly_Template,7,13,text/mixed
+star air26.xlsx,Monthly_Template,8,21,text/mixed
+star air26.xlsx,Monthly_Template,9,17,text/mixed
+star air26.xlsx,Monthly_Template,10,17,text/mixed
+star air26.xlsx,Monthly_Template,11,21,text/mixed
+star air26.xlsx,Monthly_Template,12,18,text/mixed
+star air26.xlsx,Monthly_Template,13,17,text/mixed
+star air26.xlsx,Monthly_Template,14,21,text/mixed
+star air26.xlsx,Monthly_Template,15,17,text/mixed
+star air26.xlsx,Monthly_Template,16,13,text/mixed
+starair19.xlsx,Monthly_Template,0,72,text/mixed
+starair19.xlsx,Monthly_Template,1,24,text/mixed
+starair19.xlsx,Monthly_Template,2,24,text/mixed
+starair19.xlsx,Monthly_Template,3,20,numeric-like
+starair19.xlsx,Monthly_Template,4,20,numeric-like
+starair19.xlsx,Monthly_Template,5,20,numeric-like
+starair19.xlsx,Monthly_Template,6,20,numeric-like
+starair19.xlsx,Monthly_Template,7,56,text/mixed
+starair19.xlsx,Monthly_Template,8,24,text/mixed
+starair19.xlsx,Monthly_Template,9,20,numeric-like
+starair19.xlsx,Monthly_Template,10,20,numeric-like
+starair19.xlsx,Monthly_Template,11,24,text/mixed
+starair19.xlsx,Monthly_Template,12,21,text/mixed
+starair19.xlsx,Monthly_Template,13,20,numeric-like
+starair19.xlsx,Monthly_Template,14,24,text/mixed
+starair19.xlsx,Monthly_Template,15,20,numeric-like
+starair19.xlsx,Monthly_Template,16,56,text/mixed
+totaldom17.xlsx,Sheet1,0,36,text/mixed
+totaldom17.xlsx,Sheet1,1,30,numeric-like
+totaldom17.xlsx,Sheet1,2,28,numeric-like
+totaldom17.xlsx,Sheet1,3,28,numeric-like
+totaldom17.xlsx,Sheet1,4,28,numeric-like
+totaldom17.xlsx,Sheet1,5,28,numeric-like
+totaldom17.xlsx,Sheet1,6,28,numeric-like
+totaldom17.xlsx,Sheet1,7,28,numeric-like
+totaldom17.xlsx,Sheet1,8,30,numeric-like
+totaldom17.xlsx,Sheet1,9,28,numeric-like
+totaldom17.xlsx,Sheet1,10,28,numeric-like
+totaldom17.xlsx,Sheet1,11,30,numeric-like
+totaldom17.xlsx,Sheet1,12,29,numeric-like
+totaldom17.xlsx,Sheet1,13,28,numeric-like
+totaldom17.xlsx,Sheet1,14,28,numeric-like
+totaldom17.xlsx,Sheet1,15,28,numeric-like
+totaldom17.xlsx,Sheet1,16,28,numeric-like
+totaldom18.xlsx,totaldom18,0,36,text/mixed
+totaldom18.xlsx,totaldom18,1,30,numeric-like
+totaldom18.xlsx,totaldom18,2,28,numeric-like
+totaldom18.xlsx,totaldom18,3,28,numeric-like
+totaldom18.xlsx,totaldom18,4,28,numeric-like
+totaldom18.xlsx,totaldom18,5,28,numeric-like
+totaldom18.xlsx,totaldom18,6,28,numeric-like
+totaldom18.xlsx,totaldom18,7,28,numeric-like
+totaldom18.xlsx,totaldom18,8,30,numeric-like
+totaldom18.xlsx,totaldom18,9,28,numeric-like
+totaldom18.xlsx,totaldom18,10,28,numeric-like
+totaldom18.xlsx,totaldom18,11,30,numeric-like
+totaldom18.xlsx,totaldom18,12,29,numeric-like
+totaldom18.xlsx,totaldom18,13,28,numeric-like
+totaldom18.xlsx,totaldom18,14,28,numeric-like
+totaldom18.xlsx,totaldom18,15,28,numeric-like
+totaldom18.xlsx,totaldom18,16,28,numeric-like
+totaldom19.xlsx,totaldom19,0,36,text/mixed
+totaldom19.xlsx,totaldom19,1,30,numeric-like
+totaldom19.xlsx,totaldom19,2,28,numeric-like
+totaldom19.xlsx,totaldom19,3,28,numeric-like
+totaldom19.xlsx,totaldom19,4,28,numeric-like
+totaldom19.xlsx,totaldom19,5,28,numeric-like
+totaldom19.xlsx,totaldom19,6,28,numeric-like
+totaldom19.xlsx,totaldom19,7,28,numeric-like
+totaldom19.xlsx,totaldom19,8,30,numeric-like
+totaldom19.xlsx,totaldom19,9,28,numeric-like
+totaldom19.xlsx,totaldom19,10,28,numeric-like
+totaldom19.xlsx,totaldom19,11,30,numeric-like
+totaldom19.xlsx,totaldom19,12,29,numeric-like
+totaldom19.xlsx,totaldom19,13,28,numeric-like
+totaldom19.xlsx,totaldom19,14,28,numeric-like
+totaldom19.xlsx,totaldom19,15,28,numeric-like
+totaldom19.xlsx,totaldom19,16,28,numeric-like
+totaldom20.xlsx,totaldom20,0,36,text/mixed
+totaldom20.xlsx,totaldom20,1,30,numeric-like
+totaldom20.xlsx,totaldom20,2,28,numeric-like
+totaldom20.xlsx,totaldom20,3,28,numeric-like
+totaldom20.xlsx,totaldom20,4,27,numeric-like
+totaldom20.xlsx,totaldom20,5,27,numeric-like
+totaldom20.xlsx,totaldom20,6,27,numeric-like
+totaldom20.xlsx,totaldom20,7,27,numeric-like
+totaldom20.xlsx,totaldom20,8,30,numeric-like
+totaldom20.xlsx,totaldom20,9,19,numeric-like
+totaldom20.xlsx,totaldom20,10,28,numeric-like
+totaldom20.xlsx,totaldom20,11,29,numeric-like
+totaldom20.xlsx,totaldom20,12,29,numeric-like
+totaldom20.xlsx,totaldom20,13,18,numeric-like
+totaldom20.xlsx,totaldom20,14,28,numeric-like
+totaldom20.xlsx,totaldom20,15,28,numeric-like
+totaldom20.xlsx,totaldom20,16,28,numeric-like
+totaldom21.xlsx,Monthly_Template,0,36,text/mixed
+totaldom21.xlsx,Monthly_Template,1,30,numeric-like
+totaldom21.xlsx,Monthly_Template,2,30,numeric-like
+totaldom21.xlsx,Monthly_Template,3,28,numeric-like
+totaldom21.xlsx,Monthly_Template,4,28,numeric-like
+totaldom21.xlsx,Monthly_Template,5,28,numeric-like
+totaldom21.xlsx,Monthly_Template,6,28,numeric-like
+totaldom21.xlsx,Monthly_Template,7,28,numeric-like
+totaldom21.xlsx,Monthly_Template,8,30,numeric-like
+totaldom21.xlsx,Monthly_Template,9,22,numeric-like
+totaldom21.xlsx,Monthly_Template,10,28,numeric-like
+totaldom21.xlsx,Monthly_Template,11,30,numeric-like
+totaldom21.xlsx,Monthly_Template,12,29,numeric-like
+totaldom21.xlsx,Monthly_Template,13,23,numeric-like
+totaldom21.xlsx,Monthly_Template,14,28,numeric-like
+totaldom21.xlsx,Monthly_Template,15,28,numeric-like
+totaldom21.xlsx,Monthly_Template,16,28,numeric-like
+totaldom22.xlsx,Monthly_Template,0,36,text/mixed
+totaldom22.xlsx,Monthly_Template,1,30,numeric-like
+totaldom22.xlsx,Monthly_Template,2,30,numeric-like
+totaldom22.xlsx,Monthly_Template,3,28,numeric-like
+totaldom22.xlsx,Monthly_Template,4,28,numeric-like
+totaldom22.xlsx,Monthly_Template,5,28,numeric-like
+totaldom22.xlsx,Monthly_Template,6,28,numeric-like
+totaldom22.xlsx,Monthly_Template,7,28,numeric-like
+totaldom22.xlsx,Monthly_Template,8,30,numeric-like
+totaldom22.xlsx,Monthly_Template,9,25,numeric-like
+totaldom22.xlsx,Monthly_Template,10,28,numeric-like
+totaldom22.xlsx,Monthly_Template,11,30,numeric-like
+totaldom22.xlsx,Monthly_Template,12,29,numeric-like
+totaldom22.xlsx,Monthly_Template,13,27,numeric-like
+totaldom22.xlsx,Monthly_Template,14,29,numeric-like
+totaldom22.xlsx,Monthly_Template,15,28,numeric-like
+totaldom22.xlsx,Monthly_Template,16,28,numeric-like
+totaldom23.xlsx,Monthly_Template,0,36,text/mixed
+totaldom23.xlsx,Monthly_Template,1,30,numeric-like
+totaldom23.xlsx,Monthly_Template,2,30,numeric-like
+totaldom23.xlsx,Monthly_Template,3,28,numeric-like
+totaldom23.xlsx,Monthly_Template,4,28,numeric-like
+totaldom23.xlsx,Monthly_Template,5,28,numeric-like
+totaldom23.xlsx,Monthly_Template,6,28,numeric-like
+totaldom23.xlsx,Monthly_Template,7,28,numeric-like
+totaldom23.xlsx,Monthly_Template,8,30,numeric-like
+totaldom23.xlsx,Monthly_Template,9,27,numeric-like
+totaldom23.xlsx,Monthly_Template,10,28,numeric-like
+totaldom23.xlsx,Monthly_Template,11,30,numeric-like
+totaldom23.xlsx,Monthly_Template,12,29,numeric-like
+totaldom23.xlsx,Monthly_Template,13,28,numeric-like
+totaldom23.xlsx,Monthly_Template,14,29,numeric-like
+totaldom23.xlsx,Monthly_Template,15,28,numeric-like
+totaldom23.xlsx,Monthly_Template,16,28,numeric-like
+totaldom24.xlsx,Monthly_Template,0,36,text/mixed
+totaldom24.xlsx,Monthly_Template,1,30,numeric-like
+totaldom24.xlsx,Monthly_Template,2,30,numeric-like
+totaldom24.xlsx,Monthly_Template,3,28,numeric-like
+totaldom24.xlsx,Monthly_Template,4,28,numeric-like
+totaldom24.xlsx,Monthly_Template,5,28,numeric-like
+totaldom24.xlsx,Monthly_Template,6,28,numeric-like
+totaldom24.xlsx,Monthly_Template,7,28,numeric-like
+totaldom24.xlsx,Monthly_Template,8,30,numeric-like
+totaldom24.xlsx,Monthly_Template,9,28,numeric-like
+totaldom24.xlsx,Monthly_Template,10,28,numeric-like
+totaldom24.xlsx,Monthly_Template,11,30,numeric-like
+totaldom24.xlsx,Monthly_Template,12,29,numeric-like
+totaldom24.xlsx,Monthly_Template,13,28,numeric-like
+totaldom24.xlsx,Monthly_Template,14,29,numeric-like
+totaldom24.xlsx,Monthly_Template,15,28,numeric-like
+totaldom24.xlsx,Monthly_Template,16,28,numeric-like
+totaldom25.xlsx,Monthly_Template,0,36,text/mixed
+totaldom25.xlsx,Monthly_Template,1,30,numeric-like
+totaldom25.xlsx,Monthly_Template,2,30,numeric-like
+totaldom25.xlsx,Monthly_Template,3,28,numeric-like
+totaldom25.xlsx,Monthly_Template,4,28,numeric-like
+totaldom25.xlsx,Monthly_Template,5,28,numeric-like
+totaldom25.xlsx,Monthly_Template,6,28,numeric-like
+totaldom25.xlsx,Monthly_Template,7,28,numeric-like
+totaldom25.xlsx,Monthly_Template,8,30,numeric-like
+totaldom25.xlsx,Monthly_Template,9,28,numeric-like
+totaldom25.xlsx,Monthly_Template,10,28,numeric-like
+totaldom25.xlsx,Monthly_Template,11,30,numeric-like
+totaldom25.xlsx,Monthly_Template,12,29,numeric-like
+totaldom25.xlsx,Monthly_Template,13,28,numeric-like
+totaldom25.xlsx,Monthly_Template,14,29,numeric-like
+totaldom25.xlsx,Monthly_Template,15,28,numeric-like
+totaldom25.xlsx,Monthly_Template,16,28,numeric-like
+totaldom26.xlsx,Monthly_Template,0,36,text/mixed
+totaldom26.xlsx,Monthly_Template,1,24,numeric-like
+totaldom26.xlsx,Monthly_Template,2,24,numeric-like
+totaldom26.xlsx,Monthly_Template,3,22,numeric-like
+totaldom26.xlsx,Monthly_Template,4,22,numeric-like
+totaldom26.xlsx,Monthly_Template,5,22,numeric-like
+totaldom26.xlsx,Monthly_Template,6,22,numeric-like
+totaldom26.xlsx,Monthly_Template,7,22,numeric-like
+totaldom26.xlsx,Monthly_Template,8,24,numeric-like
+totaldom26.xlsx,Monthly_Template,9,22,numeric-like
+totaldom26.xlsx,Monthly_Template,10,22,numeric-like
+totaldom26.xlsx,Monthly_Template,11,24,numeric-like
+totaldom26.xlsx,Monthly_Template,12,23,numeric-like
+totaldom26.xlsx,Monthly_Template,13,22,numeric-like
+totaldom26.xlsx,Monthly_Template,14,23,numeric-like
+totaldom26.xlsx,Monthly_Template,15,22,numeric-like
+totaldom26.xlsx,Monthly_Template,16,22,numeric-like
+trujet19.xlsx,Monthly_Template,0,72,text/mixed
+trujet19.xlsx,Monthly_Template,1,24,text/mixed
+trujet19.xlsx,Monthly_Template,2,24,text/mixed
+trujet19.xlsx,Monthly_Template,3,20,numeric-like
+trujet19.xlsx,Monthly_Template,4,20,numeric-like
+trujet19.xlsx,Monthly_Template,5,20,numeric-like
+trujet19.xlsx,Monthly_Template,6,20,numeric-like
+trujet19.xlsx,Monthly_Template,7,56,text/mixed
+trujet19.xlsx,Monthly_Template,8,24,text/mixed
+trujet19.xlsx,Monthly_Template,9,20,numeric-like
+trujet19.xlsx,Monthly_Template,10,20,numeric-like
+trujet19.xlsx,Monthly_Template,11,24,text/mixed
+trujet19.xlsx,Monthly_Template,12,21,text/mixed
+trujet19.xlsx,Monthly_Template,13,20,numeric-like
+trujet19.xlsx,Monthly_Template,14,24,text/mixed
+trujet19.xlsx,Monthly_Template,15,20,numeric-like
+trujet19.xlsx,Monthly_Template,16,56,text/mixed
+trujet21.xlsx,Monthly_Template,0,72,text/mixed
+trujet21.xlsx,Monthly_Template,1,24,text/mixed
+trujet21.xlsx,Monthly_Template,2,24,text/mixed
+trujet21.xlsx,Monthly_Template,3,20,numeric-like
+trujet21.xlsx,Monthly_Template,4,20,numeric-like
+trujet21.xlsx,Monthly_Template,5,20,numeric-like
+trujet21.xlsx,Monthly_Template,6,20,numeric-like
+trujet21.xlsx,Monthly_Template,7,56,text/mixed
+trujet21.xlsx,Monthly_Template,8,12,text/mixed
+trujet21.xlsx,Monthly_Template,9,8,text/mixed
+trujet21.xlsx,Monthly_Template,10,8,text/mixed
+trujet21.xlsx,Monthly_Template,11,24,text/mixed
+trujet21.xlsx,Monthly_Template,12,9,text/mixed
+trujet21.xlsx,Monthly_Template,13,8,text/mixed
+trujet21.xlsx,Monthly_Template,14,24,text/mixed
+trujet21.xlsx,Monthly_Template,15,20,numeric-like
+trujet21.xlsx,Monthly_Template,16,56,text/mixed
+trujet22.xlsx,Monthly_Template,0,72,text/mixed
+trujet22.xlsx,Monthly_Template,1,14,text/mixed
+trujet22.xlsx,Monthly_Template,2,14,text/mixed
+trujet22.xlsx,Monthly_Template,3,10,text/mixed
+trujet22.xlsx,Monthly_Template,4,10,text/mixed
+trujet22.xlsx,Monthly_Template,5,10,text/mixed
+trujet22.xlsx,Monthly_Template,6,10,text/mixed
+trujet22.xlsx,Monthly_Template,7,56,text/mixed
+trujet22.xlsx,Monthly_Template,8,12,text/mixed
+trujet22.xlsx,Monthly_Template,9,8,text/mixed
+trujet22.xlsx,Monthly_Template,10,8,text/mixed
+trujet22.xlsx,Monthly_Template,11,14,text/mixed
+trujet22.xlsx,Monthly_Template,12,9,text/mixed
+trujet22.xlsx,Monthly_Template,13,8,text/mixed
+trujet22.xlsx,Monthly_Template,14,14,text/mixed
+trujet22.xlsx,Monthly_Template,15,10,text/mixed
+trujet22.xlsx,Monthly_Template,16,56,text/mixed
+trujet23.xlsx,Monthly_Template,0,72,text/mixed
+trujet23.xlsx,Monthly_Template,1,12,text/mixed
+trujet23.xlsx,Monthly_Template,2,12,text/mixed
+trujet23.xlsx,Monthly_Template,3,8,text/mixed
+trujet23.xlsx,Monthly_Template,4,8,text/mixed
+trujet23.xlsx,Monthly_Template,5,8,text/mixed
+trujet23.xlsx,Monthly_Template,6,8,text/mixed
+trujet23.xlsx,Monthly_Template,7,56,text/mixed
+trujet23.xlsx,Monthly_Template,8,12,text/mixed
+trujet23.xlsx,Monthly_Template,9,8,text/mixed
+trujet23.xlsx,Monthly_Template,10,8,text/mixed
+trujet23.xlsx,Monthly_Template,11,12,text/mixed
+trujet23.xlsx,Monthly_Template,12,9,text/mixed
+trujet23.xlsx,Monthly_Template,13,8,text/mixed
+trujet23.xlsx,Monthly_Template,14,12,text/mixed
+trujet23.xlsx,Monthly_Template,15,8,text/mixed
+trujet23.xlsx,Monthly_Template,16,56,text/mixed
+vistara17.xlsx,Sheet1,0,36,text/mixed
+vistara17.xlsx,Sheet1,1,20,numeric-like
+vistara17.xlsx,Sheet1,2,18,numeric-like
+vistara17.xlsx,Sheet1,3,18,numeric-like
+vistara17.xlsx,Sheet1,4,18,numeric-like
+vistara17.xlsx,Sheet1,5,18,numeric-like
+vistara17.xlsx,Sheet1,6,18,numeric-like
+vistara17.xlsx,Sheet1,7,18,numeric-like
+vistara17.xlsx,Sheet1,8,20,numeric-like
+vistara17.xlsx,Sheet1,9,18,numeric-like
+vistara17.xlsx,Sheet1,10,18,numeric-like
+vistara17.xlsx,Sheet1,11,20,numeric-like
+vistara17.xlsx,Sheet1,12,19,numeric-like
+vistara17.xlsx,Sheet1,13,18,numeric-like
+vistara17.xlsx,Sheet1,14,18,numeric-like
+vistara17.xlsx,Sheet1,15,18,numeric-like
+vistara17.xlsx,Sheet1,16,18,numeric-like
+vistara17.xlsx,Sheet1,17,3,text/mixed
+vistara17.xlsx,Sheet1,18,6,text/mixed
+vistara18.xlsx,vistara18,0,36,text/mixed
+vistara18.xlsx,vistara18,1,29,numeric-like
+vistara18.xlsx,vistara18,2,27,numeric-like
+vistara18.xlsx,vistara18,3,27,numeric-like
+vistara18.xlsx,vistara18,4,27,numeric-like
+vistara18.xlsx,vistara18,5,27,numeric-like
+vistara18.xlsx,vistara18,6,27,numeric-like
+vistara18.xlsx,vistara18,7,27,text/mixed
+vistara18.xlsx,vistara18,8,29,numeric-like
+vistara18.xlsx,vistara18,9,27,numeric-like
+vistara18.xlsx,vistara18,10,27,numeric-like
+vistara18.xlsx,vistara18,11,29,numeric-like
+vistara18.xlsx,vistara18,12,28,numeric-like
+vistara18.xlsx,vistara18,13,27,numeric-like
+vistara18.xlsx,vistara18,14,27,numeric-like
+vistara18.xlsx,vistara18,15,27,numeric-like
+vistara18.xlsx,vistara18,16,27,text/mixed
+vistara18.xlsx,vistara18,17,3,text/mixed
+vistara18.xlsx,vistara18,18,6,text/mixed
+vistara19.xlsx,Monthly_Template,0,72,text/mixed
+vistara19.xlsx,Monthly_Template,1,29,text/mixed
+vistara19.xlsx,Monthly_Template,2,29,text/mixed
+vistara19.xlsx,Monthly_Template,3,25,numeric-like
+vistara19.xlsx,Monthly_Template,4,25,numeric-like
+vistara19.xlsx,Monthly_Template,5,25,numeric-like
+vistara19.xlsx,Monthly_Template,6,25,numeric-like
+vistara19.xlsx,Monthly_Template,7,56,text/mixed
+vistara19.xlsx,Monthly_Template,8,29,text/mixed
+vistara19.xlsx,Monthly_Template,9,25,numeric-like
+vistara19.xlsx,Monthly_Template,10,25,numeric-like
+vistara19.xlsx,Monthly_Template,11,29,text/mixed
+vistara19.xlsx,Monthly_Template,12,26,numeric-like
+vistara19.xlsx,Monthly_Template,13,25,numeric-like
+vistara19.xlsx,Monthly_Template,14,29,text/mixed
+vistara19.xlsx,Monthly_Template,15,25,numeric-like
+vistara19.xlsx,Monthly_Template,16,56,text/mixed
+vistara20.xlsx,Monthly_Template,0,72,text/mixed
+vistara20.xlsx,Monthly_Template,1,40,numeric-like
+vistara20.xlsx,Monthly_Template,2,37,text/mixed
+vistara20.xlsx,Monthly_Template,3,36,numeric-like
+vistara20.xlsx,Monthly_Template,4,35,numeric-like
+vistara20.xlsx,Monthly_Template,5,35,numeric-like
+vistara20.xlsx,Monthly_Template,6,35,numeric-like
+vistara20.xlsx,Monthly_Template,7,56,text/mixed
+vistara20.xlsx,Monthly_Template,8,31,text/mixed
+vistara20.xlsx,Monthly_Template,9,8,text/mixed
+vistara20.xlsx,Monthly_Template,10,27,numeric-like
+vistara20.xlsx,Monthly_Template,11,39,text/mixed
+vistara20.xlsx,Monthly_Template,12,28,numeric-like
+vistara20.xlsx,Monthly_Template,13,11,text/mixed
+vistara20.xlsx,Monthly_Template,14,40,numeric-like
+vistara20.xlsx,Monthly_Template,15,36,numeric-like
+vistara20.xlsx,Monthly_Template,16,56,text/mixed
+vistara21.xlsx,Monthly_Template,0,73,text/mixed
+vistara21.xlsx,Monthly_Template,1,47,numeric-like
+vistara21.xlsx,Monthly_Template,2,47,numeric-like
+vistara21.xlsx,Monthly_Template,3,43,numeric-like
+vistara21.xlsx,Monthly_Template,4,43,numeric-like
+vistara21.xlsx,Monthly_Template,5,43,numeric-like
+vistara21.xlsx,Monthly_Template,6,43,numeric-like
+vistara21.xlsx,Monthly_Template,7,56,text/mixed
+vistara21.xlsx,Monthly_Template,8,40,numeric-like
+vistara21.xlsx,Monthly_Template,9,10,text/mixed
+vistara21.xlsx,Monthly_Template,10,36,numeric-like
+vistara21.xlsx,Monthly_Template,11,47,numeric-like
+vistara21.xlsx,Monthly_Template,12,36,numeric-like
+vistara21.xlsx,Monthly_Template,13,24,numeric-like
+vistara21.xlsx,Monthly_Template,14,47,numeric-like
+vistara21.xlsx,Monthly_Template,15,43,numeric-like
+vistara21.xlsx,Monthly_Template,16,56,text/mixed
+vistara22.xlsx,Monthly_Template,0,72,text/mixed
+vistara22.xlsx,Monthly_Template,1,49,numeric-like
+vistara22.xlsx,Monthly_Template,2,49,numeric-like
+vistara22.xlsx,Monthly_Template,3,45,numeric-like
+vistara22.xlsx,Monthly_Template,4,45,numeric-like
+vistara22.xlsx,Monthly_Template,5,45,numeric-like
+vistara22.xlsx,Monthly_Template,6,45,numeric-like
+vistara22.xlsx,Monthly_Template,7,56,text/mixed
+vistara22.xlsx,Monthly_Template,8,44,numeric-like
+vistara22.xlsx,Monthly_Template,9,25,numeric-like
+vistara22.xlsx,Monthly_Template,10,40,numeric-like
+vistara22.xlsx,Monthly_Template,11,49,numeric-like
+vistara22.xlsx,Monthly_Template,12,44,numeric-like
+vistara22.xlsx,Monthly_Template,13,39,numeric-like
+vistara22.xlsx,Monthly_Template,14,49,numeric-like
+vistara22.xlsx,Monthly_Template,15,45,numeric-like
+vistara22.xlsx,Monthly_Template,16,56,text/mixed
+vistara23.xlsx,Monthly_Template,0,72,text/mixed
+vistara23.xlsx,Monthly_Template,1,50,numeric-like
+vistara23.xlsx,Monthly_Template,2,50,numeric-like
+vistara23.xlsx,Monthly_Template,3,46,numeric-like
+vistara23.xlsx,Monthly_Template,4,46,numeric-like
+vistara23.xlsx,Monthly_Template,5,46,numeric-like
+vistara23.xlsx,Monthly_Template,6,46,numeric-like
+vistara23.xlsx,Monthly_Template,7,56,text/mixed
+vistara23.xlsx,Monthly_Template,8,38,text/mixed
+vistara23.xlsx,Monthly_Template,9,34,numeric-like
+vistara23.xlsx,Monthly_Template,10,34,numeric-like
+vistara23.xlsx,Monthly_Template,11,50,numeric-like
+vistara23.xlsx,Monthly_Template,12,47,numeric-like
+vistara23.xlsx,Monthly_Template,13,39,numeric-like
+vistara23.xlsx,Monthly_Template,14,50,numeric-like
+vistara23.xlsx,Monthly_Template,15,46,numeric-like
+vistara23.xlsx,Monthly_Template,16,56,text/mixed
+vistara24.xlsx,Monthly_Template,0,72,text/mixed
+vistara24.xlsx,Monthly_Template,1,43,numeric-like
+vistara24.xlsx,Monthly_Template,2,43,numeric-like
+vistara24.xlsx,Monthly_Template,3,39,numeric-like
+vistara24.xlsx,Monthly_Template,4,39,numeric-like
+vistara24.xlsx,Monthly_Template,5,39,numeric-like
+vistara24.xlsx,Monthly_Template,6,39,numeric-like
+vistara24.xlsx,Monthly_Template,7,56,text/mixed
+vistara24.xlsx,Monthly_Template,8,38,text/mixed
+vistara24.xlsx,Monthly_Template,9,34,numeric-like
+vistara24.xlsx,Monthly_Template,10,34,numeric-like
+vistara24.xlsx,Monthly_Template,11,43,numeric-like
+vistara24.xlsx,Monthly_Template,12,40,numeric-like
+vistara24.xlsx,Monthly_Template,13,36,numeric-like
+vistara24.xlsx,Monthly_Template,14,44,numeric-like
+vistara24.xlsx,Monthly_Template,15,39,numeric-like
+vistara24.xlsx,Monthly_Template,16,56,text/mixed
+zoomair17.xlsx,Sheet1,0,19,text/mixed
+zoomair17.xlsx,Sheet1,1,14,numeric-like
+zoomair17.xlsx,Sheet1,2,13,numeric-like
+zoomair17.xlsx,Sheet1,3,13,numeric-like
+zoomair17.xlsx,Sheet1,4,13,numeric-like
+zoomair17.xlsx,Sheet1,5,13,numeric-like
+zoomair17.xlsx,Sheet1,6,13,numeric-like
+zoomair17.xlsx,Sheet1,7,13,numeric-like
+zoomair17.xlsx,Sheet1,8,14,numeric-like
+zoomair17.xlsx,Sheet1,9,13,numeric-like
+zoomair17.xlsx,Sheet1,10,13,numeric-like
+zoomair17.xlsx,Sheet1,11,14,numeric-like
+zoomair17.xlsx,Sheet1,12,13,numeric-like
+zoomair17.xlsx,Sheet1,13,13,numeric-like
+zoomair17.xlsx,Sheet1,14,13,numeric-like
+zoomair17.xlsx,Sheet1,15,13,numeric-like
+zoomair17.xlsx,Sheet1,16,13,numeric-like
+zoomair18.xlsx,zoomair18,0,18,text/mixed
+zoomair18.xlsx,zoomair18,1,15,numeric-like
+zoomair18.xlsx,zoomair18,2,14,numeric-like
+zoomair18.xlsx,zoomair18,3,14,numeric-like
+zoomair18.xlsx,zoomair18,4,14,numeric-like
+zoomair18.xlsx,zoomair18,5,14,numeric-like
+zoomair18.xlsx,zoomair18,6,14,numeric-like
+zoomair18.xlsx,zoomair18,7,14,text/mixed
+zoomair18.xlsx,zoomair18,8,15,numeric-like
+zoomair18.xlsx,zoomair18,9,14,numeric-like
+zoomair18.xlsx,zoomair18,10,14,numeric-like
+zoomair18.xlsx,zoomair18,11,15,numeric-like
+zoomair18.xlsx,zoomair18,12,14,numeric-like
+zoomair18.xlsx,zoomair18,13,14,numeric-like
+zoomair18.xlsx,zoomair18,14,14,numeric-like
+zoomair18.xlsx,zoomair18,15,14,numeric-like
+zoomair18.xlsx,zoomair18,16,14,text/mixed
