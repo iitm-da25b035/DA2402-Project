@@ -1,0 +1,14 @@
+column,dtype,unit,source,allowed_range
+Type,str,-,DGCA workbook section,ScheduledDomestic | NonScheduledDomestic
+Group,str,-,derived from file name,airline brand mapped to group (see cleaning log)
+Airline,str,-,DGCA file name,brand as filed by DGCA
+Date,datetime64,month start,DGCA file year + row label,2017-01 to 2026-09
+Year,int,year,DGCA file name,2017-2026
+Month,int,month number,DGCA row label,1-12
+Aircraft Number,float,count ?,DGCA,>= 0
+Aircraft Hours,float,hours ?,DGCA,>= 0
+Aircraft Kilometres,float,thousand km ?,DGCA,>= 0
+Passenger Number,float,persons,DGCA,>= 0
+Passenger Kilometers,float,thousand km ?,DGCA,">= 0, <= Seat Kilometers"
+Seat Kilometers,float,thousand km ?,DGCA,>= 0
+Passenger Load Factor,float,percent,DGCA; equals PKP/SKP*100; empty where SKP = 0,0-100

@@ -1,0 +1,8 @@
+step,rows_before,rows_after,rows_affected,note
+drop empty template rows,5844,3034,2810,section exists in the workbook but airline did not operate / month not published
+keep domestic sections only,3034,2191,843,international sections dropped
+move 'Total Domestic' rows aside,2191,1957,234,used later to check that airlines add up
+"duplicate (Type, Airline, Date) rows",1957,1957,0,0 duplicates found
+map airline brands to groups,25,20,679,"Vistara, AirAsia, AIX, Air India Express -> Air India Group; JetLite -> Jet Airways"
+all-zero rows kept as real zeros,94,94,0,"airline reported no flying; load factor stays empty (0/0 is undefined, not missing)"
+"genuine gaps left empty, not imputed",11,11,0,"5 rows without passenger count (mostly Apr-2020 non-scheduled flights, one air-taxi month), gaps in Aircraft Hours for others; none affect the main airlines' scheduled passengers or load factor. Load factor cannot be derived because PKP/SKP are empty on those same rows."
