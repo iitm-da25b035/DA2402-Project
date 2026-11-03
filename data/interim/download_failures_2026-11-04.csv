@@ -1,0 +1,9 @@
+original_name,airline,year,status,meaning,url
+airasia17.xlsx,AirAsia India,2017,http_403,"UNRESOLVED: the 2017 file is not served, so Air India Group's 2017 total is understated (outside the 2019 onward analysis)",u
+go air25.xlsx,Go First,2025,http_403,"stopped flying in May 2023 (insolvency filing), so no 2025 or 2026 file is expected",u
+go air26.xlsx,Go First,2026,http_403,"stopped flying in May 2023 (insolvency filing), so no 2025 or 2026 file is expected",u
+trujet24.xlsx,TruJet,2024,http_403,"UNRESOLVED: no traffic in the files that did download after Feb 2022, and the 2024-26 files are not served; treat as stopped only with a source",u
+trujet25.xlsx,TruJet,2025,http_403,"UNRESOLVED: no traffic in the files that did download after Feb 2022, and the 2024-26 files are not served; treat as stopped only with a source",u
+trujet26.xlsx,TruJet,2026,http_403,"UNRESOLVED: no traffic in the files that did download after Feb 2022, and the 2024-26 files are not served; treat as stopped only with a source",u
+vistara25.xlsx,Vistara,2025,http_403,"merged into Air India in November 2024, so no 2025 or 2026 file is expected",u
+vistara26.xlsx,Vistara,2026,http_403,"merged into Air India in November 2024, so no 2025 or 2026 file is expected",u

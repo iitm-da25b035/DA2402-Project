@@ -9,3 +9,4 @@ map historical airline brands to groups,25,20,415,Historical brands grouped for 
 retain reported zero-traffic rows,16,16,0,"Passenger Number, Passenger Kilometers and Seat Kilometers are all zero; reported zero values retained."
 retain undefined load factors,16,16,0,Load factor is undefined when passenger and seat kilometres are both zero; no imputation.
 leave genuine missing values unimputed,5,5,0,1 rows have missing passenger counts and 18 rows have missing load factors overall. Missing core values remain NA; investigate source records before any imputation.
+airline-month status table,2320,2320,19,Each group-month labelled reported / blank / no source row. Zero is filled only where DGCA reported zero or DGCA's Total Domestic still agrees; others stay unknown.

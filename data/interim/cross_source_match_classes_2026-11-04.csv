@@ -1,0 +1,7 @@
+match_class,records
+"cargo carrier, excluded by design",533
+empty template row (nothing to compare),1037
+international section (the GitHub domestic file has none),1797
+live domestic row missing from the GitHub copy: CHECK,9
+matched,2966
+month newer than the GitHub copy (its commit predates it),35

@@ -1,0 +1,10 @@
+Type,Airline,Year,Month,Source File,match_class
+NonScheduledDomestic,Alliance Air,2026,3,alliance air26.xlsx,live domestic row missing from the GitHub copy: CHECK
+NonScheduledDomestic,Fly91,2026,3,fly91 26.xlsx,live domestic row missing from the GitHub copy: CHECK
+NonScheduledDomestic,India One Air,2026,2,india one air26.xlsx,live domestic row missing from the GitHub copy: CHECK
+NonScheduledDomestic,India One Air,2026,3,india one air26.xlsx,live domestic row missing from the GitHub copy: CHECK
+NonScheduledDomestic,Vistara,2020,4,vistara20.xlsx,live domestic row missing from the GitHub copy: CHECK
+NonScheduledDomestic,Vistara,2020,7,vistara20.xlsx,live domestic row missing from the GitHub copy: CHECK
+ScheduledDomestic,Air Deccan,2020,3,air deccan20.xlsx,live domestic row missing from the GitHub copy: CHECK
+ScheduledDomestic,Go First,2020,6,go air20.xlsx,live domestic row missing from the GitHub copy: CHECK
+ScheduledDomestic,Vistara,2020,7,vistara20.xlsx,live domestic row missing from the GitHub copy: CHECK
