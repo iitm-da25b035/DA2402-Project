@@ -1,0 +1,3988 @@
+<html><head><script type="text/javascript" src="script/content.js"></script>
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="title" content="Home | Directorate General of Civil Aviation | Government of India">
+<meta name="description" content="DGCA in India is the regulatory body in the field of Civil Aviation primarily dealing with safety issues.">
+<meta name="keywords" content="Directorate General Civil Aviation,DGCA,dgca,Aircraft Registration,eGCA login,Aircraft Operations,Personnel,Aerodromes,Air Navigation Services,Data and Reports
+,Regulations and Guidance,RTI.">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="#">
+
+<title>Home | Directorate General of Civil Aviation | Government of India</title>
+
+
+
+
+
+
+  
+
+<script type="text/javascript">
+
+var resetFlag=0,timeOutId,logOutTimeId;
+
+function destroy() {
+	clearTimeout(timeOutId);
+	timeOutId = 0;
+	clearTimeout(logOutTimeId);
+	logOutTimeId = 0;
+	sessionHandlerReSetter();
+// 	fn_ResetSession();	
+}
+
+function sessionHandlerReSetter() {
+	
+	if (timeOutId > 0) {
+			clearTimeout(timeOutId);
+			timeOutId = 0;
+		}
+	if (logOutTimeId > 0) {
+			clearTimeout(logOutTimeId);
+			logOutTimeId = 0;
+	   }
+
+resetFlag = 0;
+
+sessionHandlerStart();
+
+}
+
+function sessionHandlerStart()
+{	
+	var sessionWarning=1440.0;
+	sessionWarning=sessionWarning*1000;
+	if(resetFlag==0)
+	{
+		logOutTimeId = setTimeout(function(){ fn_ResetSession(); },sessionWarning);
+	}
+		else
+	{
+		 sessionHandlerReSetter();
+	}
+}
+
+function fn_ResetSession(){
+ 	var token = $("meta[name='_csrf']").attr("content");
+    var xmlHttpRequest = getHttpXMLRequestCmn(); 
+    xmlHttpRequest.onreadystatechange = getReadyStateHandlerColName(xmlHttpRequest);  
+    xmlHttpRequest.open("POST","webHP?requestType=ApplicationRH&actionVal=resetSession&queryType=Select&screenId=114&_csrf="+token, false);
+    xmlHttpRequest.send(); 
+// 	destroy();
+}
+function getHttpXMLRequestCmn() 
+{  
+    var xmlHttpReq;  
+    // to create XMLHttpRequest object in non-Microsoft browsers  
+    if (window.XMLHttpRequest)
+    {  
+        xmlHttpReq = new XMLHttpRequest();  
+    }
+    else if (window.ActiveXObject) 
+    {  
+        try
+        {  
+            //to create XMLHttpRequest object in later versions of Internet Explorer  
+            xmlHttpReq = new ActiveXObject("Msxml2.XMLHTTP");  
+        }
+        catch (exp1)
+        {  
+            try
+            {  
+                //to create XMLHttpRequest object in later versions of Internet Explorer  
+                xmlHttpReq = new ActiveXObject("Microsoft.XMLHTTP");  
+            }
+            catch (exp2) 
+            {  
+                //xmlHttpReq = false;  
+                document.getElementById("incUserName").innerHTML = ("Exception in getXMLHttpRequest()!");  
+            }  
+        }  
+    }  
+    return xmlHttpReq;  
+}
+function getReadyStateHandlerColName(xmlHttpRequest) 
+{  
+    return function() 
+    {  
+        if (xmlHttpRequest.readyState == 4) 
+        {  
+            if (xmlHttpRequest.status == 200) 
+            {
+            	destroy();  
+            }
+        }  
+    };  
+}
+
+</script>
+<script type="text/javascript">destroy();</script>
+</head><body style="visibility: visible;">
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/digigov-portal/assets/DGCA/libs/style/fontAwesome4.7.0.css">
+<link rel="stylesheet" type="text/css" href="/digigov-portal/assets/DGCA/libs/style/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="/digigov-portal/assets/DGCA/libs/style/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" type="text/css" href="/digigov-portal/assets/DGCA/libs/style/responsive.bootstrap4.min.css">
+<link rel="stylesheet" type="text/css" href="/digigov-portal/assets/DGCA/libs/style/bootstrap-datepicker.css">
+
+<link rel="stylesheet" type="text/css" href="/digigov-portal/assets/DGCA/css/style.css?v=1.8">
+<script>var base = "/digigov-portal";</script>
+
+
+  
+  	
+  		
+			<base id="dgcaBase" href="https://www.dgca.gov.in/digigov-portal/">
+ 		 
+  		 
+  		  
+  	
+ 	
+  
+  	
+
+
+
+<!-- 
+<script>
+	debugger;
+	var base = "/digigov-portal";
+	var uri = "/digigov-portal/webHP";
+	var scheme = "http";
+	var requrl = "http://www.dgca.gov.in/digigov-portal/webHP";
+	var base = document.getElementsByTagName("base")[0].href;
+	var baseUrl = "http://www.dgca.gov.in/digigov-portal/";
+	var urlParts = baseUrl.split("://");
+	var protocol = urlParts[0];
+	var domain = urlParts[1];
+	if(domain.indexOf("10")!= "-1"){
+		//var base = document.getElementsByTagName("base")[0].href;
+		//document.getElementById("dgcaBase").setAttribute("href",baseUrl);
+	} else{
+		baseUrl = protocol + "s://" + domain;
+		//document.getElementById("dgcaBase").setAttribute("href",baseUrl);
+	}
+</script> -->
+
+
+<script>
+	sessionStorage.setItem('localeNew', 'hi');
+</script>
+
+<style>
+
+body {
+      visibility: hidden;
+    }
+
+.mobileDiv{
+	top: 5rem !important;
+}
+@media (max-width: 1024px){
+.header-carousel .carousel .carousel-inner .carousel-item img {
+    height: 39.09vw;
+}
+.mobileIcon{
+	height: 8.09vw;
+}
+
+.mobileDiv{
+	top: 1.5rem !important;
+}
+
+
+}
+@media (max-width: 575.98px){
+.header-carousel .carousel .carousel-inner .carousel-item img {
+    height: 60.09vw;
+}
+.mobileIcon{
+	height: 0;
+}
+
+.mobileDiv{
+	top: 1.5rem !important;
+}
+}
+
+/* Added for Special Independance Case */
+@media (max-width: 1025px){
+	.independence-div{
+		top: 19.5rem !important;
+	}
+}
+@media (max-width: 770px){
+	.IndependenceBtn{
+		font-size: 0.7rem;
+    	padding: 0.5rem 2rem;
+	}
+	.independence-div{
+		top: 15rem !important;
+	}
+}
+@media (max-width: 420px){
+	.IndependenceBtn{
+		font-size: 0.5rem;
+	    padding: 0.5rem 1.5rem;
+	}
+	.independence-div{
+		top: 16rem !important;
+	}
+}
+@media (max-width: 380px){
+	.IndependenceBtn{
+		font-size: 0.5rem;
+	    padding: 0.5rem 1.5rem;
+	}
+	.independence-div{
+		top: 15rem !important;
+	}
+}
+@media (max-width: 360px){
+	.IndependenceBtn{
+		font-size: 0.5rem;
+	    padding: 0.5rem 1.5rem;
+	}
+	.independence-div{
+		top: 13.6rem !important;
+	}
+}
+
+/* Added for National Anthem */ 
+
+.anthemBtn{
+	color: #fff;
+    background-color: #a69577;
+    border: 1px solid #a69577;
+}
+
+@media (max-width: 1025px){
+	.anthem-div{
+		top: 19.5rem !important;
+	}
+	.anthem-div{
+		top: 19rem !important;
+    	left: 22rem !important;
+	}
+}
+@media (max-width: 770px){
+	.anthemBtn{
+		font-size: 0.7rem;
+    	padding: 0.5rem 2rem;
+	}
+	.anthem-div{
+		top: 14rem !important;
+    	left: 15rem !important;
+	}
+}
+@media (max-width: 550px){
+	.anthemBtn{
+		font-size: 0.7rem;
+    	padding: 0.5rem 2rem;
+	}
+	.anthem-div{
+		top: 21rem !important;
+    	left: 14rem !important;
+	}
+}
+@media (max-width: 420px){
+	.anthemBtn{
+		font-size: 0.5rem;
+	    padding: 0.5rem 1.5rem;
+	}
+	.anthem-div{
+		top: 16rem !important;
+		left: 10.7rem!important;
+	}
+}
+@media (max-width: 380px){
+	.anthemBtn{
+		font-size: 0.5rem;
+	    padding: 0.5rem 1.5rem;
+	}
+	.anthem-div{
+		left: 9rem !important;
+		top: 13.5rem !important;
+	}
+}
+@media (max-width: 360px){
+	.anthemBtn{
+		font-size: 0.5rem;
+	    padding: 0.5rem 1.5rem;
+	}
+	.anthem-div{
+		left: 9rem !important;
+		top: 13.5rem !important;
+	}
+}
+@media (max-width: 320px){
+	.anthemBtn{
+		font-size: 0.5rem;
+	    padding: 0.5rem 1.5rem;
+	}
+	.anthem-div{
+		left: 8.5rem !important;
+    	top: 11.5rem !important;
+	}
+}
+@media (max-width: 290px){
+	.anthemBtn{
+		font-size: 0.5rem;
+	    padding: 0.5rem 1.5rem;
+	}
+	.anthem-div{
+		left: 6.5rem !important;
+   		top: 10.5rem !important;
+	}
+}
+.owl-carousel .owl-item img{
+	width: 100% !important;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	margin-left: 50px;
+}
+.owl-carousel .owl-nav button.owl-prev > span,
+.owl-carousel .owl-nav button.owl-next > span{
+	display: inline-block;
+	background: #ccca;
+	padding: 6px;
+    border-radius: 50%;
+}
+.owl-carousel .owl-nav button.owl-next{
+	margin-right: 50px;
+}
+/*Added by Nikhilendra for image height*/
+.owl-carousel img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+/*Added by Nikhilendra for prev/next height*/
+
+.owl-prev{
+	height:30px;
+	width:30px;
+	margin-top:auto;
+}
+.owl-prev img{
+	height:30px;
+	width:30px;
+}
+.owl-next{
+	height:30px;
+	width:30px;
+	margin-top:auto;
+}
+.owl-next img{
+	height:30px;
+	width:30px;
+}
+
+.carousel-left {
+    width: 65%;
+}
+
+.highlight-scroll {
+    max-height: 320px;
+    overflow-y: auto;
+}
+
+.highlight-box {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.carousel-left .owl-carousel {
+    width: 100%;
+}
+
+.carousel-highlight-container {
+    display: flex !important;
+    width: 100%;
+    height:350px;
+}
+
+.carousel-left {
+margin-top:-17px;
+    width: 65% !important;
+    height:350px;
+}
+.carousel-left div{
+	height:350px;
+}
+.footer-owl .owl-prev{
+	margin-left:-40px;
+}
+.footer-owl .owl-next{
+	margin-left:-40px;
+}
+
+.carousel-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    background: #000; 
+}
+
+.highlight-right-side {
+    width: 35% !important;
+    display: flex;
+    flex-direction: column;
+	z-index:1;
+	height:100%;
+    background: #f8f9fa;
+    padding: 15px 10px;
+	margin-top:-17px;
+}
+
+.highlight-scroll {
+    flex: 1;
+    overflow-y: auto;
+    max-height: none; 
+}
+.carousel-left .owl-nav{
+height:30px;
+}
+.carousel-left .owl-prev {
+    width: 30px  !important;
+    height: 20px  !important;
+    position: absolute  !important;
+    left: 10px  !important;
+    top: 55%  !important;
+    margin: 0  !important;
+}
+
+.carousel-left .owl-next {
+    width: 30px  !important;
+    height: 20px  !important;
+    position: absolute  !important;
+    right: 10px  !important;
+    top: 55%  !important;
+    margin: 0  !important;
+}
+
+.carousel-left  button  span img{
+background:none  !important;
+}
+.carousel-left  button:hover  span img {
+    filter: brightness(150%)  !important; 
+}
+.header-carousel .owl-carousel .owl-stage .owl-item{
+	margin-top:0px;
+}
+
+
+footer-carousal .owl-carousel .owl-nav button.owl-prev,
+.footer-carousal .owl-carousel .owl-nav button.owl-next {
+    width: 20px;           
+    height: 20px;          
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.footer-carousal .owl-carousel .owl-nav .owl-prev {
+    left: -40px;   
+}
+.footer-carousal .owl-carousel .owl-nav .owl-next {
+    right: -40px; 
+}
+.footer-carousal .owl-carousel .owl-nav button img {
+    width: 100%;
+    height: auto;
+}
+
+</style>
+
+
+<div id="statusbar" style="visibility: hidden;">    
+					<div>
+						<span id="imgtd"> </span>
+						<span id="statuBarTd1"></span>
+					</div>
+				</div>
+				<div id="fadeBackground" class="fade_background" style="display: none;"></div>	
+	<form>
+		<input type="hidden" class="inventoryConstantPath" value="https://public-prd-dgca.s3.ap-south-1.amazonaws.com/">
+			<input type="hidden" id="languageType" value="hi">
+			<input type="hidden" id="dgcaHomepageLanding" value="1">
+	</form>
+	
+
+
+
+
+
+
+
+
+<style>
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.certification-tab {
+    display: inline-block;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    background: transparent !important;
+    font-size: 0.9rem;
+    font-weight: 500;
+    position: relative;
+    min-height: auto;
+}
+
+.certification-tab::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 35px;
+    height: 6px;
+    background: #f7941d;
+    border-radius: 2px;
+}
+.certification-tab img {
+    display: none;
+}
+
+.azadi-logo {
+height: 60px; /* Adjust as needed */
+width: auto;
+}
+.dgcanew-logo {
+height: 70px; /* Adjust as needed */
+width: 230px;
+}
+
+
+
+</style>
+<form name="hiddenForm" id="hiddenForm" action="" method="post">
+	<input type="hidden" class="inventoryConstantPath" value="https://public-prd-dgca.s3.ap-south-1.amazonaws.com/">
+	<input type="hidden" id="baseLocale" name="baseLocale" value="">
+	<input type="hidden" id="screenId" name="screenId" value="10000001"> <input type="hidden" id="classification" name="classification" value="">
+	<input type="hidden" id="actionVal" name="actionVal" value="viewStaticData">
+	<input type="hidden" id="requestType" name="requestType" value="ApplicationRH">
+	<input type="hidden" id="attachId" name="attachId" value="">
+	 <input type="hidden" id="langType" name="langType" value="2"> 
+	 <input type="hidden" id="ruleBookId" name="ruleBookId" value="259"> 
+	 <input type="hidden" id="contentId" name="contentId" value="9521"> 
+	 <input type="hidden" id="serviceName" name="serviceName" value="fetchRulebookContentDtlsList">
+	<input type="hidden" id="attr" name="attr" value="">
+</form>
+<header>
+	<section class="header-top">
+		<div class="container d-none d-lg-block">
+			<div class="d-flex justify-content-between pt-1 pb-1">
+				<div>
+					<div class="navbar-brand header-text" href="#">
+						<p class="mb-0 hindiLabel">
+							 
+						</p>
+						<a class="mb-0 text-white" href="#" onclick="fnAlertRedirection('https://www.india.gov.in/');">GOVERNMENT
+							OF INDIA</a>
+					</div>
+					<div class="navbar-brand">
+						<span style="color: #aeaeb1;">|</span>
+					</div>
+					<div class="navbar-brand header-text" href="#">
+						<p class="mb-0 hindiLabel">
+							  
+						</p>
+						<a class="mb-0 text-white" href="#" onclick="fnAlertRedirection('http://www.civilaviation.gov.in/');">MINISTRY
+							OF CIVIL AVIATION</a>
+					</div>
+				</div>
+				<div class="d-flex  align-items-center">
+					<div class="navbar-brand header-text-1">
+						<a data-value="skipContent" class="skip">Skip to Main Content</a>
+					</div>
+					<div class="navbar-brand header-text-1">
+						<a>/</a>
+					</div>
+					<div class="navbar-brand header-text-1">
+						<a href="jsp/dgca/homePage/screenReader.jsp">Screen Reader
+							Access</a>
+					</div>
+					<div class="navbar-brand">
+						<span style="color: #aeaeb1;">|</span>
+					</div>
+					<div class="navbar-brand header-text-1">
+						<span style="color: #aeaeb1;">Contrast</span>
+					</div>
+					<div class="navbar-brand header-text-1">
+						<a class="brightMode"><img src="assets/DGCA/images/homePage/brightness.svg" alt="" class="brightness"></a>
+					</div>
+					<div class="navbar-brand header-text-1">
+						<a> <img src="assets/DGCA/images/homePage/halfMoon.svg" alt="" class="brightness nitMode"></a>
+					</div>
+					<div class="navbar-brand header-text-1">
+						<span style="color: #aeaeb1;">|</span>
+					</div>
+					<div class="navbar-brand header-text-1">
+						<span style="color: #aeaeb1;">Text</span>
+					</div>
+					<div class="navbar-brand header-text-1">
+						<a class=" inc"> +A</a>
+					</div>
+					
+					<div class="navbar-brand header-text-1">
+						<a class="orig"> A</a>
+					</div>
+					<div class="navbar-brand header-text-1">
+						<a class=" dec">-A</a>
+					</div>
+					
+					<!-- Nikhil changes added for lang change -->
+					
+						        <button id="engBtn" class="btn btn-secondary py-0 px-2" onclick="langChange('en_US');">
+						            English
+						        </button>
+						
+						
+				</div>
+			</div>
+		</div>
+		<div class="d-lg-none">
+			<div class="d-flex justify-content-between">
+				<div class="pull-right" id="setting_menuhide">
+					<ul class="list-group list-group-horizontal">
+						<li class="header-left list-group-item"><a class="text-white" href="#">Skip to Main Content</a></li>
+					</ul>
+				</div>
+				<div class="d-flex">
+					<ul class="list-group list-group-horizontal">
+						<li class="header-left list-group-item" id="setting_menu"><a class="text-white" href="#">Settings</a></li>
+						<li class="header-left list-group-item"><span class="pr-2 text-white"> |</span> <a class="login text-white" href="jsp/dgca/common/login.jsp">eGCA Login </a>
+					</li></ul>
+				</div>
+				<div id="setting_menuopen" class="header-mobile-view" style="display: none;">
+					<ul class="pl-0 pt-2">
+						<li class="pl-3">
+							<div class="d-flex">
+								<img class="pr-1 my-auto" src="assets/DGCA/images/icons/go-back.png"><a class="back" href="#" id="closeMenu">Back</a>
+							</div>
+						</li>
+						<li class="pt-5 pb-3 pl-3"><a class="back-setting" href="#">Settings</a>
+						</li>
+						<li class="border-top pt-3 pl-3"><a class="contrast-text" href="#">Language</a></li>
+						<li class="pl-3 pt-3 ">
+							<div class="">
+								
+										<button id="engBtn" class="btn btn-secondary py-0 px-2" onclick="langChange('en_US');">
+											English
+										</button>
+								
+							</div>
+						</li>
+					</ul>
+
+
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="menu-wraper">
+		<div class="container" style="padding:0px;">
+			<div class="row justify-content-between pt-2 pb-3 pb-lg-0" style="flex-wrap:nowrap">
+				<div class="pt-2 pb-0 pb-lg-2 d-flex align-items-center">
+					<a class="header-menu d-lg-none"><img class="pl-4 pr-4" src="assets/DGCA/images/icons/Hamburger.png"> </a>
+						<img class="main-logo dgca-home azadi-logo" src="assets/DGCA/images/login/azadiLogo.png" alt="logo">
+						
+						 <img class="main-logo dgca-home dgcanew-logo" onclick="homePageLoad();" src="assets/DGCA/images/login/LOGO_Colour.png" alt="logo">
+						
+						<!-- <img
+						class="azadiMahotsav" onclick="homePageLoad();" style="height: 80%;width: 100px;"
+						src="assets/DGCA/images/homePage/azadi_75.png" alt="logo"> -->
+				</div>
+			
+				<div class="headerMenuDiv d-flex flex-column justify-content-between">
+					<div class="justify-content-end  pt-xl-2 pt-0  d-none d-lg-flex menu-head-top align-items-center internal-link top-header-row">
+						
+					
+						
+								<a data-url="jsp/dgca/topHeader/aboutDGCA/aboutUsDetail_hi.html">   </a>
+							
+						<span class="header-separator"> 
+							|</span> <a data-url="4368/4646/servicename"></a><span class="header-separator">
+							|</span> <p class="new-window-pdf mb-0"> <a class="dot-blink-end" style="font-size: 0.71rem;color: #767496;" target="_blank" href="jsp/dgca/topHeader/aboutDGCA/Ranking of FTOs-April 2026.pdf">FTO Ranking April-2026</a></p><span class="header-separator"> 	
+							|</span> <a data-url="5066/12521/servicename"></a><span class="header-separator">
+							|</span> <a data-url="4372/4647/servicename"></a><span class="header-separator">
+							|	
+							
+							 </span> <p class="new-window-pdf mb-0"> <a target="_blank" href="jsp/dgca/topHeader/contactUs/DirectoryHindi.pdf">  </a></p><span class="header-separator"> 
+							
+							|</span> <a href="jsp/dgca/topHeader/aZIndex/AtoZindex.jsp">     </a><span class="header-separator">
+						    |</span> <a onclick="viewDashboard('hi')"></a><span class="header-separator">
+						    |</span> <a href="assets/DGCA/rajbhasha/rajbhasha.jsp"></a><span class="header-separator">
+						 |</span>
+   					 <div class="dropdown">
+                    <a>  </a>
+                           <div class="dropdown-content">
+                                <a href="#" onclick="fnAlertRedirection('https://discovery.delnet.in/');">DELNET</a>
+                                <a href="#" onclick="fnAlertRedirection('https://eg4.nic.in/OPAC/Default.aspx?CL_NAME=CGOVLIB1');">Library Online Catalouge</a>
+                          </div>
+                    </div>
+						<span class="header-separator"> |</span>
+						<a style="color:#6a768e" target="_blank" class="login pr-3" href="jsp/dgca/common/login.jsp"><img style="height:20px; width:auto;" src="assets/DGCA/images/icons/user-login.png">  </a>
+                    	</div>
+                    	
+                    	
+                    	
+                    	  <div class="headerMenuDiv d-flex flex-column justify-content-between">
+		  <marquee class="ticker bg-white text-red font-weight-bold font-12" onmouseout="this.start()" onmouseover="this.stop()" scrolldelay="200" style="color: red;">
+					 <a href="https://www.dgca.gov.in/digigov-portal/?baseLocale=en_US?page=jsp/dgca/topHeader/drone/Registration%20of%20Non-Type%20Certified%20UAS.pdf&mainundefined" style="color: red; text-decoration: none;font-size: small;">Registration of Non-Type Certified (non-TC) UAS has been temporarily suspended until further notice. For more information click here.</a> 
+		 </marquee>
+   </div>
+   
+   
+					
+					<div class="d-flex align-items-end justify-content-end ">
+						<div class="menu-head d-none d-lg-block">
+							<ul class="nav nav-tabs align-items-center" role="tablist">
+							<li role="presentation"><a style="font-size:1.3rem;" class="dgca-home" onclick="homePageLoad();"><i class="fa fa-home"></i></a></li> 
+								<li role="presentation"><a href="#aircraft" aria-controls="home" role="tab" data-toggle="tab"></a></li>
+								<li role="presentation"><a href="#airOperations" aria-controls="profile" role="tab" data-toggle="tab"> </a></li>
+								<li role="presentation"><a href="#personal" aria-controls="" role="tab" data-toggle="tab"></a></li>
+								<li role="presentation"><a href="#aeroDromes" aria-controls="profile" role="tab" data-toggle="tab"> </a></li>
+								<li role="presentation"><a href="#navigationServices" aria-controls="profile" role="tab" data-toggle="tab">  </a></li>
+								<li role="presentation"><a href="#dataReports" aria-controls="profile" role="tab" data-toggle="tab">  </a></li>
+								<li role="presentation"><a href="#regulationGuidance" aria-controls="profile" role="tab" data-toggle="tab">  </a></li>
+								
+											
+								<li role="presentation"><a onclick="viewDroneAAM('hi')">    </a></li> 
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Tab panes -->
+		<div class="mobile-header-wraper">
+			<div class="mobile-header" style="display: none;">
+				<div class="container">
+					<div class="d-flex justify-content-between pt-3 pb-3 ">
+						<a class="text-white menu-top">Menu</a> <a class="header-back text-white"><img class="pl-1" src="assets/DGCA/images/icons/go-back.png"> Back </a>
+						<div class="d-flex">
+							<a> <img src="assets/DGCA/images/icons/Search.png">
+							</a> <a class="header-close pl-3"> <img src="assets/DGCA/images/icons/Close.png">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-content menu-click internal-link">
+
+
+					
+					
+
+				<div role="tabpanel" class="tab-pane menu-container aircraft" id="aircraft">
+					<div class="container">
+						<ul class="item-level-0">
+							<li><a> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+								<ul class="item-level-1 justify-content-around">
+									<li><a><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a data-url="4184/4188/servicename"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													
+													
+					 <li><a data-url="5074/725/servicename">  
+				 <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="4185/4189/servicename">   
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"> </a></li>
+											<li><a data-url="jsp/dgca/InventoryList/aircraft/certification/designAccept/DesignAcceptance.pdf">  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="jsp/dgca/InventoryList/aircraft/certification/designOrgs/Approved_Design_Organisation.pdf"> 
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="jsp/dgca/InventoryList/aircraft/certification/ADOA/ADOA.pdf">
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													
+											<li><a data-url="jsp/dgca/InventoryList/aircraft/certification/productOrgs/Approved Production Organisations.pdf"> 
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="4186/4190/servicename"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													
+										<li><a data-url="4378/5223/servicename"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													
+												 <li><a data-url="260/3760/servicename">   /   /  
+									 <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>	
+													
+													
+						 <li><a data-url="5073/726/servicename"> /  /  DO, ADOA  POA  
+				  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													
+										</ul></li>
+									<li><a> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a data-url="4000/4022/servicename"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													
+											
+											<!-- Nikhil changes added -->
+											<br><br><br><br>
+											<li><a data-url="5075/727/servicename" class="certification-tab">  
+
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png" alt="Next">
+											</a></li>
+											<!-- Nikhil change end -->
+										</ul></li>
+									<li><a> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a data-url="4196/4199/servicename">_<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<!-- <li><a
+												data-url="4192/4191/servicename"> <img
+													class="pull-right pt-2"
+													src="assets/DGCA/images/icons/next.png"></a></li> -->
+											<li> 
+												<a data-url="scan?requestType=ApplicationRH&actionVal=loadComboVals&screenId=10000001&category=11002551"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+											</li> 
+										</ul></li>
+										
+											
+									
+									<li><a> /  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a data-url="jsp/dgca/InventoryList/aircraft/maintenanceOrgs/Domestic/A(i)-Domestic CAR 145 Org.pdf"><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="jsp/dgca/InventoryList/aircraft/maintenanceOrgs/Foreign/A(ii)-Foreign CAR 145 and FAMO List on 31-01-2023.pdf">
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"> </a></li>		
+									</ul></li>
+									<li><a data-url="jsp/dgca/InventoryList/aircraft/simulators/Simulators.pdf">
+											<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png">
+									</a></li> 
+									<li><a>  -/ <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a data-url="jsp/dgca/InventoryList/aircraft/maintenanceOrgs/Domestic/6CAR-M Sub Part F.pdf">- 
+														<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="jsp/dgca/InventoryList/aircraft/maintenanceOrgs/Domestic/7CAR-M SUB PART-G.pdf">-
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"> </a></li>		
+										</ul></li>
+									
+								</ul></li>
+						</ul>
+					</div>
+				</div>
+
+				<div role="tabpanel" class="tab-pane menu-container airOperations" id="airOperations">
+					<div class="container">
+						<!-- <img class="pull-right d-none d-lg-block tab-close"
+							src="assets/DGCA/images/icons/Close.png"> -->
+						<ul class="item-level-0">
+							<li><a>  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+								<ul class="item-level-1 justify-content-around">
+									<li><a><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a data-url="jsp/dgca/InventoryList/airOperation/certification/AOP_Package/aopPak.html" class="btm-grey-bdr">  / (/) </a></li>
+											<li><a class="btm-grey-bdr" data-url="jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+												<ul class="item-level-3">
+												<!--<li><a
+														data-url="jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf"><img
+															class="pull-right pt-2"
+															src="assets/DGCA/images/icons/next.png"></a></li>
+													 <li><a data-url="jsp/dgca/InventoryList/airOperation/certification/scheduled/cargo/sch-oper1.pdf">/<img
+															class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+												-->			
+												</ul></li>
+											<li><a class="btm-grey-bdr" data-url="jsp/dgca/InventoryList/airOperation/certification/nonscheduled/ns-oper.pdf">-    
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"> </a></li>
+											<li class="pt-2"><a class="btm-grey-bdr"> 
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"> </a>
+												<ul class="item-level-3">
+												<li><a data-url="4201/4200/servicename">  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													<li><a data-url="4207/4201/servicename">   <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+												</ul></li>
+											<li><a data-url="jsp/dgca/InventoryList/airOperation/certification/AerialWork/aerial work operations.pdf">  
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+										</ul></li>
+									<li><a><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a data-url="jsp/dgca/InventoryList/airOperation/permission/carriageDangerous/Carriage of Dangerous Goods.pdf">   <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="jsp/dgca/InventoryList/airOperation/permission/carriageArms/Carriage of Arms.pdf">/   <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="jsp/dgca/InventoryList/airOperation/permission/aerialPhoto/aer_photo.pdf"> /  
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"> </a></li>
+											<li><a data-url="jsp/dgca/InventoryList/airOperation/permission/groundphoto/Ground Photography.pdf">  
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="jsp/dgca/InventoryList/airOperation/permission/cloudSeeding/cloud seeding.pdf"> 
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="jsp/dgca/InventoryList/airOperation/permission/skyDiving/Sky Diving.pdf"> 
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a class="btm-grey-bdr"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+												<ul class="item-level-3">
+													<li><a data-url="jsp/dgca/InventoryList/airOperation/permission/flightCLearance/procedure/atc_1997.pdf"><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													<li><a data-url="jsp/dgca/InventoryList/airOperation/permission/flightCLearance/agency/tour_agency.pdf">  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+												</ul></li>
+										</ul></li>
+									<li><a><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											 <li><a data-url="jsp/dgca/InventoryList/airOperation/training/cabinCrew/AppCCC.pdf">   <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li> 
+											<li><a data-url="jsp/dgca/InventoryList/airOperation/training/dangerousGoods/list_DGTP.pdf">   .
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"> </a></li>
+										</ul></li>
+								</ul></li>
+
+							<li>
+						</li></ul>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane menu-container personal" id="personal">
+					<div class="container">
+						<!-- <img class="pull-right d-none d-lg-block tab-close"
+							src="assets/DGCA/images/icons/Close.png"> -->
+						<ul class="item-level-0">
+							<li><a> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+								<ul class="item-level-1 justify-content-around">
+									<li><a> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+
+										<ul class="item-level-2">
+											<li><a data-url="jsp/dgca/InventoryList/personal/license/pilot/Pilots.pdf"><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="jsp/dgca/InventoryList/personal/license/airMaintenance/AMEs.pdf">  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="jsp/dgca/InventoryList/personal/license/airTraffic/ATCOs.pdf">  
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="jsp/dgca/InventoryList/personal/license/flightDispatcher/fkight dispatsher.pdf"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+										</ul></li>
+									<li><a><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a class="btm-grey-bdr"><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+												<ul class="item-level-3">
+													<li><a data-url="jsp/dgca/InventoryList/personal/training/pilot/flrTrainOrgs/flyclub.pdf">  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													
+													
+														 
+								<li><a data-url="jsp/dgca/InventoryList/personal/training/pilot/aircraftTrainOrgs/ATO.pdf">   
+								<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"> </a></li>
+								
+													
+													
+													
+													<li><a data-url="jsp/dgca/InventoryList/personal/training/pilot/glidingTrainOrgs/glyclub.pdf">  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+															<li><a data-url="jsp/dgca/InventoryList/personal/training/pilot/glidingTrainOrgs/ELP_Trg.pdf">      <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+												</ul></li>
+											<li><a class="btm-grey-bdr">  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+												<ul class="item-level-3">
+													<li><a data-url="jsp/dgca/InventoryList/personal/training/airMaintenance/approvedTypeTrainOrgs/ametrg.pdf">  
+															<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													<li><a data-url="jsp/dgca/InventoryList/personal/training/airMaintenance/CAR147Basic/CAR 147(basic).pdf">147 (__)<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"> </a></li>
+													<li><a>
+														                       /  147   
+															<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+																<ul class="item-level-4">
+																	<li><a data-url="jsp/dgca/InventoryList/personal/training/airMaintenance/Car147/Domestic/B(i)-Domestic CAR 147-Type DL fm website 6-2-23.pdf"><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+															<li><a data-url="jsp/dgca/InventoryList/personal/training/airMaintenance/Car147/Foreign/B(ii)-Foreign CAR 147 and FAO List on 31-01-2023.pdf"><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+														</ul></li>
+													
+												</ul></li>
+										</ul></li>
+									<li><a> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a data-url="jsp/dgca/InventoryList/personal/designated/flyTrain/DE_DFT.pdf"> 
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="jsp/dgca/InventoryList/personal/designated/glidingTrain/glyclub_exam.pdf"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											
+											 <li><a data-url="jsp/dgca/InventoryList/personal/designated/examiner/App_Exam.pdf">    <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li> 
+										</ul></li>
+									<!-- Examinations -->
+									<li><a><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a onmouseover="this.style.color='white'" onmouseout="this.style.color='#aeaeb1'" onclick="fnAlertRedirection('https://pariksha.dgca.gov.in/');">   <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"> </a></li>
+											<li><a data-url="jsp/dgca/InventoryList/personal/examination/PN-ExamCalendar.pdf">   <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="4231/4203/sericename"><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+										</ul></li>
+									<!-- Examination End -->
+									<li><a><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a data-url="jsp/dgca/InventoryList/personal/medical/class1/Class1.pdf"> 1  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="jsp/dgca/InventoryList/personal/medical/class2/Class2.pdf"> 2  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="jsp/dgca/InventoryList/personal/medical/class3/Class3.pdf"> 3      <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="jsp/dgca/InventoryList/personal/medical/centralized/Procedure for DGCA Centralised Appt PMR Fwd System.pdf">     <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"> </a></li>
+											<li><a data-url="jsp/dgca/InventoryList/personal/medical/medical/MedCirc01_2015.pdf"> -        
+													<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"> </a></li>
+										</ul></li>
+
+								</ul></li>
+						</ul>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane menu-container aeroDromes" id="aeroDromes">
+					<div class="container">
+						<!-- <img class="pull-right d-none d-lg-block tab-close"
+							src="assets/DGCA/images/icons/Close.png"> -->
+						<ul class="item-level-0">
+							<li><a> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+								<ul class="item-level-1 justify-content-around">
+									<li><a data-url="4241/4204/sericename">    <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+								<!--	<li><a
+										data-url="jsp/dgca/InventoryList/aerodrome/public/PUBLIC USE LICENSED AERODROME (PUBLIC AND PRIVATE) AND HELIPORT -converted (1).pdf"> <img
+											class="pull-right pt-2"
+											src="assets/DGCA/images/icons/next.png"></a></li>
+									<li><a
+										data-url="jsp/dgca/InventoryList/aerodrome/private/AERODROMES LICENSED IN PRIVATE USE CATEGORY-converted.pdf"> <img
+											class="pull-right pt-2"
+											src="assets/DGCA/images/icons/next.png"></a></li> -->
+											
+									<li>
+										<a data-url="scan?requestType=ApplicationRH&actionVal=loadAerodromeDtls&objval=3&screenId=26110181&LicenseTypeFlag=1" ;="">
+										 
+										<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+									</li> 			
+									<li>
+										<a data-url="scan?requestType=ApplicationRH&actionVal=loadAerodromeDtls&objval=3&screenId=26110181&LicenseTypeFlag=2" ;="">
+										 
+										<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a> 	
+									</li>		
+											
+											
+								</ul></li>
+						</ul>
+					</div>
+				</div>
+
+				<div role="tabpanel" class="tab-pane menu-container navigationServices" id="navigationServices">
+					<div class="container">
+						<!-- <img class="pull-right d-none d-lg-block tab-close"
+							src="assets/DGCA/images/icons/Close.png"> -->
+						<ul class="item-level-0">
+							<li><a>  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+								<ul class="item-level-1 justify-content-around">
+									<li><a data-url="jsp/dgca/InventoryList/airNavigationService/ANS.pdf">     <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+								</ul></li>
+						</ul>
+					</div>
+				</div>
+
+				<div role="tabpanel" class="tab-pane menu-container dataReports" id="dataReports">
+					<div class="container">
+						<!-- <img class="pull-right d-none d-lg-block tab-close"
+							src="assets/DGCA/images/icons/Close.png"> -->
+						
+						<ul class="item-level-0">
+							<li><a>  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+								<ul class="item-level-1 justify-content-around">
+									<li><a>   <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a class="btm-grey-bdr"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+												<ul class="item-level-3">
+													<li><a data-url="4252/4205/sericename">    
+															<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"> </a></li>
+													<li><a>  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+														<ul class="item-level-4">
+															<li><a data-url="4264/4206/sericename"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+															<li><a data-url="259/4184/servicename">  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+															<li><a data-url="4267/4210/servicename"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+														</ul></li>
+													<li><a>   <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+														<ul class="item-level-4">
+															<li><a data-url="4268/4207/servicename"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+														</ul></li>
+												</ul></li>
+										</ul></li>
+									<li><a>    <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a data-url="AccidentReports/500005/0/viewApplicationDtlsReq"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="IncidentReports/500006/0/viewApplicationDtlsReq">  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="4273/4208/servicename">    <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+										</ul></li>
+										<li><a>   <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a data-url="4360/4637/servicename">  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="4360/4638/servicename"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="4360/4639/servicename">    <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+										</ul>
+									</li>
+								</ul>
+							<ul class="item-level-1 justify-content-around">
+									<li><a> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a href="#" onclick="fnAlertRedirection('https://www.civilaviation.gov.in/en/publication/annual-reports');"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+										</ul></li>
+								</ul>	
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane menu-container regulationGuidance" id="regulationGuidance">
+					<div class="container">
+						<!-- <img class="pull-right d-none d-lg-block tab-close"
+							src="assets/DGCA/images/icons/Close.png"> -->
+						
+						<ul class="item-level-0">
+							<li><a>   <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+								<ul class="item-level-1 justify-content-around">
+									<li><a>  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+
+										<ul class="item-level-2">
+											
+													
+							<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/Bharatiya Vayuyan Adhiniyam 2024.pdf">
+							 , 1934 <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+												
+												<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/The Protection of Interest in Aircraft Objects Act.pdf">
+							       , 2025<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>	
+													
+
+											<li><a class="btm-grey-bdr"><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+												<ul class="item-level-3">
+													<li><a data-url="aircraftRules1937/1/0/viewDynamicRulesReq"> , 1937<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/AircraftRules1994/The Aircraft (Demolition of Obstructions Caused by Buildings and Trees Rules 2026.pdf"> (        ) , 2026<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/CarriageDangerousGoods2003/CarriageDangerousGoods2026.pdf">(   ) , 2026<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/AircraftRules2011/Aircraft(Security) Rules, 2011.pdf">  (), 2011<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/AircraftRules2017/Aircraft Investigation of Accident and Incident Rules 2017.pdf">  (    ), 2025<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													
+															
+															<!-- <li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/RTR Rules 2025.pdf">The Radio Telephone Operator (Restricted) Certificate and License Rules, 2025<img
+															 class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li> -->
+															
+																<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/RTR Rules 2025.pdf">   ()    , 2025<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+															 
+															<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/Protection of Interests in Aircraft Objects Rules.pdf">      , 2026<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+															
+															<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/CORRIGENDUM_260303_163805.pdf">         , 2026<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+															
+															
+												</ul></li>
+												
+												
+												 <li><a data-url="5068/4998/servicename"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+												
+												
+												
+											<li><a class="btm-grey-bdr">       <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+												<ul class="item-level-3">
+													<li><a> , 1937<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+														<ul class="item-level-4">
+															<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/StatutoryNotificationsAffecting/so726.pdf">..726()  04-10-94<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+															<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/StatutoryNotificationsAffecting/so727.pdf">..727()  04-10-94<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+														</ul></li>
+													<li><a>, (   ) , 2003<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+														<ul class="item-level-4">
+															<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/StatutoryNotificationsAffecting/NOT446(E).pdf">..446()  19-3-2007.<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+															<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/StatutoryNotificationsAffecting/NOT447(E).pdf">..447()  19-3-2007.<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+														</ul></li>
+														
+														
+														<li><a>   ()    , 2025<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+														<ul class="item-level-4">
+															<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/StatutoryNotificationsAffecting/SO 710(E) dated 10022026.pdf">..710()  10-2-2026.<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+															<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/StatutoryNotificationsAffecting/SO 711(E) dated 10022026.pdf">..711()  10-2-2026.<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+														</ul></li>
+														
+														
+												</ul></li>
+											<li><a data-url="4283/4232/servicename">  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="4289/4233/servicename"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+										</ul></li>
+									<li><a>  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a data-url="civilAviationRequirements/6/0/viewDynamicRulesReq">  <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="aeronauticalInformationCirculars/119/0/viewDynamicRulesReq">   <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li class="d-lg-block d-none"><a data-url="circularsRulesGen/7/3328/viewDynamicRuleContLvl2">
+											<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+
+											<li class="d-lg-none d-block"><a class="btm-grey-bdr"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+												<ul class="item-level-3">
+													<li><a data-url="circularsRulesGen/7/3328/viewDynamicRuleContLvl2"></a></li>
+													<li class=""><a data-url="circularsRulesATCOLicensing/7/3323/viewDynamicRuleContLvl2"> </a></li>
+							<li class=""><a data-url="circularsRulesAerodromes/7/3321/viewDynamicRuleContLvl2"></a></li>
+							<li class=""><a data-url="circularsRulesAircraftEngineering/7/9422/viewDynamicRuleContLvl2"> </a></li>
+							
+							<li class=""><a data-url="circularsRulesAirNavSer/7/3320/viewDynamicRuleContLvl2">  </a></li>
+							<li class=""><a data-url="circularsRulesAirSafety/7/3322/viewDynamicRuleContLvl2"> </a></li>
+							<li class=""><a data-url="circularsRulesAirTran/7/3327/viewDynamicRuleContLvl2"> </a></li>
+							<li class=""><a data-url="circularsRulesAirworthiness/7/3326/viewDynamicRuleContLvl2"></a></li>
+							<li class=""><a data-url="circularsRulesCabinSafety/7/3317/viewDynamicRuleContLvl2"> 
+									</a></li>
+							<li class=""><a data-url="circularsRulesEnforcement/7/3319/viewDynamicRuleContLvl2">  </a></li>
+							<li class=""><a data-url="circularsRulesEnvironment/7/3315/viewDynamicRuleContLvl2"></a></li>
+							
+							
+							<li class=""><a data-url="circularsRulesFlightCrewLic/7/3324/viewDynamicRuleContLvl2">     
+									</a></li>
+							<li class="default-tabs"><a data-url="circularsRulesFlightCrewLic/7/4068/viewDynamicRuleContLvl2">Dangerous Goods
+							</a></li>
+							<li class=""><a data-url="circularsRulesFlightCrewLic/7/4080/viewDynamicRuleContLvl2"></a></li>
+						<li class=""><a data-url="circularsRulesFlightCrewLic/7/4078/viewDynamicRuleContLvl2"> AAM </a></li>
+								
+							<li class=""><a data-url="circularsRulesFlightCrewTraining/7/3325/viewDynamicRuleContLvl2">   
+									</a></li>
+							
+							<li class=""><a data-url="circularsRulesOperations/7/3318/viewDynamicRuleContLvl2"></a></li>
+							<li class=""><a data-url="circularsRulesStateSafetyProg/7/3316/viewDynamicRuleContLvl2">  </a></li>
+							<li class=""><a data-url="circularsRulesMedicalCirculars/7/4724/viewDynamicRuleContLvl2"></a></li>
+												</ul></li>
+
+											<li><a data-url="4323/4236/servicename">-    <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+											<li><a data-url="4334/4234/servicename"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													<li><a data-url="publicNotices/0/0/viewAllService"><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"> </a></li>
+														
+															 <li><a data-url="5069/4996/servicename"><img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"> -</a></li>
+														
+														
+											<li><a class="btm-grey-bdr"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+												<ul class="item-level-3">
+													<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Exemptions/Rule160.pdf"> 160    <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+													<li><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Exemptions/rule133.pdf"> 133    <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+												</ul></li>
+										</ul></li>
+									<li><a> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+										<ul class="item-level-2">
+											<li><a data-url="4359/4235/servicename"> <img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a></li>
+										</ul></li>
+
+								</ul></li>
+						</ul>
+
+
+
+					</div>
+				</div>
+			
+			
+			<div role="tabpanel" class="tab-pane menu-container navigationServices11" id="navigationServices11">
+					<div class="container">
+						<ul class="item-level-0">
+									<li><a href="jsp/dgca/InventoryList/headerblock/drones/RPAS.jsp">    </a></li>
+						</ul>
+					</div>
+				</div>
+			
+			
+			</div>
+			<!-- tab-content ends -->
+		</div>
+	</section>
+
+	<nav class="navbar bg-white d-lg-none mobile-sub-header">
+
+		<ul class="navbar-nav internal-link">
+			<li class="nav-item dropdown drop-level-1"><a id="dropdownMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle nav-linkLevel1">   </a>
+				<ul aria-labelledby="dropdownMenu1" class="dropdown-menu shadow">
+					<li><a data-url="jsp/dgca/topHeader/aboutDGCA/vision/vision.pdf" class="dropdown-item">  </a></li> 
+					<li class="dropdown-submenu"><a id="dropdownMenu12" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle nav-linkLevel2"></a>
+						<ul aria-labelledby="dropdownMenu12" class="dropdown-menu  shadow">
+							<li><a data-url="jsp/dgca/topHeader/aboutDGCA/organisation/org_Manual/Organisation Manual.pdf" class="dropdown-item"> </a></li>
+							
+								<li><a data-url="jsp/dgca/topHeader/aboutDGCA/2. Headquarters.pdf" class="dropdown-item"></a></li>
+							
+							
+							
+										
+							
+								<li><a data-url="jsp/dgca/topHeader/aboutDGCA/3. DGCA regional offices.pdf" class="dropdown-item"> </a></li>
+									
+										
+							
+							<li><a data-url="Remuneration/0/500007/viewApplicationDtlsReqPDF" class="dropdown-item"></a></li>
+							<!-- <li class="dropdown-submenu"><a id="dropdownMenu3" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">level 2</a>
+								<ul aria-labelledby="dropdownMenu3" class="dropdown-menu active shadow">
+									<li><a href="#" class="dropdown-item">Organization Manual</a></li>
+									<li><a href="#" class="dropdown-item">Headquarters</a></li>
+									<li><a href="#" class="dropdown-item">Regional Offices</a></li>
+									<li><a href="#" class="dropdown-item">Remuneration</a></li>
+								</ul>
+							</li> -->
+						</ul></li>
+					<li>
+					
+					<a data-url="jsp/dgca/topHeader/aboutDGCA/keyOfficials_hi.html" class="dropdown-item"> </a>
+					
+					
+								
+					</li>
+					<li>
+					
+					<a data-url="jsp/dgca/topHeader/aboutDGCA/5. Budget.pdf" class="dropdown-item"></a>
+					
+					</li>
+								
+								
+					<li><a data-url="jsp/dgca/topHeader/aboutDGCA/userFees/User fees.pdf" class="dropdown-item"> </a></li>
+								
+								
+					<li class="dropdown-submenu"><a id="dropdownMenu13" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle nav-linkLevel2"> </a>
+						<ul aria-labelledby="dropdownMenu13" class="dropdown-menu  shadow">
+							
+								<li><a data-url="jsp/dgca/topHeader/aboutDGCA/VigilanceFunction_hi.html" class="dropdown-item"> </a></li>
+								
+							
+							
+							
+							
+							<!--
+								<li><a data-url="jsp/dgca/topHeader/aboutDGCA/VigilanceCircular_hi.html"
+								class="dropdown-item"></a></li>
+								 -->
+							
+							
+							<li><a data-url="4363/4643/servicename" class="dropdown-item">. . .    </a></li>
+							<li><a data-url="4363/4644/servicename" class="dropdown-item">  </a></li>
+										
+										
+							 <li><a data-url="jsp/dgca/topHeader/aboutDGCA/vigilance/Appointment of IEM.pdf" class="dropdown-item">  </a></li>
+						</ul></li>
+					<li><a data-url="jsp/dgca/topHeader/aboutDGCA/CourtCase/Court_Case.pdf" class="dropdown-item">  </a></li>
+					<li><a data-url="jsp/dgca/topHeader/aboutDGCA/shabdkosh/shabdkosh.pdf" class="dropdown-item"></a></li>
+								
+					<li><a data-url="NodalOfficers/0/500008/viewApplicationDtlsReqPDF" class="dropdown-item"> /  </a></li>
+								<!-- added by Ashish yadav on 30-4-25-->
+                    <li class="dropdown-submenu"><a id="grievancetab" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle nav-linkLevel2"> </a>
+				<ul aria-labelledby="grievancetab" class="dropdown-menu  shadow">
+				<li><a data-url="jsp/dgca/topHeader/aboutDGCA/GrievanceRedressal/SOP for grievance redressal.pdf" class="dropdown-item"></a></li>
+				</ul>
+				</li>
+				</ul></li>
+			<li class="nav-item dropdown drop-level-1"><a id="dropdownMenu2" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle nav-linkLevel1"></a>
+				<ul aria-labelledby="dropdownMenu2" class="dropdown-menu shadow">
+					<li><a data-url="4368/4646/servicename" class="dropdown-item"> </a></li>
+					<li><a data-url="positionDGCA/500115/0/viewApplicationDtlsReq" class="dropdown-item">  </a></li>
+					<li><a data-url="4365/4645/servicename" class="dropdown-item"> </a></li>
+				</ul></li>
+				
+				
+					<li class="nav-item dropdown drop-level-1"><a data-url="5066/12521/servicename" class="dropdown-item"></a></li>
+					
+				
+			<li class="nav-item dropdown drop-level-1"><a id="dropdownMenu3" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle nav-linkLevel1"></a>
+				<ul aria-labelledby="dropdownMenu3" class="dropdown-menu shadow">
+					<li><a data-url="AppointofCPIOAppellateAuth/500003/0/viewApplicationDtlsReq" class="dropdown-item"> </a></li>
+					<li><a data-url="4372/4647/servicename" class="dropdown-item"> </a></li>
+					<li><a data-url="4377/4648/servicename" class="dropdown-item"> </a></li>
+					<li><a data-url="TransparencyOfficer/0/500004/viewApplicationDtlsReqPDF" class="dropdown-item">  </a></li>
+					<li><a data-url="RTIFess/0/500010/viewApplicationDtlsReqPDF" class="dropdown-item"> </a></li>
+					<li><a data-url="jsp/dgca/topHeader/rti/Proactive disclosure consolidated file.pdf" class="dropdown-item"> </a></li>
+				<li><a data-url="5067/8055/servicename" class="dropdown-item">Immovable Property Return</a></li>				
+								
+								
+				</ul></li>
+			<li class="nav-item dropdown drop-level-1"><p class="new-window-pdf mb-0"> <a target="_blank" href="jsp/dgca/topHeader/contactUs/Directory.pdf">  </a></p>
+			</li>
+			<li class="nav-item dropdown drop-level-1"><a class="nav-link dropdown-toggle" href="jsp/dgca/topHeader/aZIndex/AtoZindex.jsp">     </a></li>
+			<li class="nav-item dropdown drop-level-1"><a class="nav-link dropdown-toggle" href="assets/DGCA/rajbhasha/rajbhasha.jsp"></a></li>
+						<!--<li>
+					<div class="dropdown">
+                       <a> </a>
+                           <div class="dropdown-content">
+                                <a href="#" onclick="fnAlertRedirection('https://epaper.thehindu.com/');">The Hindu e-Paper</a>
+                                <a href="#" onclick="fnAlertRedirection('https://www.epw.in/');">Economical and Political weekly Magazine</a>
+                                <a href="#" onclick="fnAlertRedirection('https://pocketmags.com/');">Aviation News Online Journal</a>
+                          </div>
+                    </div>
+						</li>	-->
+                  <li>
+   					 <div class="dropdown">
+                    <a>  </a>
+                           <div class="dropdown-content">
+                                <a href="#" onclick="fnAlertRedirection('https://discovery.delnet.in/');">DELNET</a>
+                                <a href="#" onclick="fnAlertRedirection('https://eg4.nic.in/OPAC/Default.aspx?CL_NAME=CGOVLIB1');">Library Online Catalouge</a>
+                          </div>
+                    </div></li>
+		</ul>
+	</nav>
+
+</header>
+<script>
+function fnLoginUrl(){
+	var selectedValue = document.getElementById("loginSelect").value;
+		if(selectedValue !== null && selectedValue !== undefined && selectedValue !== "none"){
+			document.getElementById("loginSelect").value = "none";
+			window.open(
+			  selectedValue,
+			  '_blank'
+			);
+	}
+}
+
+
+function fnLoginUrlMob(){
+	var selectedValue = document.getElementById("loginSelectMob").value;
+		if(selectedValue !== null && selectedValue !== undefined && selectedValue !== "none"){
+			document.getElementById("loginSelectMob").value = "none";
+		window.open(
+		  selectedValue,
+		  '_blank'
+		);
+	}
+}
+</script>
+<style>
+.menu-wraper .menu-head ul li a {
+	display: inline-block;
+	padding: 0.3rem 0.6rem 0.3rem 0.6rem;;
+	    margin-bottom: 0.5rem;
+}
+
+.menu-wraper .menu-head ul li a.active:after {
+	bottom: 0px;
+}
+
+</style>
+
+
+
+
+<style>
+
+html, body {html100%;
+    overflow-x: hidden;   
+}
+
+
+.top-header-row {
+   
+
+ display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    align-items: center;
+    overflow: hidden;
+    font-size: xx-small;
+}
+
+
+.dot-blink-end {
+       font-size: 0.75rem;
+     font-weight: bold;
+    color: #756a8e;
+    text-decoration: none;
+    animation: blinkText 1s infinite;
+     overflow-x: hidden;
+}
+
+.dot-blink-end::after {
+    content: " ";
+    animation: blinkText 1s infinite;
+}
+
+/* Blinking animation */
+@keyframes blinkText {
+    0%   { opacity: 1; }
+    50%  { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Pause blinking on hover */
+.dot-blink-end:hover {
+    animation-play-state: paused;
+    text-decoration: underline;
+}
+
+
+.header-separator {
+    padding: 0 6px;
+    color: #999;
+}
+
+
+
+
+</style>
+		
+
+<!-- External CSS for chatbot -->
+<!-- <link rel="stylesheet" href="https://chat.dgca.gov.in/DGCA/style.css"> -->
+<!-- <link rel="stylesheet" href="https://aibot.dgca.gov.in/style.css"> -->
+<link rel="stylesheet" href=" https://botai.dgca.gov.in/style.css">
+
+
+
+	<!-- ============================= -->
+	<!-- DGCA AI Assistant Chat Widget -->
+	<!-- ============================= -->
+
+	<div class="dgca-genai-chatbot">
+		<!-- Chat Toggle Button -->
+		<button id="chat-toggle" class="floating-button dgca-fixed dgca-bottom-5 dgca-right-5 dgca-text-white dgca-rounded-full dgca-p-4 dgca-shadow-2xl focus:dgca-outline-none focus:dgca-ring-4 focus:dgca-ring-purple-300 focus:dgca-ring-opacity-50 dgca-z-50">
+			<img id="chat-icon-open" src="https://botai.dgca.gov.in/chat_icon_directory/chat_icon.png" alt="Open Chat" class="dgca-h-8 dgca-w-8 dgca-object-contain">
+			<svg id="chat-icon-close" xmlns="http://www.w3.org/2000/svg" class="dgca-h-8 dgca-w-8 dgca-hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+</svg>
+		</button>
+
+		<!-- Chat Widget -->
+		<div id="chat-widget" class="chat-widget glass-morphism dgca-hidden dgca-fixed dgca-bottom-24 dgca-right-5 dgca-w-full dgca-max-w-sm dgca-h-[70vh] dgca-max-h-[600px] dgca-rounded-3xl dgca-shadow-2xl dgca-flex dgca-flex-col dgca-z-50">
+			<!-- Header -->
+			<div class="chat-header dgca-flex dgca-justify-between dgca-items-center dgca-p-4 dgca-rounded-t-3xl">
+				<div class="dgca-flex dgca-items-center dgca-space-x-3">
+					<span class="ai-avatar dgca-relative dgca-flex dgca-h-12 dgca-w-12 dgca-shrink-0 dgca-overflow-hidden dgca-rounded-full">
+						<img src="https://botai.dgca.gov.in/chat_icon_directory/chat_icon_2.png" alt="AI Icon" class="ai-icon-img">
+					</span>
+					<div>
+						<h3 class="dgca-text-lg dgca-font-semibold dgca-text-gray-800">DGCA
+							AI Assistant(beta)</h3>
+						<p class="dgca-text-sm dgca-text-green-500 dgca-flex dgca-items-center dgca-font-medium">
+							<span class="status-indicator dgca-h-2 dgca-w-2 dgca-bg-green-500 dgca-rounded-full dgca-mr-2"></span>Online
+						</p>
+					</div>
+				</div>
+				<div class="dgca-flex dgca-items-center dgca-space-x-2">
+					<button id="info-button" class="dgca-text-gray-400 hover:dgca-text-gray-600 dgca-transition-colors dgca-duration-200 dgca-p-1 dgca-rounded-full hover:dgca-bg-white/10" title="View Disclaimer">
+						<svg class="dgca-w-[24px] dgca-h-[24px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+<path fill-rule="evenodd" d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm9.408-5.5a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2h-.01ZM10 10a1 1 0 1 0 0 2h1v3h-1a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2h-1v-4a1 1 0 0 0-1-1h-2Z" clip-rule="evenodd"></path>
+</svg>
+					</button>
+
+					<button id="close-chat" class="dgca-text-gray-400 hover:dgca-text-gray-600 dgca-transition-colors dgca-duration-200 dgca-p-1 dgca-rounded-full hover:dgca-bg-white/10">
+						<svg xmlns="http://www.w3.org/2000/svg" class="dgca-h-6 dgca-w-6" fill="none" viewBox="0 0 24 24" stroke="white">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M6 18L18 6M6 6l12 12"></path>
+</svg>
+					</button>
+				</div>
+			</div>
+
+			<!-- Body -->
+			<div id="chat-body" role="log" aria-live="polite" class="dgca-flex-grow dgca-p-3 dgca-overflow-y-auto dgca-overflow-x-hidden dgca-space-y-3 dgca-bg-gray-50 dgca-bg-opacity-30">
+				<!-- Messages and popular questions will be appended here -->
+			<div class="dgca-text-center dgca-text-gray-900 dgca-mb-4 dgca-px-1">
+            <div class="dgca-mb-3">
+                <h4 class="dgca-text-lg dgca-font-semibold dgca-text-blue-900 dgca-mb-1 dgca-leading-6">Welcome to DGCA AI Assistant</h4>
+                <p class="dgca-text-sm dgca-text-blue-900 dgca-leading-6">I'm here to help you with aviation-related queries</p>
+                
+            </div>
+                </div><div class="dgca-grid dgca-grid-cols-1 dgca-gap-2 dgca-mb-3 dgca-px-1"><button class="question-button dgca-text-gray-900 dgca-text-left dgca-p-3 dgca-rounded-xl dgca-font-normal dgca-transition-all dgca-duration-300 dgca-relative dgca-z-10 dgca-text-sm dgca-leading-6 message-appear" style="animation-delay: 0s;">
+                        <div class="dgca-flex dgca-items-start dgca-space-x-2">
+                            <span class="dgca-text-lg dgca-flex-shrink-0 dgca-mt-0.5"></span>
+                            <span class="dgca-flex-1 dgca-text-left dgca-leading-6">How do I apply for a pilot license?</span>
+                        </div>
+                    </button><button class="question-button dgca-text-gray-900 dgca-text-left dgca-p-3 dgca-rounded-xl dgca-font-normal dgca-transition-all dgca-duration-300 dgca-relative dgca-z-10 dgca-text-sm dgca-leading-6 message-appear" style="animation-delay: 0.1s;">
+                        <div class="dgca-flex dgca-items-start dgca-space-x-2">
+                            <span class="dgca-text-lg dgca-flex-shrink-0 dgca-mt-0.5"></span>
+                            <span class="dgca-flex-1 dgca-text-left dgca-leading-6">What are the medical requirements for civil aviation?</span>
+                        </div>
+                    </button><button class="question-button dgca-text-gray-900 dgca-text-left dgca-p-3 dgca-rounded-xl dgca-font-normal dgca-transition-all dgca-duration-300 dgca-relative dgca-z-10 dgca-text-sm dgca-leading-6 message-appear" style="animation-delay: 0.2s;">
+                        <div class="dgca-flex dgca-items-start dgca-space-x-2">
+                            <span class="dgca-text-lg dgca-flex-shrink-0 dgca-mt-0.5"></span>
+                            <span class="dgca-flex-1 dgca-text-left dgca-leading-6">How to register an aircraft in India?</span>
+                        </div>
+                    </button><button class="question-button dgca-text-gray-900 dgca-text-left dgca-p-3 dgca-rounded-xl dgca-font-normal dgca-transition-all dgca-duration-300 dgca-relative dgca-z-10 dgca-text-sm dgca-leading-6 message-appear" style="animation-delay: 0.3s;">
+                        <div class="dgca-flex dgca-items-start dgca-space-x-2">
+                            <span class="dgca-text-lg dgca-flex-shrink-0 dgca-mt-0.5"></span>
+                            <span class="dgca-flex-1 dgca-text-left dgca-leading-6">What are the current civil aviation regulations?</span>
+                        </div>
+                    </button></div></div>
+
+			<!-- Voice Recording Overlay -->
+			<div id="voice-recording-overlay" class="voice-recording-overlay dgca-absolute dgca-inset-0 dgca-hidden dgca-flex dgca-items-center dgca-justify-center dgca-p-4 dgca-z-60">
+				<div class="voice-recording-modal dgca-bg-white dgca-rounded-lg dgca-p-6 dgca-max-w-sm dgca-w-full dgca-text-center">
+					<div class="dgca-mb-4">
+						<div class="recording-icon dgca-mx-auto dgca-mb-3">
+							<svg class="dgca-w-12 dgca-h-12 dgca-text-red-500 dgca-animate-pulse" fill="currentColor" viewBox="0 0 24 24">
+							<path d="M12 2a3 3 0 0 1 3 3v6a3 3 0 0 1-6 0V5a3 3 0 0 13-3z"></path>
+<path d="M19 10v1a7 7 0 0 1-14 0v-1"></path>
+<path d="M12 18.5v2.5"></path>
+<path d="M8 21h8"></path>
+</svg>
+						</div>
+						<h4 class="dgca-text-lg dgca-font-semibold dgca-mb-2">Recording...</h4>
+						<p class="dgca-text-gray-600 dgca-text-sm dgca-mb-4">Speak
+							now, tap stop when finished</p>
+					</div>
+
+					<!-- Waveform Canvas -->
+					<div class="waveform-container dgca-mb-4">
+						<canvas id="waveform-canvas" width="280" height="60" class="dgca-mx-auto dgca-bg-gray-100 dgca-rounded"></canvas>
+					</div>
+
+					<!-- Recording Duration -->
+					<div class="recording-duration dgca-mb-4">
+						<span id="recording-time" class="dgca-text-lg dgca-font-mono dgca-font-semibold dgca-text-gray-700">00:00</span>
+					</div>
+
+					<!-- Stop Recording Button -->
+					<button id="stop-recording" class="stop-recording-btn dgca-bg-red-500 hover:dgca-bg-red-600 dgca-text-white dgca-px-6 dgca-py-2 dgca-rounded-lg dgca-font-medium">
+						Stop Recording</button>
+				</div>
+			</div>
+
+			<div id="feedback-overlay" class="feedback-overlay dgca-absolute dgca-inset-0 dgca-hidden dgca-flex dgca-items-center dgca-justify-center dgca-p-4 dgca-z-60">
+				<div class="feedback-modal dgca-bg-white dgca-rounded-lg dgca-p-6 dgca-max-w-sm dgca-w-full">
+					<h4 class="dgca-text-lg dgca-font-semibold">User's Feedback</h4>
+					<p class="dgca-text-gray-600 dgca-text-sm">What could have been
+						better about this response?</p>
+
+					<textarea id="feedback-text" placeholder="Please share your feedback..." rows="4" class="dgca-w-full dgca-p-3 dgca-rounded-lg dgca-resize-none focus:dgca-outline-none dgca-text-sm"></textarea>
+
+					<div class="dgca-flex dgca-justify-end dgca-space-x-3">
+						<button id="cancel-feedback" class="feedback-cancel-btn dgca-px-4 dgca-py-2 dgca-rounded-lg dgca-text-sm dgca-font-medium">
+							Cancel</button>
+						<button id="submit-feedback" class="feedback-submit-btn dgca-px-4 dgca-py-2 dgca-rounded-lg dgca-text-sm dgca-font-medium" disabled="">Submit</button>
+					</div>
+				</div>
+			</div>
+
+			<!-- Disclaimer Overlay -->
+			<div id="disclaimer-overlay" class="feedback-overlay dgca-absolute dgca-inset-0 dgca-hidden dgca-flex dgca-items-center dgca-justify-center dgca-p-4 dgca-z-60">
+				<div class="feedback-modal dgca-bg-white dgca-rounded-lg dgca-p-6 dgca-max-w-md dgca-w-full">
+					<h4 class="dgca-text-lg dgca-font-semibold dgca-mb-3">Disclaimer</h4>
+					<div class="dgca-text-gray-700 dgca-text-sm dgca-space-y-3 dgca-max-h-[220px] dgca-overflow-y-auto disclaimer-content">
+						<p class="dgca-font-medium">This chatbot is a beta release and
+							may contain errors. Users must verify all information on the
+							official DGCA website before making any commitments or payments.</p>
+						<p class="dgca-font-medium">This DGCA Virtual Assistant is
+							powered by Artificial Intelligence (AI) to help users access
+							general information about aviation rules, licenses, training, and
+							regulatory processes.</p>
+						<ul class="dgca-list-disc dgca-ml-5 dgca-space-y-2">
+							<li>The responses generated by this assistant are for
+								informational and guidance purposes only and do not constitute
+								official communication or legal interpretation by the
+								Directorate General of Civil Aviation (DGCA).</li>
+							<li>While the assistant strives for accuracy and clarity,
+								some information may evolve as regulations, policies, or
+								procedures are updated in the system.</li>
+							<li>Users are advised to verify all critical details through
+								official DGCA sources, such as the DGCA website, eGCA portal, or
+								relevant office communications before making any decisions.</li>
+							<li>DGCA and its partners (including the developers of the
+								assistant) shall not be held responsible for any acts,
+								omissions, errors or consequences arising from the non use or
+								use of this AI assistant.</li>
+						</ul>
+						<p class="dgca-font-medium">By using this service, you
+							acknowledge and accept these terms and understand that your
+							inputs may be logged and analyzed to improve system performance
+							and service quality, in accordance with applicable data
+							protection guidelines.</p>
+					</div>
+
+					<div class="dgca-flex dgca-justify-end dgca-mt-4">
+						<button id="accept-disclaimer" class="feedback-submit-btn dgca-px-6 dgca-py-2 dgca-rounded-lg dgca-text-sm dgca-font-medium">
+							I Understand</button>
+					</div>
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<div class="chat-footer dgca-p-4 dgca-rounded-b-3xl">
+				<!-- Normal input mode -->
+				<div id="normal-input-mode" class="dgca-flex dgca-items-end dgca-space-x-3">
+					<textarea id="chat-input" placeholder="Type your message..." rows="1" class="chat-input dgca-flex-grow dgca-p-3 dgca-rounded-2xl focus:dgca-outline-none dgca-resize-none dgca-text-gray-800 dgca-placeholder-gray-500 dgca-text-sm"></textarea>
+
+					<!-- Voice Recording Button -->
+					<button id="voice-button" class="voice-button dgca-text-white dgca-rounded-2xl dgca-p-3 focus:dgca-outline-none focus:dgca-ring-4 focus:dgca-ring-purple-300 focus:dgca-ring-opacity-50 disabled:dgca-opacity-50 disabled:dgca-cursor-not-allowed">
+						<svg id="mic-icon" xmlns="http://www.w3.org/2000/svg" class="dgca-h-6 dgca-w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path>
+</svg>
+						<svg id="stop-icon" xmlns="http://www.w3.org/2000/svg" class="dgca-h-6 dgca-w-6 dgca-hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 10h6v4H9z"></path>
+</svg>
+					</button>
+
+					<button id="send-button" class="send-button dgca-text-white dgca-rounded-2xl dgca-p-3 focus:dgca-outline-none focus:dgca-ring-4 focus:dgca-ring-purple-300 focus:dgca-ring-opacity-50 disabled:dgca-opacity-50 disabled:dgca-cursor-not-allowed">
+						<svg xmlns="http://www.w3.org/2000/svg" class="dgca-h-6 dgca-w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+</svg>
+					</button>
+				</div>
+
+				<!-- Voice recording mode -->
+				<div id="voice-recording-mode" class="dgca-hidden">
+					<div class="dgca-flex dgca-flex-col dgca-space-y-3">
+						<!-- Recording status -->
+						<div class="dgca-flex dgca-items-center dgca-justify-center dgca-space-x-2 dgca-text-red-500">
+							<div class="recording-dot dgca-w-3 dgca-h-3 dgca-bg-red-500 dgca-rounded-full dgca-animate-pulse">
+							</div>
+							<span class="dgca-text-sm dgca-font-medium">Recording...</span> <span id="recording-time-footer" class="dgca-text-sm dgca-font-mono">00:00</span>
+						</div>
+
+						<!-- Waveform container -->
+						<div class="waveform-footer-container dgca-bg-gray-100 dgca-rounded-lg dgca-p-3">
+							<canvas id="waveform-footer-canvas" width="320" height="40" class="dgca-w-full dgca-bg-white dgca-rounded"></canvas>
+						</div>
+
+						<!-- Stop button -->
+						<div class="dgca-flex dgca-justify-center">
+							<button id="stop-recording-footer" class="stop-recording-btn dgca-bg-red-500 hover:dgca-bg-red-600 dgca-text-white dgca-px-6 dgca-py-2 dgca-rounded-lg dgca-font-medium dgca-flex dgca-items-center dgca-space-x-2">
+								<svg xmlns="http://www.w3.org/2000/svg" class="dgca-h-5 dgca-w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 10h6v4H9z"></path>
+</svg>
+								<span>Stop Recording</span>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<!-- Transcription processing mode -->
+				<div id="transcription-mode" class="dgca-hidden">
+					<div class="dgca-flex dgca-items-center dgca-justify-center dgca-space-x-3 dgca-py-3">
+						<div class="typing-indicator-small">
+							<span></span><span></span><span></span>
+						</div>
+						<span class="dgca-text-sm dgca-text-gray-600">Processing
+							your voice...</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Welcome Pop-up Near Widget -->
+		
+	</div>
+
+	<!-- JavaScript -->
+	<!-- <script src="https://chat.dgca.gov.in/DGCA/script.js"></script> -->
+	<!-- <script src="https://aibot.dgca.gov.in/script.js"></script> -->
+	<script src="https://botai.dgca.gov.in/script.js"></script>
+
+ 
+	<form name="certVerfForm" id="certVerfForm" action="" method="post">
+	</form>
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+		<div class="modal-header border-0">
+        	<button type="button" class="close" data-dismiss="modal">×</button>
+      </div>
+		<div class="modal-body text-center pb-5">
+       		<h4>Sit Environment</h4>
+      </div>
+	</div>
+  </div>
+</div>
+	<section class="header-left-container header-left-hide" style="display: block;">
+	<section class="top-banner d-flex align-items-center justify-content-center mb-3 banner-show">
+		<div class="baner-content ">
+				<span></span>
+		</div>
+		</section>
+	<div class="d-flex">
+
+		
+
+    	
+
+
+<div class="side-tabs internal-link" style="">
+			<div class="aircraft side-hide side-navigation">
+			<ul>
+				<li><a class="level1"></a>
+				<ul>
+				<li class="collapse-tabs level2">
+					<a href="#aircraft1" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse">  </a>
+					<div id="aircraft1" class="collapse sub-option">
+						<ul>
+							<li class="default-tabs"><a data-url="4184/4188/servicename"> </a></li>
+								
+								<li class="default-tabs"><a data-url="5074/725/servicename">  </a></li>
+								
+							<li class="default-tabs"><a data-url="4185/4189/servicename">   </a></li>
+							<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/aircraft/certification/designAccept/DesignAcceptance.pdf">  
+									</a></li>
+								<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/aircraft/certification/designOrgs/Approved_Design_Organisation.pdf"> </a></li>
+								<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/aircraft/certification/ADOA/List of Approved ADOA 01-04-2024.pdf"></a></li>
+
+								<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/aircraft/certification/productOrgs/Approved Production Organisations.pdf"> </a></li>
+							<li class="default-tabs"><a data-url="4186/4190/servicename"> </a></li>
+							<li class="default-tabs"><a data-url="4378/5223/servicename"> </a></li>
+								
+								 <li class="default-tabs"><a data-url="260/3760/servicename">
+								    /   /  </a></li>
+								 
+								 <li class="default-tabs"><a data-url="5073/726/servicename">
+								  /  /  DO, ADOA  POA  </a></li>
+								
+						</ul>
+					</div>
+				</li>
+
+				<li class="collapse-tabs level2">
+					<a href="#aircraft3" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse"></a>
+					<div id="aircraft3" class="collapse  sub-option">
+						<ul>
+							<li class="default-tabs"><a data-url="4000/4022/servicename"> 
+									</a></li>
+							
+						</ul>
+					</div>
+				</li>
+				<li class="collapse-tabs level2">
+					<a href="#aircraft2" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse"> </a>
+					<div id="aircraft2" class="collapse sub-option">
+						<ul>
+							<li class="default-tabs"><a data-url="4196/4199/servicename">_
+								</a></li>
+							<!-- <li class="default-tabs"><a
+								data-url="4192/4191/servicename">  </a></li> -->
+								
+							<li class="default-tabs">
+								<a data-url="scan?requestType=ApplicationRH&actionVal=loadComboVals&screenId=10000001&category=11002551"> 
+								</a>
+							</li>	
+						</ul>
+					</div>
+				</li>
+				<li class="collapse-tabs level2">
+					<a href="#aircraft4" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse"> /  </a>
+					<div id="aircraft4" class="collapse sub-option">
+						<ul>
+							<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/aircraft/maintenanceOrgs/Domestic/A(i)-Domestic CAR 145 Org.pdf">
+								</a></li>
+							<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/aircraft/maintenanceOrgs/Foreign/A(ii)-Foreign CAR 145 and FAMO List on 31-01-2023.pdf"> </a></li>
+						</ul>
+					</div>
+				</li>
+				<!--Nikhil added start Bilateral Agreement -->
+				<li class="default-tabs"><a data-url="5075/727/servicename"> </a></li>
+				<!--Nikhil added end Bilateral Agreement -->
+					<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/aircraft/simulators/Simulators.pdf"></a></li>
+				 
+				<li class="collapse-tabs level2">
+					<a href="#aircraft5" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse">  -/ </a>
+					<div id="aircraft5" class="collapse sub-option">
+						<ul>
+							<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/aircraft/maintenanceOrgs/Domestic/6CAR-M Sub Part F.pdf">- 
+								</a></li>
+							<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/aircraft/maintenanceOrgs/Domestic/7CAR-M SUB PART-G.pdf">- </a></li>
+						</ul>
+					</div>
+				</li>
+				
+				
+				
+				
+				</ul>
+				</li></ul>
+			</div>
+			<!-- aircraft ends -->
+			<div class="airOperation side-hide side-navigation">
+				<ul>
+				<li><a class="level1"> </a>
+				<ul>
+				<li class="collapse-tabs level2">
+					<a href="#airoperation1" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse"></a>
+							<div id="airoperation1" class="collapse sub-option">
+								<ul class="level-3">
+									<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airOperation/certification/AOP_Package/aopPak.html">  / (/) </a></li> 
+									<li class="default-tabs">
+										<a data-url="jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf"> </a>
+										<!--<div id="reports111" class="collapse sub-option">
+											<ul class="level-4">
+												<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airOperation/certification/scheduled/sch-oper.pdf"></a></li>
+ 												<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airOperation/certification/scheduled/cargo/sch-oper1.pdf">/</a></li> 
+ 											</ul>
+										</div>-->
+									</li>
+									<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airOperation/certification/nonscheduled/ns-oper.pdf">-    
+											</a></li> 
+									 <li class="collapse-tabs">
+											<a href="#FroAir" class="active-arrow collapsed" data-toggle="collapse"> 
+												</a>
+											<div id="FroAir" class="collapse sub-option">
+												<ul class="level-4">
+													<li class="default-tabs"><a data-url="4201/4200/servicename">  </a></li>
+													<li class="default-tabs"><a data-url="4207/4201/servicename">   
+															 </a></li>
+												</ul>
+											</div>
+									</li> 
+								</ul><!-- level 3 -->
+						</div>
+				</li><!-- level 2 -->
+				<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airOperation/certification/AerialWork/aerial work operations.pdf">  </a></li>
+				<li class="collapse-tabs level2">
+					<a href="#airoperation2" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse"></a>
+					<div id="airoperation2" class="collapse sub-option">
+						<ul class="level-3">
+							<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airOperation/permission/carriageDangerous/Carriage of Dangerous Goods.pdf">   </a></li>
+							<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airOperation/permission/carriageArms/Carriage of Arms.pdf">/   </a></li>
+							<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airOperation/permission/aerialPhoto/aer_photo.pdf"> /  </a></li>
+							<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airOperation/permission/groundphoto/Ground Photography.pdf">  </a></li>
+							<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airOperation/permission/cloudSeeding/cloud seeding.pdf"> </a></li>
+							<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airOperation/permission/skyDiving/Sky Diving.pdf"> </a></li>
+							<li class="collapse-tabs">
+									<a href="#FliCLe" class="active-arrow collapsed" data-toggle="collapse"> </a>
+									<div id="FliCLe" class="collapse sub-option">
+										<ul class="level-4">
+											<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airOperation/permission/flightCLearance/procedure/atc_1997.pdf"></a></li>
+											<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airOperation/permission/flightCLearance/agency/tour_agency.pdf">  
+												</a></li>
+										</ul>
+									</div>
+								</li>
+						</ul><!-- level 3 -->
+					</div>
+				</li><!-- level 2 -->
+				<li class="collapse-tabs level2">
+					<a href="#airoperation3" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse"></a>
+					<div id="airoperation3" class="collapse sub-option">
+						<ul class="level-3">
+							 <li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airOperation/training/cabinCrew/AppCCC.pdf">   </a></li> 
+							<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airOperation/training/dangerousGoods/list_DGTP.pdf">   .</a></li>
+						</ul>
+					</div>
+				</li><!-- level 2 -->
+				</ul>
+				</li>
+				</ul>
+			</div>
+			<!-- air operation ends -->
+
+			<div class="personal side-hide side-navigation">
+				<ul>
+				<li>
+				<a class="level1"></a>
+				<ul>
+					<li class="collapse-tabs level2">
+						<a href="#personnel1" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse">  </a>
+						<div id="personnel1" class="collapse sub-option">
+							<ul>
+								<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/license/pilot/Pilots.pdf"></a></li>
+									<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/license/airMaintenance/AMEs.pdf">  </a></li>
+									<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/license/airTraffic/ATCOs.pdf">  </a></li>
+									<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/license/flightDispatcher/fkight dispatsher.pdf"> </a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="collapse-tabs level2">
+						<a href="#personnel2" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse"></a>
+						<div id="personnel2" class="collapse sub-option">
+							<ul class="level-3">
+								<li class="collapse-tabs">
+										<a href="#pilot1" class="active-arrow collapsed" data-toggle="collapse"></a>
+										<div id="pilot1" class="collapse sub-option">
+											<ul class="level-4">
+												 <li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/training/pilot/flrTrainOrgs/flyclub.pdf">  </a></li>
+												
+												
+								<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/training/pilot/aircraftTrainOrgs/ATO.pdf">
+							  	</a></li>
+												
+							
+												
+													
+													 
+												<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/training/pilot/glidingTrainOrgs/glyclub.pdf">  </a></li> 
+													<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/training/pilot/glidingTrainOrgs/ELP_Trg.pdf">      </a></li>
+											</ul>
+										</div>
+								</li>
+								<li class="collapse-tabs level3">
+										<a href="#airMain" class="active-arrow collapsed" data-toggle="collapse">  </a>
+										<div id="airMain" class="collapse sub-option">
+											<ul class="level-4">
+												<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/training/airMaintenance/approvedTypeTrainOrgs/ametrg.pdf">  
+													</a></li>
+												<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/training/airMaintenance/CAR147Basic/CAR 147(basic).pdf">147 (__)</a></li>
+												
+												
+											</ul>
+										</div>
+									</li>
+									
+									<li class="collapse-tabs level3">
+										<a href="#airMain2" class="active-arrow collapsed" data-toggle="collapse">                       /  147   </a>
+										<div id="airMain2" class="collapse sub-option">
+											<ul class="level-4">
+												<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/training/airMaintenance/Car147/Domestic/B(i)-Domestic CAR 147-Type DL fm website 6-2-23.pdf">
+													</a></li>
+												<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/training/airMaintenance/Car147/Foreign/B(ii)-Foreign CAR 147 and FAO List on 31-01-2023.pdf"></a></li>
+											</ul>
+										</div>
+									</li>
+									
+							</ul><!-- level 3 -->
+						</div>
+					</li>
+					<li class="collapse-tabs level2">
+						<a href="#personnel3" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse"> </a>
+						<div id="personnel3" class="collapse sub-option">
+							<ul class="level-3">
+								<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/designated/flyTrain/DE_DFT.pdf"> </a></li>
+								<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/designated/glidingTrain/glyclub_exam.pdf"> 
+										 </a></li>
+								
+								<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/designated/examiner/App_Exam.pdf">    
+										</a></li> 
+							</ul>
+						</div>
+					</li>
+					<li class="collapse-tabs level2">
+						<a href="#personnel4" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse"></a>
+						<div id="personnel4" class="collapse sub-option">
+							<ul class="level-3">
+								<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/medical/class1/Class1.pdf"> 1  </a></li>
+								<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/medical/class2/Class2.pdf"> 2  </a></li>
+										<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/medical/class3/Class3.pdf"> 3      </a></li>
+								<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/medical/centralized/Procedure for DGCA Centralised Appt PMR Fwd System.pdf">     
+										</a></li>
+								<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/medical/medical/MedCirc01_2015.pdf"> -        </a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="collapse-tabs level2">
+					<a href="#personnel5" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse"></a>
+					<div id="personnel5" class="collapse sub-option">
+						<ul class="level-3">
+							<li class="default-tabs"><a onclick="linkOpen('https://pariksha.dgca.gov.in/');">   </a></li>
+							<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/personal/examination/PN-ExamCalendar.pdf">   </a></li>
+							<li class="default-tabs"><a data-url="4231/4203/sericename"></a></li>
+							
+						</ul>
+					</div>
+				</li>
+				</ul>
+				</li>
+				</ul><!-- level 2 -->
+			</div>
+			<!--  personnel-->
+			
+			<div class="aerodrome side-hide side-navigation">
+				<ul>
+				<li>
+					<a class="level1"></a>
+					<ul class="level-4">
+						<li class="default-tabs"><a data-url="4241/4204/sericename">    
+								</a></li> 
+					<!--	<li class="default-tabs"><a
+							data-url="jsp/dgca/InventoryList/aerodrome/public/PUBLIC USE LICENSED AERODROME (PUBLIC AND PRIVATE) AND HELIPORT -converted (1).pdf"> </a></li>
+						<li class="default-tabs"><a
+							data-url="jsp/dgca/InventoryList/aerodrome/private/AERODROMES LICENSED IN PRIVATE USE CATEGORY-converted.pdf"> </a></li> -->
+							
+							<li class="default-tabs">
+							<a data-url="scan?requestType=ApplicationRH&actionVal=loadAerodromeDtls&objval=3&screenId=26110181&LicenseTypeFlag=1" ;="">
+								 
+							<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+						</li> 			
+						<li class="default-tabs">
+							<a data-url="scan?requestType=ApplicationRH&actionVal=loadAerodromeDtls&objval=3&screenId=26110181&LicenseTypeFlag=2" ;="">
+								 
+							<img class="pull-right pt-2" src="assets/DGCA/images/icons/next.png"></a>
+						</li>	
+							
+					</ul>
+				</li>
+				</ul>
+			</div>
+			<!-- aerodromes -->
+			
+			<div class="airNavigationService side-hide side-navigation">
+				<ul>
+				<li><a class="level1">  </a>
+				<ul>
+					<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/airNavigationService/ANS.pdf">     </a></li>
+				
+				</ul>
+				</li></ul>
+			</div>
+			<div class="dataReports side-hide side-navigation">
+				<ul>
+				<li><a class="level1">  </a>
+				<ul>
+				<li class="collapse-tabs level2">
+					<a href="#reports1" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse">     </a>
+					<div id="reports1" class="collapse  sub-option">
+						<ul>
+							<li class="collapse-tabs level-3">
+							
+									<a href="#reports11" class="active-arrow collapsed" data-toggle="collapse"> </a>
+									<div id="reports11" class="collapse  sub-option">
+										<ul class="level-4">
+										<li class="default-tabs"><a data-url="4252/4205/sericename">    
+								</a></li>
+											<li class="collapse-tabs">
+													<a href="#reports111" class="active-arrow collapsed" data-toggle="collapse">  </a>
+													<div id="reports111" class="collapse sub-option">
+														<ul class="level-5">
+															<li class="default-tabs"><a data-url="4264/4206/sericename"> 
+																	</a></li>
+															<li class="default-tabs"><a data-url="259/4184/servicename">  
+																</a></li>
+															<li class="default-tabs"><a data-url="4267/4210/servicename"> 
+																	</a></li>
+														</ul>
+													</div>
+											</li>
+											<li class="collapse-tabs">
+													<a href="#reportInt" class="active-arrow collapsed" data-toggle="collapse">   </a>
+													<div id="reportInt" class="collapse sub-option">
+														<ul class="level-5">
+															<li class="default-tabs"><a data-url="4268/4207/servicename"> 
+																	</a></li>
+														</ul>
+													</div>
+												</li>
+										</ul><!-- level 4 -->
+									</div>
+							</li><!-- level 3 -->
+						</ul>
+					</div>
+					</li>
+				<li class="collapse-tabs level2">
+					<a href="#reports2" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse">      </a>
+					<div id="reports2" class="collapse sub-option">
+						<ul class="level-3">
+							<li class="default-tabs"><a data-url="AccidentReports/500005/0/viewApplicationDtlsReq"> 
+									</a></li>
+							<li class="default-tabs"><a data-url="IncidentReports/500006/0/viewApplicationDtlsReq">  
+							</a></li><li class="default-tabs"><a data-url="4273/4208/servicename">    
+									</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="collapse-tabs level2">
+					<a href="#reports2" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse">    </a>
+					<div id="reports2" class="collapse sub-option">
+						<ul class="level-3">
+							<li class="default-tabs"><a data-url="4360/4637/servicename">
+									  </a></li>
+							<li class="default-tabs"><a data-url="4360/4638/servicename"> </a>
+							</li><li class="default-tabs"><a data-url="4360/4639/servicename">    </a></li>
+						</ul>
+					</div>
+				</li>
+				
+				</ul>
+			</li></ul>
+			</div>
+			
+		<div class="RegulationGuidance side-hide side-navigation">
+				<ul>
+					<li><a class="level1">  </a>
+				<ul>
+				<li class="collapse-tabs level2">
+					<a href="#regulation1" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse">  </a>
+					<div id="regulation1" class="collapse sub-option">
+						<ul>
+							
+ 									   <li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/Bharatiya Vayuyan Adhiniyam 2024.pdf"> , 1934 </a></li>
+									   <li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/The Protection of Interest in Aircraft Objects Act.pdf">       , 2025</a></li>
+							
+							<li class="collapse-tabs level-3"><a href="#regulation2" class="active-arrow collapsed" data-toggle="collapse" aria-expanded="true"></a>
+								<div id="regulation2" class="collapse sub-option">
+								    <ul class="level-4">
+								    	<li class="default-tabs"><a data-url="aircraftRules1937/1/0/viewDynamicRulesReq"> , 1937</a></li>
+										<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/AircraftRules1994/The Aircraft (Demolition of Obstructions Caused by Buildings and Trees Rules 2026.pdf"> (        ) , 2026</a></li>
+										<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/CarriageDangerousGoods2003/CarriageDangerousGoods2026.pdf">(   ) , 2026</a></li>	
+										<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/AircraftRules2011/Aircraft(Security) Rules, 2011.pdf">  (), 2011</a></li>
+										<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/AircraftRules2017/Aircraft Investigation of Accident and Incident Rules 2017.pdf">  (    ), 2025</a></li>
+								 <li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/RTR Rules 2025.pdf">   ()    , 2025</a></li>
+									 <li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/Protection of Interests in Aircraft Objects Rules.pdf">      , 2026</a></li>
+									  <li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Rules/CORRIGENDUM_260303_163805.pdf">         , 2026</a></li>
+									 
+									</ul>
+								</div>
+							</li>
+							<li class="collapse-tabs level-3"><a href="#regulation21" class="active-arrow collapsed" data-toggle="collapse" aria-expanded="true">       </a>
+								<div id="regulation21" class="collapse sub-option">
+								    <ul class="level-4">
+								    	<li class="collapse-tabs internal-link">
+												<a href="#notifi1937" class="active-arrow collapsed" data-toggle="collapse"> , 1937 </a>
+												<div id="notifi1937" class="collapse sub-option">
+													<ul class="level-5">
+														<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/StatutoryNotificationsAffecting/so726.pdf">..726()  04-10-94</a></li>
+														<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/StatutoryNotificationsAffecting/so727.pdf">..727()  04-10-94</a></li>
+													</ul>
+												</div>
+										</li>
+										<li class="collapse-tabs">
+												<a href="#notifi2003" class="active-arrow collapsed" data-toggle="collapse">, (   ) , 2003</a>
+													<div id="notifi2003" class="collapse sub-option">
+														<ul class="level-5">
+															<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/StatutoryNotificationsAffecting/NOT446(E).pdf">..446()  19-3-2007.</a></li>
+															<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/StatutoryNotificationsAffecting/NOT447(E).pdf">..447()  19-3-2007.</a></li>
+														</ul>
+													</div>
+										 </li>
+										 
+										 <li class="collapse-tabs">
+												<a href="#notifi2004" class="active-arrow collapsed" data-toggle="collapse">   ()    , 2025</a>
+													<div id="notifi2004" class="collapse sub-option">
+														<ul class="level-5">
+															<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/StatutoryNotificationsAffecting/SO 710(E) dated 10022026.pdf">..710()  10-2-2026.</a></li>
+															<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/StatutoryNotificationsAffecting/SO 711(E) dated 10022026.pdf">..711()  10-2-2026.</a></li>
+														</ul>
+													</div>
+										 </li>
+										</ul>
+								</div>
+							</li>
+							<li class="default-tabs level-3"><a data-url="4283/4232/servicename">  </a></li>
+							<li class="default-tabs level-3"><a data-url="4289/4233/servicename"> </a></li>
+						 <li class="default-tabs level-3"><a data-url="5068/4998/servicename"> </a></li>
+				
+					</ul>
+				</div>	
+			</li><!-- level 2 -->
+			<li class="collapse-tabs level2">
+					<a href="#airoperation2" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse">  </a>
+					<div id="airoperation2" class="collapse sub-option">
+						<ul class="level-3">
+							<li class="default-tabs"><a data-url="civilAviationRequirements/6/0/viewDynamicRulesReq">  </a></li>
+							<li class="default-tabs"><a data-url="aeronauticalInformationCirculars/119/0/viewDynamicRulesReq">   </a></li>
+							
+							
+							<li class="collapse-tabs"><a href="#regulation3" class="active-arrow collapsed" data-toggle="collapse"></a>
+						<div id="regulation3" class="collapse sub-option">
+						<ul class="level-4">
+							<li class="default-tabs"><a data-url="circularsRulesGen/7/3328/viewDynamicRuleContLvl2"></a></li>
+							<li class="default-tabs"><a data-url="circularsRulesATCOLicensing/7/3323/viewDynamicRuleContLvl2"> </a></li>
+							<li class="default-tabs"><a data-url="circularsRulesAerodromes/7/3321/viewDynamicRuleContLvl2"></a></li>
+							<li class="default-tabs"><a data-url="circularsRulesAircraftEngineering/7/9422/viewDynamicRuleContLvl2"> </a></li>
+							<li class="default-tabs"><a data-url="circularsRulesAirNavSer/7/3320/viewDynamicRuleContLvl2">  </a></li>
+							<li class="default-tabs"><a data-url="circularsRulesAirSafety/7/3322/viewDynamicRuleContLvl2"> </a></li>
+							<li class="default-tabs"><a data-url="circularsRulesAirTran/7/3327/viewDynamicRuleContLvl2"> </a></li>
+							<li class="default-tabs"><a data-url="circularsRulesAirworthiness/7/3326/viewDynamicRuleContLvl2"></a></li>
+							<li class="default-tabs"><a data-url="circularsRulesCabinSafety/7/3317/viewDynamicRuleContLvl2"> 
+									</a></li>
+							<li class="default-tabs"><a data-url="circularsRulesEnforcement/7/3319/viewDynamicRuleContLvl2">  </a></li>
+							<li class="default-tabs"><a data-url="circularsRulesEnvironment/7/3315/viewDynamicRuleContLvl2"></a></li>
+							
+							
+							<li class="default-tabs"><a data-url="circularsRulesFlightCrewLic/7/3324/viewDynamicRuleContLvl2">     
+									</a></li>
+							<li class="default-tabs"><a data-url="circularsRulesFlightCrewLic/7/4068/viewDynamicRuleContLvl2">Dangerous Goods
+							</a></li>
+							<li class="default-tabs"><a data-url="circularsRulesFlightCrewLic/7/4080/viewDynamicRuleContLvl2">  </a></li>
+								<li class="default-tabs"><a data-url="circularsRulesFlightCrewLic/7/4078/viewDynamicRuleContLvl2"> AAM </a></li>
+						
+						
+							<li class="default-tabs"><a data-url="circularsRulesFlightCrewTraining/7/3325/viewDynamicRuleContLvl2">   
+									</a></li>
+							
+							<li class="default-tabs"><a data-url="circularsRulesOperations/7/3318/viewDynamicRuleContLvl2"></a></li>
+							<li class="default-tabs"><a data-url="circularsRulesStateSafetyProg/7/3316/viewDynamicRuleContLvl2">  </a></li>
+							<li class="default-tabs"><a data-url="circularsRulesMedicalCirculars/7/4724/viewDynamicRuleContLvl2"></a></li>
+							
+						
+						</ul>
+					</div>
+					</li>
+							
+							<li class="default-tabs"><a data-url="4323/4236/servicename">-    </a></li>
+							<li class="default-tabs"><a data-url="4334/4234/servicename"> </a></li>
+							<li class="default-tabs"><a data-url="publicNotices/0/0/viewAllService"> </a></li>
+							 <li class="default-tabs"><a data-url="5069/4996/servicename"> -</a></li>
+						<li class="collapse-tabs level-3"> <a href="#airoperationExmp" class="active-arrow collapsed" data-toggle="collapse"> </a>
+								<div id="airoperationExmp" class="collapse sub-option">
+									<ul class="level-4">
+									<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Exemptions/Rule160.pdf"> 160    </a></li>
+									<li class="default-tabs"><a data-url="jsp/dgca/InventoryList/RegulationGuidance/Exemptions/rule133.pdf"> 133    </a></li>
+									
+									
+									</ul>
+								</div>
+					</li>
+					</ul>
+					</div>
+				
+				</li>
+				<li class="collapse-tabs level2">
+					<a href="#airoperation3" class="d-flex justify-content-between active-arrow active-collapse collapsed" data-toggle="collapse"> </a>
+					<div id="airoperation3" class="collapse sub-option">
+						<ul class="level-3">
+						<li class="default-tabs"><a data-url="4359/4235/servicename"> </a></li>
+						</ul>
+					</div>
+					</li>
+				</ul>
+				</li>
+			</ul></div>
+		
+		
+		<!-- top header -->
+			<div class="AboutUs side-hide side-navigation">
+					<ul>
+							<li><a class="level1">   </a>
+							
+							<ul>
+							
+								<li class="default-tabs active">
+									<a data-url="jsp/dgca/topHeader/aboutDGCA/aboutUsDetail_hi.html">  </a>
+								</li>
+							
+							
+							<li class="default-tabs"><a data-url="jsp/dgca/topHeader/aboutDGCA/vision/vision.pdf">  </a></li>
+							<li class="collapse-tabs level-2">
+								<a href="#flightTab1" class="d-flex justify-content-between active-arrow active-collapse" data-toggle="collapse">  </a>
+								<div id="flightTab1" class="collapse show sub-option">
+									<ul>
+										<li class="default-tabs"><a data-url="jsp/dgca/topHeader/aboutDGCA/organisation/org_Manual/Organisation Manual.pdf"> </a></li>
+									
+									 
+<li><a data-url="jsp/dgca/topHeader/aboutDGCA/organisation/Headquarters/dghqHindi.html" class="dropdown-item"></a></li>
+									
+										
+
+
+
+
+
+ 
+										
+									
+										<li class="default-tabs"><a data-url="jsp/dgca/topHeader/aboutDGCA/3. DGCA regional offices.pdf"> </a></li>
+									
+									
+										
+										<li class="default-tabs"><a data-url="Remuneration/0/500007/viewApplicationDtlsReqPDF"></a></li>
+										<li class="default-tabs"><a data-url="jsp/dgca/topHeader/aboutDGCA/organisation/RecordRetention/retention.pdf">
+											  </a></li>
+										<li class="default-tabs"><a data-url="jsp/dgca/topHeader/aboutDGCA/organisation/Transfer Policy/TRANSFER POLICY_14_06_2019.pdf">
+											 </a></li>
+										
+									</ul>
+								</div>
+							</li>
+							
+							
+								<li class="default-tabs"><a data-url="jsp/dgca/topHeader/aboutDGCA/keyOfficials_hi.html"> </a></li>
+								
+							
+							
+								<li class="default-tabs"><a data-url="jsp/dgca/topHeader/aboutDGCA/budgethindi.pdf"></a></li>
+								
+							
+							<li class="default-tabs"><a data-url="jsp/dgca/topHeader/aboutDGCA/userFees/User fees.pdf"> </a></li>
+							<li class="collapse-tabs level-2">
+								<a href="#flightTab2" class="d-flex justify-content-between active-arrow active-collapse" data-toggle="collapse">   </a>
+								<div id="flightTab2" class="collapse sub-option">
+									<ul>
+										
+							
+								<li class="default-tabs"><a data-url="jsp/dgca/topHeader/aboutDGCA/VigilanceFunction_hi.html"> </a></li>
+											
+										
+							<!-- 
+								<li class="default-tabs"><a
+											data-url="jsp/dgca/topHeader/aboutDGCA/VigilanceCircular_hi.html"></a></li>
+								 -->
+										
+										<li class="default-tabs"><a data-url="4363/4643/servicename">. . .    </a></li>
+										<li class="default-tabs"><a data-url="4363/4644/servicename">  </a></li>
+									<li class="default-tabs"><a data-url="jsp/dgca/topHeader/aboutDGCA/vigilance/Appointment of IEM.pdf">  </a></li> 
+		
+									</ul>
+								</div>
+							</li>
+							
+								<!-- added by Ashish yadav on 27-9-23-->
+								<li class="collapse-tabs level-2">
+						<a href="#flightTab3" class="d-flex justify-content-between active-arrow active-collapse" data-toggle="collapse"> (PoSH)  - 2013 </a>
+						<div id="flightTab3" class="collapse sub-option">
+							<ul>
+								
+								<li class="default-tabs"><a data-url="jsp/dgca/topHeader/aboutDGCA/Posh_Act_2013/Re-constituted Complaints Committee 15 Jan 2024.PDF">    </a></li>
+								<li class="default-tabs"><a data-url="jsp/dgca/topHeader/aboutDGCA/Posh_Act_2013/SH Act 2013 Handbook.pdf">      (,   ) , 2013  </a></li>
+								
+							</ul>
+						</div>
+					</li>
+							
+							<li class="default-tabs"><a data-url="jsp/dgca/topHeader/aboutDGCA/CourtCase/Court_Case.pdf">  </a></li>
+							<li class="default-tabs"><a data-url="jsp/dgca/topHeader/aboutDGCA/shabdkosh/shabdkosh.pdf"></a></li>
+							<li class="default-tabs"><a data-url="NodalOfficers/0/500008/viewApplicationDtlsReqPDF"> /  </a></li>
+							<!-- added by Ashish yadav on 30-4-25-->
+<li class="collapse-tabs level-2">
+<a href="#grievancetab" class="d-flex justify-content-between active-arrow active-collapse" data-toggle="collapse">   
+</a>
+<div id="grievancetab" class="collapse sub-option">
+<ul>
+<li class="default-tabs"><a data-url="jsp/dgca/topHeader/aboutDGCA/GrievanceRedressal/SOP for grievance redressal.pdf">
+</a></li>
+</ul>
+</div>
+</li>
+							</ul>
+							</li>
+							
+							</ul>
+					</div>
+		<div class="Jobs side-hide side-navigation">
+				<ul>
+					<li><a class="level1"></a>
+					<ul>
+						<li class="default-tabs active"><a data-url="4368/4646/servicename"> </a></li>
+						<!-- <li class="default-tabs"><a data-url="jsp/dgca/topHeader/jobs/position/Positions.pdf">  </a></li> -->
+						<li class="default-tabs"><a data-url="positionDGCA/500115/0/viewApplicationDtlsReq">  </a></li>
+						<li class="default-tabs"><a data-url="4365/4645/servicename"> </a></li>
+					</ul>
+					
+					</li>
+			</ul>
+		</div>
+		
+		
+		<div class="internship side-hide side-navigation">
+				<ul>
+					<li><a class="level1"></a>
+					<ul>
+						<li class="default-tabs active"><a data-url="5066/12521/servicename"></a></li>
+					</ul>
+					</li>
+			</ul>
+		</div>
+		
+		
+		<div class="RTI side-hide side-navigation">
+				<ul>
+					<li><a class="level1"></a>
+					<ul>
+						<li class="default-tabs active"><a data-url="4372/4647/servicename"> </a></li>
+						<li class="default-tabs"><a data-url="AppointofCPIOAppellateAuth/500003/0/viewApplicationDtlsReq"> </a></li>
+						<li class="default-tabs"><a data-url="4377/4648/servicename"> </a></li>
+						<li class="default-tabs"><a data-url="jsp/dgca/topHeader/rti/transparencyOfficer/TRANSPARENCY_OFFICER.pdf">  </a></li>
+						<li class="default-tabs"><a data-url="jsp/dgca/topHeader/rti/RTI_TRANSPARENCY_AUDIT_REPORT/RTI_TRANSPARENCY_AUDIT_REPORT.html">  </a></li>
+						<li class="default-tabs"><a data-url="jsp/dgca/topHeader/rti/feeRequiredUnderRtiAct/Fee_rti.pdf"> </a></li>
+						<li class="default-tabs"><a data-url="jsp/dgca/topHeader/rti/Proactive disclosure consolidated file.pdf"> </a></li>
+						<li class="default-tabs"><a data-url="5067/8055/servicename">  </a></li>
+					</ul>
+					</li>
+				</ul>
+		</div>
+		
+		
+			
+		
+		
+		</div>
+
+
+		<div class="side-menu-page" style="display: block;">
+			<div class="container">
+				<div class="menuBreadcrum mb-4" style=""><div class="item"><a onclick="homePageLoad();"></a></div></div>
+				<div class="loadContent pb-4 clearfix" style=""><h4>Operator (year 2019)</h4>
+
+<div id="DataTables_Table_0_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12"><div id="DataTables_Table_0_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="DataTables_Table_0"></label></div></div></div><div class="row"><div class="col-sm-12"><div class="dataTables_scroll"><div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px; width: 100%;"><div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 1210px; padding-right: 0px;"><table border="0" cellpadding="0" cellspacing="0" class="datatable-module datatable table table-striped table-bordered dt-responsive nowrap internal-link dataTable no-footer" style="margin-left: 0px; width: 1210px;"><thead>
+		<tr><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 259.75px;">S No.</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 330.703px;">Name</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 259.75px;">PDF</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 258.797px;">EXCEL</th></tr>
+	</thead></table></div></div><div class="dataTables_scrollBody" style="position: relative; overflow: auto; width: 100%;"><table border="0" cellpadding="0" cellspacing="0" class="datatable-module datatable table table-striped table-bordered dt-responsive nowrap internal-link dataTable no-footer" id="DataTables_Table_0" aria-describedby="DataTables_Table_0_info" style="width: 1209px;"><thead>
+		<tr style="height: 0px;"><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 259.75px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">S No.</div></th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 330.703px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Name</div></th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 259.75px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">PDF</div></th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 258.797px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">EXCEL</div></th></tr>
+	</thead>
+	
+	<tbody>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	<tr class="odd">
+			<td align="" width=""><font face="Arial">11.</font></td>
+			<td width=""><font face="Arial">Spicejet</font></td>
+			<td width=""><font face="Arial"><a data-url="jsp/dgca/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/monthly/spicejet19.pdf">Click</a></font></td>
+			<td width=""><font face="Arial"><a data-url="jsp/dgca/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/monthly/spicejet19.xlsx">Click</a></font></td>
+		</tr><tr class="even">
+			<td align="" width=""><font face="Arial">12.</font></td>
+			<td width=""><font face="Arial"> Vistara</font></td>
+			<td width=""><font face="Arial"><a data-url="jsp/dgca/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/monthly/vistara19.pdf">Click</a></font></td>
+			<td width=""><font face="Arial"><a data-url="jsp/dgca/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/monthly/vistara19.xlsx">Click</a></font></td>
+		</tr><tr class="odd">
+			<td align="" width=""><font face="Arial">13.</font></td>
+			<td width=""><font face="Arial">Tru Jet</font></td>
+			<td width=""><font face="Arial"><a data-url="jsp/dgca/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/monthly/trujet19.pdf">Click</a></font></td>
+			<td width=""><font face="Arial"><a data-url="jsp/dgca/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/monthly/trujet19.xlsx">Click</a></font></td>
+		</tr><tr class="even">
+			<td align="" width=""><font face="Arial">14.</font></td>
+			<td width=""><font face="Arial">Star Air</font></td>
+			<td width=""><font face="Arial"><a data-url="jsp/dgca/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/monthly/starair19.pdf">Click</a></font></td>
+			<td width=""><font face="Arial"><a data-url="jsp/dgca/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/monthly/starair19.xlsx">Click</a></font></td>
+		</tr><tr class="odd">
+			<td align="" width=""><font face="Arial">15.</font></td>
+			<td width=""><font face="Arial">Pawan Hans</font></td>
+			<td width=""><font face="Arial"><a data-url="jsp/dgca/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/monthly/pawanhans19.pdf">Click</a></font></td>
+			<td width=""><font face="Arial"><a data-url="jsp/dgca/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/monthly/pawanhans19.xlsx">Click</a></font></td>
+		</tr><tr class="even">
+			<td align="" width=""><font face="Arial">16</font><font face="Arial">.</font></td>
+			<td width=""><font face="Arial">Total Domestic</font></td>
+			<td width=""><font face="Arial"><a data-url="jsp/dgca/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/monthly/totaldom19.pdf">Click</a></font></td>
+			<td width=""><font face="Arial"><a data-url="jsp/dgca/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/monthly/totaldom19.xlsx">Click</a></font></td>
+		</tr><tr class="odd">
+			<td align="" width=""><font face="Arial">17</font><font face="Arial">.</font></td>
+			<td width=""><font face="Arial">Total International</font></td>
+			<td width=""><font face="Arial"><a data-url="jsp/dgca/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/monthly/totalint19.pdf">Click</a></font></td>
+			<td width=""><font face="Arial"><a data-url="jsp/dgca/InventoryList/dataReports/aviationDataStatistics/airTransport/domestic/monthly/totalint19.pdf">Click</a></font></td>
+		</tr><tr class="even">
+			<td align="" width=""><font face="Arial">18</font><font face="Arial">.</font></td>
+			<td width=""><font face="Arial">Domestic City Pair Traffic</font></td>
+			<td width=""><font face="Arial"><a data-url="monthlyStatistics/259/4183/html">Click</a></font></td>
+			<td width=""> </td>
+		</tr></tbody>
+</table></div></div></div></div><div class="row"><div class="col-xl-8 col-lg-8 col-md-12  col-sm-12  "><div class="dataTables_paginate paging_full_numbers" id="DataTables_Table_0_paginate"><ul class="pagination"><li class="paginate_button page-item first" id="DataTables_Table_0_first"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="0" tabindex="0" class="page-link"> </a></li><li class="paginate_button page-item previous" id="DataTables_Table_0_previous"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="1" tabindex="0" class="page-link"> </a></li><li class="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="2" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="3" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item next disabled" id="DataTables_Table_0_next"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="4" tabindex="0" class="page-link"> </a></li><li class="paginate_button page-item last disabled" id="DataTables_Table_0_last"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="5" tabindex="0" class="page-link"> </a></li></ul></div></div><div class="col-xl-3 col-lg-3 col-md-12  col-sm-12 d-flex "><div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">Showing 11 to 18 of <span> 18 items </span></div></div></div></div>
+</div>
+				<div class="side-menu-pdf mb-4" style="display: none;">
+					<div class="inner-pdf">
+					<iframe style="height: 100%; width: 100%;" id="iframePdf" src=""></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="main-page main-page-bg internal-link" style="display: none;">
+				<div class="module-home-page">
+				
+					<!-- <section class="header-carousel custom-owl-carousal bg-white">
+						<div class="w-100">
+							<div class="row align-items-center">
+								<div class="col-12 col-carousel">
+									<div class="owl-carousel carousel-main header-owl">
+										<div>
+											<img src="assets/DGCA/images/caraousal/Banner44-Yoga.jpg" alt="ICAO">
+										</div>
+										<div>
+											<img src="assets/DGCA/images/caraousal/Banner12_g20.jpg" alt="Sabka Sath Sabka Vikas">
+										</div>
+										<div>
+											<img src="assets/DGCA/images/caraousal/Banner 2024_3.png" alt="ICAO" style="height:300px;">
+										</div>
+										<div>
+											<img src="assets/DGCA/images/caraousal/banner 2024_4.png" alt="Award" style="height:300px;">
+										</div>
+										<div>
+											<img src="assets/DGCA/images/caraousal/Banner 2024_5.png" alt="Permit" style="height:300px;">
+										</div>
+										<div>
+											<img src="assets/DGCA/images/caraousal/2026_Nayi_udaan.png" alt="Nayi_udaan" style="height:300px;object-fit: inherit;">
+										</div>
+										<div>
+											<img src="assets/DGCA/images/caraousal/Banner_2026_02.png" alt="Safety" style="height:300px;object-fit: inherit;">
+										</div>
+										<div>
+											<img src="assets/DGCA/images/caraousal/Banner 2024_6.png" alt="eGCA">
+										</div>
+										<div>
+											<img src="assets/DGCA/images/caraousal/Banner 2024_7.png" alt="Safety Oversight">
+										</div>
+										<div>
+											<img src="assets/DGCA/images/caraousal/Banner 2024_9.png" alt="New Aeodrome" style="height:300px;">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+ -->
+ 
+ <div class="carousel-highlight-container"> 
+
+    <!-- LEFT: CAROUSEL -->
+    <div class="carousel-left"> 
+        <section class="header-carousel custom-owl-carousal bg-white"> 
+            <div class="w-100"> 
+                <div class="row align-items-center"> 
+                    <div class="col-12 col-carousel"> 
+                        <div class="owl-carousel carousel-main header-owl owl-loaded owl-drag"> 
+
+							<!-- <div>
+								<a target="_blank" href="https://harghartiranga.com/"><img src="assets/DGCA/images/caraousal/TirangaBanner.png" style="  object-fit: inherit;"></a>
+								</div> -->
+
+							<!-- <div>
+								<img src="assets/DGCA/images/caraousal/Banner47.jpg" style="  object-fit: inherit;">
+								</div> -->
+                         	  
+                          <!--   <div>
+                                <img src="assets/DGCA/images/caraousal/DGCA_2026_03_ICAO_HI.JPG" />
+                            </div>
+                            <div>
+                                <img src="assets/DGCA/images/caraousal/DGCA_2026_02_Safety_Hi.JPG" />
+                            </div> -->
+                           <!--  <div>
+                                <img src="assets/DGCA/images/caraousal/Banner_2026_02.png" style="  object-fit: inherit;"/>
+                            </div> -->
+                          
+                          
+                             
+
+                        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all; width: 0px;"><div class="owl-item cloned active" style="width: 0px;"><div>
+                                <img src="assets/DGCA/images/caraousal/Banner_2026_Survillance.png" style="  object-fit: inherit;">
+                            </div></div><div class="owl-item cloned" style="width: 0px;"><div>
+                                <img src="assets/DGCA/images/caraousal/Banner202607.jpeg" style="  object-fit: inherit;">
+                            </div></div><div class="owl-item" style="width: 0px;"><div>
+								<img src="assets/DGCA/images/caraousal/Banner_2026_Mission.png" style="  object-fit: inherit;">
+								</div></div><div class="owl-item" style="width: 0px;"><div>
+                                <img src="assets/DGCA/images/caraousal/Banner_2026_Survillance.png" style="  object-fit: inherit;">
+                            </div></div><div class="owl-item" style="width: 0px;"><div>
+                                <img src="assets/DGCA/images/caraousal/Banner202607.jpeg" style="  object-fit: inherit;">
+                            </div></div><div class="owl-item cloned" style="width: 0px;"><div>
+								<img src="assets/DGCA/images/caraousal/Banner_2026_Mission.png" style="  object-fit: inherit;">
+								</div></div><div class="owl-item cloned" style="width: 0px;"><div>
+                                <img src="assets/DGCA/images/caraousal/Banner_2026_Survillance.png" style="  object-fit: inherit;">
+                            </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- RIGHT: HIGHLIGHTS -->
+    <div class="highlight-right-side"> 
+
+        <h4 class="mb-1" style="text-align:center;"> </h4>
+
+        <div class="highlight-scroll"> 
+
+            
+
+            <div class="highlight-box">
+					
+					    <div class="sub-heading mb-1" style="display:inline;">
+					        
+					
+					            <a onclick="pdfDownload('IzsLaNJa%2FC6o%2Btn8IsmryQ%3D%3D', 'classification')">
+					                  - 2022-23 ()
+					            </a>
+					
+					            <span class="sub-content ml-1">
+					                15.05.2026
+					            </span>
+					
+					        
+					    </div>
+					
+				
+					
+					</div>
+
+            
+
+            <div class="highlight-box">
+					
+					    <div class="sub-heading mb-1" style="display:inline;">
+					        
+					
+					            <a onclick="pdfDownload('8GA%2B88xD%2FbkAnA30LxPLkQ%3D%3D', 'classification')">
+					                 
+					            </a>
+					
+					            <span class="sub-content ml-1">
+					                15.05.2026
+					            </span>
+					
+					        
+					    </div>
+					
+				
+					
+					</div>
+
+            
+
+            <div class="highlight-box">
+					
+					    <div class="sub-heading mb-1" style="display:inline;">
+					        
+					
+					            <a onclick="pdfDownload('0UwRbWLEqnHVa8wXAD4ieQ%3D%3D', 'classification')">
+					                ICAO       DGCA   
+					            </a>
+					
+					            <span class="sub-content ml-1">
+					                03.10.2025
+					            </span>
+					
+					        
+					    </div>
+					
+				
+					
+					</div>
+
+            
+
+            <div class="highlight-box">
+					
+					    <div class="sub-heading mb-1" style="display:inline;">
+					        
+					
+					            <a onclick="pdfDownload('kzhKrDAJ52gUNWn8pQH1nw%3D%3D', 'classification')">
+					                           
+					            </a>
+					
+					            <span class="sub-content ml-1">
+					                30.09.2025
+					            </span>
+					
+					        
+					    </div>
+					
+				
+					
+					</div>
+
+            
+
+            <div class="highlight-box">
+					
+					    <div class="sub-heading mb-1" style="display:inline;">
+					        
+					
+					            <a onclick="pdfDownload('p9%2BFNq8TMWjJloVEqiZVTA%3D%3D', 'classification')">
+					                       
+					            </a>
+					
+					            <span class="sub-content ml-1">
+					                03.01.2023
+					            </span>
+					
+					        
+					    </div>
+					
+				
+					
+					</div>
+
+            
+
+        </div>
+
+        <a class="btn btn-primary mt-2 text-white" onclick="viewAllHighlightDetailsService();" style="width:25%; margin:auto;"></a>
+
+    </div>
+
+</div>
+					
+					<!-- vertical caraousal start -->
+					<!-- <div class="header-carousel">
+						<div id="headerCarousal" class="carousel slide"
+							data-ride="carousel">
+							Indicators
+							<ul class="carousel-indicators">
+								<li data-target="#headerCarousal" data-slide-to="0" class="active"></li>
+								<li data-target="#headerCarousal" data-slide-to="1"></li>
+								<li data-target="#headerCarousal" data-slide-to="2"></li>
+								<li data-target="#headerCarousal" data-slide-to="3"></li>
+								<li data-target="#headerCarousal" data-slide-to="4"></li>
+								<li data-target="#headerCarousal" data-slide-to="5"></li> 
+								<li data-target="#headerCarousal" data-slide-to="6"></li>
+								<li data-target="#headerCarousal" data-slide-to="7"></li>
+								<li data-target="#headerCarousal" data-slide-to="8"></li>
+								<li data-target="#headerCarousal" data-slide-to="9"></li>
+							</ul> -->
+
+							<!-- The slideshow -->
+							<!-- <div class="carousel-inner"> -->
+							<!-- <div class="carousel-item active">
+								<img src="assets/DGCA/images/caraousal/Banner9.jpg" alt="Sing the national Anthem banner">
+								<div class="container">
+									<div class="slide-content anthem-div"  style="top:24rem;left:29rem;">
+								     <div class="d-flex align-items-center">
+									    <p class="mb-0"><a target="_blank" class="btn btn-secondary anthemBtn" href="https://rashtragaan.in/">Participate Now</a></p>
+									</div>
+								</div>
+								</div>
+							</div> -->
+							
+							<!-- Banner 1 -->
+								<!-- <div class="carousel-item active">
+									<img src="assets/DGCA/images/caraousal/Banner44-Yoga.jpg"
+										alt="ICAO">
+										<div class="container">
+										<div class="slide-content">	
+										</div>
+										</div>							
+								</div> -->
+							<!-- Banner 2 -->
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Banner12_g20.jpg" alt="Sabka Sath Sabka Vikas">
+								</div> -->
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Banner5.jpg"
+										alt="DGCA Vision">
+									<div class="container">
+										<div class="slide-content">
+											<h2>DGCA Vision</h2>
+											
+											
+									      	<p class="mb-4 pt-2 slide-sub-content">Promoting safe and efficient air transportation.</p>
+											<p class="mb-4 pt-2 slide-sub-content">03 Air Operator Permit (Scheduled)<br/>14 Air Operator Permits (Non-Scheduled).
+											<br/>Approved one new FTO; Granted 04 approvals for starting FTO operations at other Operational bases.
+											<br/>Highest number (1131) of Commercial Pilot Licenses (CPL) in the last decade. </p>
+											
+										</div>
+									</div>
+								</div> -->
+								
+								<!-- Banner 3 -->
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Banner 2024_3.png"
+										alt="ICAO">
+										<div class="container">
+										<div class="slide-content">	
+										</div>
+										</div>							
+								</div> -->
+								<!-- Banner 4 -->
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/banner 2024_4.png"
+										alt="Award">
+										<div class="container">
+										<div class="slide-content">	
+										</div>
+										</div>							
+								</div> -->
+								<!-- Banner 5 -->
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Banner 2024_5.png"
+										alt="Permit">
+										<div class="container">
+										<div class="slide-content">	
+										</div>
+										</div>							
+								</div> -->
+								<!-- Banner 6 -->
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Banner 2024_6.png"
+										alt="eGCA">
+										<div class="container">
+										<div class="slide-content">	
+										</div>
+										</div>							
+								</div> -->
+								<!-- Banner 7 -->
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Banner 2024_7.png"
+										alt="Safety Oversight">
+										<div class="container">
+										<div class="slide-content">	
+										</div>
+										</div>							
+								</div> -->
+								<!-- Banner 8 
+								<div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Banner42.jpg"
+										alt="New Aeodrome">
+										<div class="container">
+										<div class="slide-content">	
+										</div>
+										</div>							
+								</div> -->
+								<!-- Banner 9 -->
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Banner 2024_9.png"
+										alt="New Aeodrome">
+										<div class="container">
+										<div class="slide-content">	
+										</div>
+										</div>							
+								</div> -->
+								
+								
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Ranking.jpg"
+										alt="Ranking">
+								</div> -->
+								
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Banner23.jpg"
+										alt="RankingDetails">
+								</div> -->
+								
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/banner7.jpg"
+										alt="Ranking">
+									<div class="container">
+										<div class="slide-content">
+											<h2>DGCA Surveillance</h2>
+									      	<p class="mb-4 pt-2 slide-sub-content">
+											4378; the highest ever number of surveillances undertaken during a year</p>
+											<p class="mb-4 pt-2 slide-sub-content">305 Enforcement actions</p>
+											<p class="mb-4 pt-2 slide-sub-content">39 Penalties amounting to Rs.1.975 crore</p>
+										</div>
+									</div>
+								</div> -->
+								
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Banner21.jpg"
+										alt="Aerodrome">
+										<div class="container">
+										<div class="slide-content">	
+											<h2 style="color:black;">Awarded type certificate to HINDUSTAN 228</h2>										
+									      	<p class="mb-4 pt-2 slide-sub-content" style="color:black;"><b>Designed and developed by Hindustan Aeronautics Limited with state of art technology</b></p>																			
+										</div>
+										</div>							
+								</div> -->
+								
+							
+							<!-- <div class="carousel-item">
+								<img src="assets/DGCA/images/caraousal/DGCA Banner 1.jpg" alt="Kalaburagi Aerodrome">
+							</div> -->
+							<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Banner1.jpg"
+										alt="ICAO Honors">
+										
+									<div class="container">
+										<div class="slide-content mobileDiv">
+											<h2>eGCA</h2>
+										     	<p class="mb-4 pt-2 slide-sub-content">eGovernance of Civil Aviation</p>
+										     <div class="d-flex align-items-center">
+											    <p class="mb-0 new-window-pdf"><a target="_blank" class="btn btn-secondary knowMore" href="jsp/dgca/InventoryList/eGCA_presentation.pdf">Know More</a></p>
+												<p class="mb-0"><span class="ml-2">Call <span  class="d-lg-inline-block d-none">1800-11-3422</span><a  href="" class="reqSupp d-lg-none d-inline-block">1800-11-3422</a> for further support.</span></p>										
+											</div>
+											<p class="mb-4 pt-2 slide-sub-content">We are also available on Mobile App</p>
+											<div class="d-flex align-items-center mobileIcon">
+											    <p class="mb-0 new-window-pdf"><a target="_blank" class="btn btn-secondary knowMore" href="jsp/dgca/InventoryList/eGCA_presentation_MobileApp.pdf">Know More</a></p>
+												<p class="mb-0">
+												<span class="ml-2">
+												<a href="https://play.google.com/store/apps/details?id=com.dgca.mobility.egca" target="_blank" class="btn btn-secondary knowMore"><i style="font: normal normal normal 20px/1 FontAwesome;" class="fa fa-android icon-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top"></i></a> 
+												<span class="ml-2">
+												<a href="https://apps.apple.com/in/app/egca/id1546977832" target="_blank" class="btn btn-secondary knowMore"><i style="font: normal normal normal 20px/1 FontAwesome;" class="fa fa-apple icon-facebook" aria-hidden="true" data-toggle="tooltip" data-placement="top"></i></a>
+												</span>
+												</span>
+												</p>										
+											</div>
+											<p class="mb-4 pt-2 slide-sub-content">Processed 17220 flight crew licenses through the single window digital platform of eGCA.<br/>Approved 24,213 Medical Assessments for Flight Crew and ATCOs.</p>
+										</div>
+									</div>
+								</div> -->
+								
+								
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Banner22.jpg"
+										alt="DGCA Vision">
+									<div class="container">
+										<div class="slide-content">
+											<h2>New Aerodrome License at Deoghar, Hollongi, Jeypore and New Goa</h2>
+									      	<!--<p class="mb-4 pt-2 slide-sub-content">New Aerodrome License at Deoghar, Hollongi, Jeypore and New Goa</p>
+											</div>
+									</div>
+								</div> -->
+								
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Independence banner 1.jpg" alt="Independence banner">
+										<div class="container">
+											<div class="slide-content independence-div" style="top:24rem;">
+										     <div class="d-flex align-items-center">
+											    <p class="mb-0 new-window-pdf"><a target="_blank" class="btn btn-secondary knowMore IndependenceBtn" href="jsp/dgca/InventoryList/List of activities for India@75 - Azadi Ka Amrit Mahotsav.pdf">Calendar of Activities</a></p>
+												<p class="mb-0"><span class="ml-2"><b>(March 2021 to August 2022)</b></span></p>										
+											</div>
+										</div>
+										</div>
+								</div> -->
+								<!-- Banner 10 -->
+								 <!-- <div class="carousel-item">
+								<img src="assets/DGCA/images/caraousal/Banner2.jpg"
+									alt="Kalaburagi Aerodrome">
+								<div class="container">
+									<div class="slide-content">
+										<h2>COVID-19</h2>
+									     <p class="mb-4 pt-2 slide-sub-content">Information/ Guidance To The Aviation Industry</p>
+									     <div class="d-flex align-items-center">
+									    <p class="mb-0"><a target="_blank" class="btn btn-secondary knowMore mr-2" href="jsp/dgca/homePage/covid19.jsp">Know More</a>
+										 <a target="_blank" class="btn btn-secondary knowMore mr-2" href="https://www.mohfw.gov.in/">MoHFW</a>
+									    <a target="_blank" class="btn btn-secondary knowMore" href="https://www.covid19india.org/">Tracker</a>
+										</p>
+										</div>
+										<div class="d-flex align-items-center">
+									    	<p class="mt-2"><a target="_blank" style="background: #ff6B00;color: #fff;cursor: pointer;" class="btn btn-primary knowMore flightcrew mr-2 mb-2" href="jsp/dgca/homePage/flightCrewInfo.jsp">Passenger and Crew Protocol</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>  -->
+								
+								
+								
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Banner1.jpg"
+									alt="ICAO Honors">
+									<div class="container">
+									<div class="slide-content w-75">
+									<h2 class="w-50">DGCA issues Pilot licenses through eGCA</h2>
+									     <p class="mb-4 pt-2 slide-sub-content">The state-of-the-art pilot license is easy to carry and bears a QR code to access latest pilot details such as endorsements, medical assessments, validity etc</p>
+									     
+									</div>
+									</div>
+								</div> -->
+								
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Banner3.jpg"
+										alt="High ATC Tower">
+									<div class="container">
+										<div class="slide-content">
+											<h3>DGCA Vision</h3> 
+									      			<p class="mb-4 pt-2">Endeavour to promote safe and efficient Air Transportation through regulation and proactive safety oversight system</p>
+										</div>
+									</div>
+								</div> -->
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/IMG-20200713-WA0017 (1).jpg"
+										alt="ICAO Honors">
+									<div class="container">
+										<div class="slide-content w-75 text-black">
+											<h2 class="w-50">Rupsi Airport in Kokrajhar District of Assam</h2>
+											<p class="mb-4 pt-2 slide-sub-content">The airport, constructed during World War II and lying 
+											idle since 1984, has been redeveloped and licensed for commercial operations</p>
+
+										</div>
+									</div>
+								</div> -->
+								
+								<!-- <div class="carousel-item">
+									<img src="assets/DGCA/images/caraousal/Banner11.jpg"
+									alt="ICAO Honors">
+									<div class="container">
+									<div class="slide-content w-100">
+									<h2 class="w-50">Kushinagar Airport in Uttar Pradesh</h2>
+									     <p class="mb-4 pt-2 slide-sub-content">Kushinagar, an international Buddhist pilgrimage site, where Gautam Buddha attained Parinirvana (nirvana-after-death). Kushinagar Airport has been licensed for commercial operations.
+										</p>
+									</div>
+									</div>
+								</div> -->
+							<!-- </div>
+							<a class="carousel-control-prev" href="#headerCarousal"
+								data-slide="prev"> <span class="carousel-control-prev-icon"></span>
+							</a> <a class="carousel-control-next" href="#headerCarousal"
+								data-slide="next"> <span class="carousel-control-next-icon"></span>
+							</a>
+
+						</div> -->
+						<!-- vertical caraousal end -->
+						<section class="whats-new-wraper pb-4 pt-4 clearfix" id="skipContent">
+							<div class="container">
+								<h3 class="text-center mb-2 section-heading">  ?</h3>
+								<div class="module-whats-new">
+		
+									<nav class="nav justify-content-around"> 
+									<a href="#tenders" role="tab" data-toggle="tab" class="nav-link"></a> 
+									<a href="#regulation" role="tab" data-toggle="tab" class="nav-link" onclick="ajaxCallService('Regulation');"></a>
+									 <a href="#guidance" role="tab" data-toggle="tab" class="nav-link" onclick="ajaxCallService('Guidance');"></a>
+									<a href="#announcement" role="tab" data-toggle="tab" class="nav-link active" onclick="ajaxCallService('Announcement');"></a> 		
+									</nav>
+									<!-- Tab panes -->
+									<div class="tab-content">
+									<div role="tabpanel" class="tab-pane fade" id="tenders">
+									<div class="row">
+								<!-- <div class=" col-12 col-xl-4 col-lg-4 col-md-12 col-sm-12 pr-lg-0 pr-md-2 d-none d-lg-block">
+							  			<div class="highlight-left">
+							  				<img src="assets/DGCA/images/bg-image/Tender Banner.png">
+							  				<div class="bg-white p-3 img-static-block">
+										      	<p class="sub-heading mb-2">Independence of expression of interest (EOI)</p>
+										      	<p class="sub-content mb-2">Lorem ipsum dolor sit amet, consectetur 
+										      	adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+										      	<p class="italic-style mb-2">Must reach by 25.07.2019 (05:00 PM)</p>
+										      	<a class="pull-right more mb-0">View Details
+												 <img class="pl-1" src="assets/DGCA/images/icons/right-arrow.png"></a>
+										    </div>
+							  			</div>
+							  		</div> -->
+								<div class="col-12  col-xl-12 col-lg-12 col-md-12 col-sm-12">
+									<div class="highlight-right pt-4 bg-white clearfix">
+									
+										<div class="new-window-pdf">
+											<div class="sub-section mr-4 ml-4 pb-3 mb-3 clearfix section-bdr">
+												
+									                <p class="sub-heading mb-2 ">
+											<a onclick="pdfDownload('AhBmzuvbYs%2F07l9MWV4zjg%3D%3D','classification')">
+														
+  
+<input type="hidden" id="  " value="  "></a>
+												</p>
+												<p class="sub-content mb-0 pr-lg-5 pr-lg-0">
+												
+												30.08.2025 (01:00 AM)
+									             |   <a onclick="pdfDownload('AhBmzuvbYs%2F07l9MWV4zjg%3D%3D','classification')">Download (Type : pdf) </a> |
+									              0.73 MB</p>
+									            
+									           
+												
+											</div>
+											</div>
+											
+										<div class="new-window-pdf">
+											<div class="sub-section mr-4 ml-4 pb-3 mb-3 clearfix section-bdr">
+												
+									                <p class="sub-heading mb-2 ">
+											<a onclick="pdfDownload('iaXY2FQ1ks%2B8z7AEGsqWXQ%3D%3D','classification')">
+														
+          
+<input type="hidden" id="tender _ 2021_01" value="tender _ 2021_01"></a>
+												</p>
+												<p class="sub-content mb-0 pr-lg-5 pr-lg-0">
+												
+												22.10.2021 (12:31 AM)
+									             |   <a onclick="pdfDownload('iaXY2FQ1ks%2B8z7AEGsqWXQ%3D%3D','classification')">Download (Type : pdf) </a> |
+									              0.73 MB</p>
+									            
+									           
+												
+											</div>
+											</div>
+											
+										<div class="new-window-pdf">
+											<div class="sub-section mr-4 ml-4 pb-3 mb-3 clearfix section-bdr">
+												
+									                <p class="sub-heading mb-2 ">
+											<a onclick="pdfDownload('BHWy1%2B0JcEXkHxpq9%2FrXAg%3D%3D','classification')">
+														,     ,   - 110003    ,   ,   - 110066                 -   1  21  2019  04.12.2019 (02:00 )    
+<input type="hidden" id="tender 1" value="tender 1"></a>
+												</p>
+												<p class="sub-content mb-0 pr-lg-5 pr-lg-0">
+												
+												04.12.2019 (02:00 PM)
+									             |   <a onclick="pdfDownload('BHWy1%2B0JcEXkHxpq9%2FrXAg%3D%3D','classification')">Download (Type : pdf) </a> |
+									              0.73 MB</p>
+									            
+									           
+												
+											</div>
+											</div>
+											
+										<a class="float-left btn btn-primary mb-4 ml-4 text-white" onclick="viewAllTenderDetailsService();"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div role="tabpanel" class="tab-pane fade" id="regulation">
+								
+									<div class="row">
+										<div class="col-12  col-xl-12 col-lg-12 col-md-12 col-sm-12  pl-lg-0 pl-md-2">
+											<div class="whats-new-right pt-4 clearfix" id="RegulationAjaxData">
+												<div class="sub-section mr-4 ml-4 pb-4 mb-4 clearfix section-bdr">
+													<p class="sub-heading mb-2"><a id="RegulationAjaxDataDate0"></a></p>
+													<p class="sub-content mb-0 pr-lg-5 pr-lg-0" id="RegulationAjaxDataContent0"> 
+													</p>
+													</div>
+													<div class="sub-section mr-4 ml-4 pb-4 mb-4 clearfix section-bdr">
+													<p class="sub-heading mb-2 "><a id="RegulationAjaxDataDate1"></a></p>
+													<p class="sub-content mb-0 pr-lg-5 pr-lg-0" id="RegulationAjaxDataContent1">
+													</p>
+													</div>
+													<div class="sub-section mr-4 ml-4 pb-4 mb-4 clearfix section-bdr">
+													<p class="sub-heading mb-2 "><a id="RegulationAjaxDataDate2"></a></p>
+													<p class="sub-content mb-0 pr-lg-5 pr-lg-0" id="RegulationAjaxDataContent2">
+													</p>
+												</div>
+												<a class="float-left btn btn-primary mb-4 ml-4 text-white" onclick="viewAllWhatsNewService('regulations');"></a>
+										</div>
+										</div>
+									</div>
+								</div>
+								<div role="tabpanel" class="tab-pane fade" id="guidance">
+									<div class="row">
+										<div class="col-12  col-xl-12 col-lg-12 col-md-12 col-sm-12  pl-lg-0 pl-md-2">
+											<div class="whats-new-right pt-4 clearfix" id="GuidanceAjaxData">
+												<div class="sub-section mr-4 ml-4 pb-4 mb-4 clearfix section-bdr">
+													<p class="sub-heading mb-2"><a id="GuidanceAjaxDataDate0"></a></p>
+													<p class="sub-content mb-0 pr-lg-5 pr-lg-0" id="GuidanceAjaxDataContent0"> 
+													</p>
+													</div>
+													<div class="sub-section mr-4 ml-4 pb-4 mb-4 clearfix section-bdr">
+													<p class="sub-heading mb-2 "><a id="GuidanceAjaxDataDate1"></a></p>
+													<p class="sub-content mb-0 pr-lg-5 pr-lg-0" id="GuidanceAjaxDataContent1">
+													</p>
+													</div>
+													<div class="sub-section mr-4 ml-4 pb-4 mb-4 clearfix section-bdr">
+													<p class="sub-heading mb-2 "><a id="GuidanceAjaxDataDate2"></a></p>
+													<p class="sub-content mb-0 pr-lg-5 pr-lg-0" id="GuidanceAjaxDataContent2">
+													</p>
+												</div>
+												<a class="float-left btn btn-primary mb-4 ml-4 text-white" onclick="viewAllWhatsNewService('guidance');"></a>
+										</div>
+									</div>
+								</div>
+								</div>
+								
+								<div role="tabpanel" class="tab-pane active" id="announcement">
+									<div class="row">
+										<div class="col-12  col-xl-12 col-lg-12 col-md-12 col-sm-12  pl-lg-0 pl-md-2">
+											<div class="col-12  col-xl-12 col-lg-12 col-md-12 col-sm-12  pl-lg-0 pl-md-2">
+											<div class="whats-new-right pt-4 clearfix">
+												
+												<div class="sub-section mr-4 ml-4 pb-4 mb-4 clearfix section-bdr">
+													<!-- <span class="sub-heading">Director Airworthiness,</span> -->
+													
+													<p class="sub-heading mb-2"><a onclick="pdfDownload('QFvadFi2m1sx3VqN%2BdDjAQ%3D%3D','regulation');">   (DGCA)    (NSOP Examiners)            </a></p>
+													
+													<p class="sub-content mb-0 pr-lg-5 pr-lg-0">
+															30/10/2026 
+														
+														 |   <a onclick="pdfDownload('QFvadFi2m1sx3VqN%2BdDjAQ%3D%3D','Regulation');">Download (Type : pdf) </a> | 5.06 MB
+															
+															
+															
+													</p>
+												</div>
+												
+												<div class="sub-section mr-4 ml-4 pb-4 mb-4 clearfix section-bdr">
+													<!-- <span class="sub-heading">Director Airworthiness,</span> -->
+													
+													<p class="sub-heading mb-2"><a onclick="pdfDownload('1rh9pISDpU6XyUAr52cJCw%3D%3D','regulation');">    (DGCA)       (EASA)     1, 2  3        ,   ,    </a></p>
+													
+													<p class="sub-content mb-0 pr-lg-5 pr-lg-0">
+															27/10/2026 
+														
+														 |   <a onclick="pdfDownload('1rh9pISDpU6XyUAr52cJCw%3D%3D','Regulation');">Download (Type : pdf) </a> | 0.93 MB
+															
+															
+															
+													</p>
+												</div>
+												
+												<div class="sub-section mr-4 ml-4 pb-4 mb-4 clearfix section-bdr">
+													<!-- <span class="sub-heading">Director Airworthiness,</span> -->
+													
+													<p class="sub-heading mb-2"><a onclick="pdfDownload('SgYz5xYAP5qQhUzpkDUkxw%3D%3D','regulation');">     ,    (DGCA)      (Senior Dangerous Goods Inspector - Sr. DGI)          (01)      </a></p>
+													
+													<p class="sub-content mb-0 pr-lg-5 pr-lg-0">
+															23/10/2026 
+														
+														 |   <a onclick="pdfDownload('SgYz5xYAP5qQhUzpkDUkxw%3D%3D','Regulation');">Download (Type : pdf) </a> | 5.41 MB
+															
+															
+															
+													</p>
+												</div>
+												
+												<a class="float-left btn btn-primary mb-4 ml-4 text-white" onclick="viewAllWhatsNewService('announcement');"></a>
+											</div>
+											
+										</div>
+
+										</div>
+									</div>
+								</div>
+								
+								
+								
+							</div>
+								</div>
+		
+							</div>
+					</section><!-- whats new ends -->
+						<section class="custom-owl-carousal  pt-5 pb-2 static-block">
+						<div class="container-fluid d-lg-flex b-block px-2" style="width:100vw;">
+									<div class="text-center  static-block-content p-4">
+											<img class="on-hover" alt="Environment" src="assets/DGCA/images/whiteBlock/envi.svg"> <img class="not-hover" alt="Environment" src="assets/DGCA/images/whiteBlock/envi-in.svg"> <a class="pt-2 mb-0 pb-2 static-head" data-url="jsp/dgca/InventoryList/headerblock/Environment/main.html">
+											
+											</a>
+											<p class="btm-border"></p>
+											<p class="pt-3 mb-3 sub-content">
+											                          </p>
+
+									</div>
+									<div class="text-center static-block-content p-4">
+										<img class="on-hover" alt="SSP" src="assets/DGCA/images/whiteBlock/ssp.svg"> <img class="not-hover" alt="SSP" src="assets/DGCA/images/whiteBlock/ssp-in.svg"> <a class="pt-2 mb-0 pb-2 static-head" data-url="jsp/dgca/InventoryList/headerblock/ssp/main.html"></a>
+										<p class="btm-border"></p>
+										<p class="pt-3 mb-3 sub-content">  </p>
+
+									</div>
+									<div class="text-center static-block-content p-4" style="display:none">
+										<a target="_blank" class="p-4  static-block-content " href="jsp/dgca/InventoryList/headerblock/drones/RPAS.jsp">
+											<img class="on-hover" alt="Drones" src="assets/DGCA/images/whiteBlock/drones.svg"> <img class="not-hover" alt="Drones" src="assets/DGCA/images/whiteBlock/drones-in.svg">
+											<p class="pt-4 mb-0 pb-4 static-head"></p>
+											<p class="mb-4 sub-content"> </p>
+										</a>
+										
+									</div>
+									
+									<div class="text-center  static-block-content p-4">
+										<img class="on-hover" alt="Aerosports" src="assets/DGCA/images/whiteBlock/rights.svg"> <img class="not-hover" alt="Aerosports" src="assets/DGCA/images/whiteBlock/rights-in.svg"> <a class="pt-2 mb-0 pb-2 static-head" data-url="jsp/dgca/InventoryList/headerblock/Aerosports/main.html"> </a>
+									<p class="btm-border"></p>
+									<p class="pt-3 mb-3 sub-content">
+										  -
+									</p>
+
+						</div>
+
+									<div class="text-center  static-block-content p-4">
+										<img class="on-hover" alt="Know Your Rights" src="assets/DGCA/images/whiteBlock/rights.svg"> <img class="not-hover" alt="Know Your Rights" src="assets/DGCA/images/whiteBlock/rights-in.svg"> 
+											
+											
+											<a class="pt-2 mb-0 pb-2 static-head" data-url="jsp/dgca/InventoryList/headerblock/knowYour/index_files/KYR_portalHi.html">   </a>
+											
+											
+											<p class="btm-border"></p>
+										<p class="pt-3 mb-3 sub-content">    </p>
+
+									</div>
+									<div class="text-center  static-block-content p-4">
+										<a target="_blank" href="#" onclick="fnAlertRedirection('https://pariksha.dgca.gov.in/');"> <img class="on-hover" alt="Pariksha" src="assets/DGCA/images/onlineService/Pariksha-white.png">
+										<img class="not-hover img-fluid" alt="Pariksha" src="assets/DGCA/images/whiteBlock/rights-in.svg">
+										<p class="pt-4 mb-0 pb-4 static-head"></p>
+										<p class="mb-4 sub-content">              </p>
+										</a>
+									</div>						
+									<div class="text-center  static-block-content p-4">
+										<a target="_blank" href="#" onclick="fnAlertRedirection('https://esahaj.gov.in/guidelines');"> <img class="on-hover" alt="E sahaj" src="assets/DGCA/images/onlineService/E sahaj-white.png">
+										<img class="not-hover img-fluid" alt="E sahaj" src="assets/DGCA/images/whiteBlock/rights-in.svg">
+										<p class="pt-1 mb-0 pb-4 static-head">-</p>
+										<p class="mb-4 sub-content">          </p>
+										</a>
+									</div>	
+						</div>
+						</section>
+					</div>
+					<!-- header-carousel ends -->
+	<!-- whats new ends -->
+					
+					<!-- highlight ends -->
+					<section class="online-service-wraper mt-5 pb-3" style="display:none;">
+							<div class="container">
+								<h3 class="text-center section-heading mb-4"> </h3>
+								<div id="onlineService" class="carousel slide arrow-bottom clearfix" data-ride="carousel">
+									<!-- The slideshow -->
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<div class="static-block">
+												<div class="container">
+													<div class="row">
+														<div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12 justify-content-center mb-3 d-flex" style="margin:auto;">
+															<a target="_blank" class="p-4  static-block-content " href="jsp/dgca/common/login.jsp">
+																<img class="on-hover img-fluid" alt="EGCA" src="assets/DGCA/images/onlineService/Service-white.png">
+																<img class="not-hover img-fluid" alt="EGCA" src="assets/DGCA/images/onlineService/Service.png">
+																<p class="pt-4 mb-0 pb-4 static-head">-</p>
+																<p class="mb-4 sub-content">, , ,       </p>
+															</a>
+														</div>
+														
+														
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- 	  <a class="carousel-control-prev" href="#onlineService" data-slide="prev">
+											    <span class="carousel-control-prev-icon"></span>
+											  </a>
+											  <a class="carousel-control-next" href="#onlineService" data-slide="next">
+											    <span class="carousel-control-next-icon"></span>
+											  </a>
+											  <button class="float-left btn btn-primary">View All Services</button>
+									 -->
+								</div>
+							</div>
+					</section><!-- online service ends -->
+					<section class="quick-link-wraper mt-5 pb-3 clearfix">
+							<div class="container">
+								<div class="quick-link-container pb-4 clearfix">
+		
+									<h3 class="section-heading text-white text-center mb-4 pt-4"> </h3>
+									<!-- <div class="row justify-content-center">
+										<div class=" col-12  col-xl-5 col-lg-5 col-md-10 col-sm-12">
+											<div class="form-group custom-input">
+												<input type="text" class="form-control rounded-bdr"
+													placeholder="Enter keywords like Aircraft Act, 1934">
+												<span class="field-icon"> <img alt="search"
+													src="assets/DGCA/images/icons/Search.png">
+												</span>
+											</div>
+										</div>
+									</div> -->
+									<div class="container">
+														<div class="row">
+															<div class=" col-12  col-xl-6  col-lg-6 col-md-12  col-sm-12 mb-3">
+																
+																<div class="quick-link-content p-3">
+																	<a class="d-flex justify-content-between" data-url="jsp/dgca/InventoryList/headerblock/Idera/ideraIndex.html">  ( 32 )<img class="pull-right" data-url="jsp/dgca/InventoryList/headerblock/Idera/ideraIndex.html" alt="right arrow" src="assets/DGCA/images/icons/right-arrow.png">
+																	</a>
+																</div>
+																
+																<div class="quick-link-content p-3 new-window-pdf">
+																	<a target="_blank" class="d-flex justify-content-between" href="jsp/dgca/InventoryList/headerblock/national/Safety Plan_India.pdf">   <img class="pull-right" alt="right arrow" src="assets/DGCA/images/icons/right-arrow.png">
+																	</a>
+																</div>
+															</div>
+															<div class=" col-12  col-xl-6  col-lg-6 col-md-12  col-sm-12">
+																
+																
+																<div class="quick-link-content p-3 new-window-pdf">
+																	<a target="_blank" class="d-flex justify-content-between" href="jsp/dgca/InventoryList/dataReports/surveillance/program/ASP 2024.pdf">   2024 <img class="pull-right" alt="right arrow" src="assets/DGCA/images/icons/right-arrow.png">
+																	</a>
+																</div>
+															</div>
+														</div>
+													</div>
+									<!-- <div id="quicklink"
+										class="carousel slide arrow-bottom white-arrow"
+										data-ride="carousel">
+										The slideshow
+										<div class="carousel-inner mb-3">
+											<div class="carousel-item active">
+												<div class="static-block">
+													
+												</div>
+											</div>
+										</div>
+										<a class="carousel-control-prev" href="#quicklink"
+											data-slide="prev"> <span class="carousel-control-prev-icon"></span>
+										</a> <a class="carousel-control-next" href="#quicklink"
+											data-slide="next"> <span class="carousel-control-next-icon"></span>
+										</a>
+										  <button class="float-left btn btn-primary">View All Quicklink</button>
+									
+									</div> -->
+		
+								</div>
+							</div>
+					</section><!-- quicklink ends -->
+					 
+				</div>
+				<!-- module-home-page ends -->
+				<section class="footer-carousal  custom-owl-carousal p-4 mt-5 bg-white">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-12 col-carousel">
+							<div class="owl-carousel carousel-main footer-owl owl-loaded owl-drag">
+								
+								<!-- <div><a href=""></a><img src="assets/DGCA/images/owl-carousal/eci.png"></div> -->
+								
+								
+								
+							<div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1578px, 0px, 0px); transition: 0.25s; width: 3158px;"><div class="owl-item cloned" style="width: 253.125px; margin-right: 10px;"><div>
+									<a href="#" onclick="fnAlertRedirection('https://www.digitalindia.gov.in/');"><img alt="digital india" src="assets/DGCA/images/owl-carousal/digital_india_logo.png"></a>
+								</div></div><div class="owl-item cloned" style="width: 253.125px; margin-right: 10px;"><div>
+									<a onclick="fnAlertRedirection('https://www.india.gov.in/spotlight/government-e-marketplace-procurement-made-smart#tab=tab-1');" href="#"><img alt="GEM" src="assets/DGCA/images/owl-carousal/GEM.png"></a>
+								</div></div><div class="owl-item cloned" style="width: 253.125px; margin-right: 10px;"><div>
+									<a href="#" onclick="fnAlertRedirection('https://indiainvestmentgrid.gov.in/');"><img alt="india investment grid" src="assets/DGCA/images/owl-carousal/iig.png"></a>
+								</div></div><div class="owl-item cloned" style="width: 253.125px; margin-right: 10px;"><div>
+									<a href="#" onclick="fnAlertRedirection('https://www.india.gov.in/');"><img alt="india.gov" src="assets/DGCA/images/owl-carousal/india.gov.png"></a>
+								</div></div><div class="owl-item" style="width: 253.125px; margin-right: 10px;"><div>
+									<a href="#" onclick="fnAlertRedirection('https://www.digitalindia.gov.in/');"><img alt="digital india" src="assets/DGCA/images/owl-carousal/digital_india_logo.png"></a>
+								</div></div><div class="owl-item" style="width: 253.125px; margin-right: 10px;"><div>
+									<a onclick="fnAlertRedirection('https://www.india.gov.in/spotlight/government-e-marketplace-procurement-made-smart#tab=tab-1');" href="#"><img alt="GEM" src="assets/DGCA/images/owl-carousal/GEM.png"></a>
+								</div></div><div class="owl-item active" style="width: 253.125px; margin-right: 10px;"><div>
+									<a href="#" onclick="fnAlertRedirection('https://indiainvestmentgrid.gov.in/');"><img alt="india investment grid" src="assets/DGCA/images/owl-carousal/iig.png"></a>
+								</div></div><div class="owl-item active" style="width: 253.125px; margin-right: 10px;"><div>
+									<a href="#" onclick="fnAlertRedirection('https://www.india.gov.in/');"><img alt="india.gov" src="assets/DGCA/images/owl-carousal/india.gov.png"></a>
+								</div></div><div class="owl-item cloned active" style="width: 253.125px; margin-right: 10px;"><div>
+									<a href="#" onclick="fnAlertRedirection('https://www.digitalindia.gov.in/');"><img alt="digital india" src="assets/DGCA/images/owl-carousal/digital_india_logo.png"></a>
+								</div></div><div class="owl-item cloned active" style="width: 253.125px; margin-right: 10px;"><div>
+									<a onclick="fnAlertRedirection('https://www.india.gov.in/spotlight/government-e-marketplace-procurement-made-smart#tab=tab-1');" href="#"><img alt="GEM" src="assets/DGCA/images/owl-carousal/GEM.png"></a>
+								</div></div><div class="owl-item cloned" style="width: 253.125px; margin-right: 10px;"><div>
+									<a href="#" onclick="fnAlertRedirection('https://indiainvestmentgrid.gov.in/');"><img alt="india investment grid" src="assets/DGCA/images/owl-carousal/iig.png"></a>
+								</div></div><div class="owl-item cloned" style="width: 253.125px; margin-right: 10px;"><div>
+									<a href="#" onclick="fnAlertRedirection('https://www.india.gov.in/');"><img alt="india.gov" src="assets/DGCA/images/owl-carousal/india.gov.png"></a>
+								</div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span><img src="assets/DGCA/images/arrow/slider-left-arrow.png"></span></button><button type="button" role="presentation" class="owl-next"><span><img src="assets/DGCA/images/arrow/slider-right-arrow.svg"></span></button></div><div class="owl-dots disabled"></div></div>
+						</div>
+					</div>
+				</div>
+				</section>
+				
+			</div>
+			
+			
+		</div>
+	
+	<a href="#" class="back-to-top" style="display: none;"></a>
+	
+	
+	</section>
+	
+
+
+<footer>
+	<section class="footer-top p-3 text-center">
+		<a href="jsp/dgca/footerLink/sitemap.jsp" class="text-white"> </a><span class="pl-2 pr-2">
+			|</span>
+		 <a href="jsp/dgca/footerLink/WebsitePolicy.jsp" target="_blank" class="text-white"> </a><span class="pl-2 pr-2"> |</span> 
+		<a href="jsp/dgca/homePage/disclaimer.jsp" target="_blank" class="text-white"></a><span class="pl-2 pr-2">|</span>
+		<a href="jsp/dgca/footerLink/PrivacyPolicy.jsp" class="text-white"> </a>	<span class="pl-2 pr-2">|</span>
+		<a href="jsp/dgca/dgcaHelp.jsp" class="text-white"></a><span class="pl-2 pr-2">|</span>
+		<a href="webHP?requestType=ApplicationRH&actionVal=openFeedbackPageAv&screenId=2900107&isLogin=0" class="text-white"></a><span class="pl-2 pr-2">|</span>
+		
+		<div class="new-window-pdf" style="display: inline-block;">		
+			<a href="jsp/dgca/InventoryList/STQC WEBAPP/STQC web application security certificate.pdf" class="text-white" target="_blank">     </a><span class="pl-2 pr-2">|</span>
+			
+		</div>
+		<div class="new-window-pdf" style="display: inline-block;">		
+			<a href="jsp/dgca/InventoryList/STQC WEBAPP/DGCA GIGW STQC Compliance.pdf" class="text-white" target="_blank">  </a>
+		</div>	
+		
+	</section>
+	<section class="footer-middle p-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12 pr-lg-0 pr-md-2 mb-3">
+					<div class="footer-left mr-lg-3  mr-md-0">
+						<p class="footer-heading">
+							  
+						</p>
+						<div class="row">
+							<div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 mb-3">
+								<div class="d-flex">
+									<span> <img class="pr-3" src="assets/DGCA/images/icons/call.png"></span>
+									<div class="footer-content">
+										<p class="mb-2">91-11-24622495</p>
+										<!-- <p class="mb-2">91 - 9876543210</p>
+									<p>91 - 5987265234</p> -->
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 mb-3">
+								<div class="d-flex">
+									<span> <img class="pr-3" src="assets/DGCA/images/icons/message.png"></span>
+									<div class="footer-content">
+										<p class="mb-2">feedback-dgca[at]gov[dot]in</p>
+										<!-- <p class="">Address Line 1</p> -->
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-md-4 col-sm-12">
+								<div class="d-flex">
+									<span> <img class="pr-3" src="assets/DGCA/images/icons/Address.png"></span>
+									<div class="footer-content">
+										<p class="mb-2">
+											 
+										</p>
+										<p class="mb-2">
+											     
+										</p>
+										<p class="mb-2">
+											 -110003
+										</p>
+										<p class="">
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-8 col-sm-12 col-12">
+					<p class="footer-heading">
+						  
+					</p>
+					<div class="row">
+						<!-- <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 mb-3">
+							<div class="footer-content d-flex">
+									<span> <img class="pr-2" src="assets/DGCA/images/icons/IN.png"></span>
+									<p class="mb-3">24K+ Followers</p>
+							</div>
+						</div> -->
+						<!-- <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 mb-3">
+							<div class="footer-content d-flex">
+									<span> <img class="pr-2" src="assets/DGCA/images/icons/Twitter.png"></span>
+									<p class="mb-3">24K+ Followers</p>
+							</div>
+						</div> -->
+					</div>
+					<div class="row">
+						<!-- <div class="col-xl-6 col-lg-6 col-md-6col-sm-6 col-6 mb-3">
+							<div class="footer-content d-flex">
+									<span> <img class="pr-2" src="assets/DGCA/images/icons/IN.png"></span>
+									<p class="mb-3">24K+ Followers</p>
+							</div>
+						</div> -->
+						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+							<div class="footer-content d-flex">
+								<a href="https://twitter.com/hashtag/dgca?lang=en">
+										<img class="pr-2" width="45" src="assets/DGCA/images/icons/Twitter.png">
+							 </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+							<div class="col-xl-4 col-lg-7 col-md-12 col-sm-12 col-12 pr-lg-0 pr-md-2">
+								<div class="mr-lg-3  mr-md-0">
+									<p class="footer-heading mb-2">eGCA    </p>
+									<div class="row">
+										<div class="col-xl-5 col-lg-5 col-md-6 col-sm-12">
+											<div class="d-flex">
+												<span> <img class="pr-3" src="assets/DGCA/images/icons/call.png"></span>
+												<div class="footer-content">
+													<p class="mb-0">1800-11-3422</p>
+													<!-- <p class="mb-2">91 - 9876543210</p>
+												<p>91 - 5987265234</p> -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 mb-3">
+								<div class="d-flex">
+										<div class="footer-content">
+										<p class="footer-heading text-white mb-2">  </p>
+										<p class="mb-2">   </p>
+									</div>
+								</div>
+							</div>
+						</div>
+		</div>
+	</section>
+	<section class="footer-bottom p-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="footer-text-1 text-left" href="#">
+						<p class="mb-1">Website Content Managed and Owned by Directorate General
+							of Civil Aviation</p>
+						<p class="mb-0">Designed, Developed and Hosted by TATA
+							Consultancy Services</p>
+					</div>
+				</div>
+				<div class="col-md-4 text-right">
+					<div class="footer-text-2">
+						<p class="footer-subtext mb-1">@  DGCA - All rights
+							reserved</p>
+						<p class="mb-0">Last Updated Date - 01 Nov 2026</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="modal" id="disclaimer">
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">Disclaimer</h4>
+					<button type="button" class="close" data-dismiss="modal">×</button>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body">Unless otherwise specifically stated,
+					the information contained herein is made available to the public by
+					Directorate General of Civil Aviation (DGCA), an agency of Ministry
+					of Civil Aviation (MCA), Government of India (GOI) for information
+					only. Neither the DGCA, MCA, or GOI nor any other agency or
+					entities thereof, assumes any legal liability or responsibility for
+					the accuracy, completeness, or usefulness of any information,
+					apparatus, product or process disclosed, or represents that the use
+					of any information would not infringe privately owned rights.
+
+					Reference herein to any specific commercial product, process,
+					service by trade name, trade mark, manufacturer, or otherwise, does
+					not constitute or imply its endorsement, recommendation, or
+					favoring by the GOI or any entities thereof. The view and opinions
+					of the originators expressed therein do not necessarily state or
+					reflect those of the DGCA, MCA, GOI, or any agency or entities
+					thereof.</div>
+
+				<!-- Modal footer -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</footer>
+
+
+<script>
+
+</script>
+
+	
+
+
+
+<link rel="stylesheet" href="style/statusbar.css?v=1.8" type="text/css">
+<script type="text/javascript" src="script/statusbar.js?v=1.8"></script>
+<script type="text/javascript" src="script/frmUtils.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/libs/js/jquery.min.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/libs/js/popper.min.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/libs/js/bootstrap.min.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/libs/js/owl.carousel.min.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/libs/js/jquery.dataTables.min.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/libs/js/dataTables.bootstrap4.min.js?v=1.8"></script>
+
+<script>
+	if (!String.prototype.includes) {
+		String.prototype.includes = function() {
+			'use strict';
+			return String.prototype.indexOf.apply(this, arguments) !== -1;
+		};
+	}
+	if (!String.prototype.endsWith) {
+
+		String.prototype.endsWith = function(pattern) {
+			  var d = this.length - pattern.length;
+			  return d >= 0 && this.lastIndexOf(pattern) === d;
+			};
+		}
+		if (!String.prototype.startsWith) {
+			  String.prototype.startsWith = function(searchString, position) {
+			    position = position || 0;
+			    return this.indexOf(searchString, position) === position;
+			  };
+			}
+</script>
+<script src="/digigov-portal/assets/DGCA/script/custom-datatable.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/libs/js/bootstrap-datepicker.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/script/show-pdf-table.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/script/header.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/script/internal-link.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/script/sidebar.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/script/topHeader.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/script/commonDynaArray.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/script/commonDynamic.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/script/common.js?v=1.8"></script>
+<script src="/digigov-portal/assets/DGCA/script/side-tabs.js?v=1.8"></script>
+<script src="/digigov-portal/script/aes/AesUtil.js"></script>
+
+<script>
+	//datatable
+	$(document).ready(function() {
+
+						// set nit mode on load 
+						var theme = sessionStorage.getItem('nitModeValue');
+						if (theme !== ' ') {
+							$('body').addClass(theme);
+						}
+
+						//tooltip
+						$('[data-toggle="tooltip"]').tooltip();
+						//datepicker
+						$('.datepicker').datepicker({
+							autoclose : true,
+						});
+						//carousal
+
+						$('.footer-owl').owlCarousel(
+										{
+											items : 4,
+											loop : true,
+											autoplay : true,
+											autoplayTimeout : 1500,
+											margin : 10,
+											autoplayHoverPause:true,
+											nav : true,
+											dots : false,
+											mouseDrag : true,
+											responsiveClass : true,
+											responsive : {
+												0 : {
+													items : 3
+												},
+												480 : {
+													items : 3
+												},
+												769 : {
+													items : 4
+												}
+											},
+											navText : [
+													'<span><img src="assets/DGCA/images/arrow/slider-left-arrow.png"></span>',
+													'<span><img src="assets/DGCA/images/arrow/slider-right-arrow.svg"></span>' ],
+
+										});
+
+						$(".dgca-home").click(function() {
+							sessionStorage.setItem('topTarget', '');
+							sessionStorage.setItem('topLinkTarget', '');
+						});
+
+						//Dynamic Rule ID for LVL2
+						var dynamicRuleIdLvl2 = sessionStorage.getItem('dynamicRuleIdLvl2');
+						var attrLvl2 = sessionStorage.getItem('attrLvl2');
+						var dynamicContIdLvl2 = sessionStorage.getItem('dynamicContIdLvl2');
+						if (dynamicRuleIdLvl2) {
+							document.getElementById("screenId").value = '10000001';
+							document.getElementById("actionVal").value = 'viewDynamicRuleContLvl2';
+							document.getElementById("requestType").value = 'ApplicationRH';
+							document.getElementById("ruleBookId").value = dynamicRuleIdLvl2;
+							document.getElementById("contentId").value = dynamicContIdLvl2;
+							document.getElementById("attr").value = attrLvl2;
+							$(".tab-pane").removeClass("active");
+							if (attrLvl2 !== undefined && attrLvl2 !== false) {
+								history.pushState({}, attrLvl2, "?page="+ attrLvl2);
+							}
+							showProgressbar();
+							$.ajax({
+										url : 'scan?',
+										dataType : 'text',
+										type : 'post',
+										contentType : 'application/x-www-form-urlencoded',
+										data : $('#hiddenForm').serialize(),
+										success : function(data, textStatus,jQxhr) {
+											$('.loadContent').show().html(data);
+
+											loadMenuContent(attrLvl2);
+											customDatatable();
+											hideProgressbar();
+											if ($(window).width() <= 768) {
+												$(".side-tabs").hide();
+												$(".side-menu-page")
+														.removeClass(
+																"side-menu-width");
+											}
+										},
+										error : function(jqXhr, textStatus,
+												errorThrown) {
+											console.log(errorThrown);
+											hideProgressbar();
+										}
+									});
+
+							sessionStorage.setItem('dynamicRuleIdLvl2', '');
+							sessionStorage.setItem('attrLvl2', '');
+							sessionStorage.setItem('dynamicContIdLvl2', '');
+						}
+
+						// Dynamic App ID
+						var dynamicAppId = sessionStorage.getItem('dynamicAppId');
+						var appAttr = sessionStorage.getItem('dynamicAppAttr');
+						if (dynamicAppId) {
+							document.getElementById("screenId").value = '10000001';
+							document.getElementById("actionVal").value = 'viewApplicationDtlsReq';
+							document.getElementById("requestType").value = 'ApplicationRH';
+							document.getElementById("contentId").value = dynamicAppId;
+							document.getElementById("serviceName").value = appAttr;
+							$(".tab-pane").removeClass("active");
+							if (appAttr !== undefined && appAttr !== false) {
+								history.pushState({}, appAttr, "?page="+ appAttr);
+							}
+							showProgressbar();
+							$.ajax({
+										url : 'scan?',
+										dataType : 'text',
+										type : 'post',
+										contentType : 'application/x-www-form-urlencoded',
+										data : $('#hiddenForm').serialize(),
+										success : function(data, textStatus,
+												jQxhr) {
+											$('.loadContent').show().html(data);
+											loadMenuContent(appAttr);
+											customDatatable();
+											hideProgressbar();
+											if ($(window).width() <= 768) {
+												$(".side-tabs").hide();
+												$(".side-menu-page")
+														.removeClass(
+																"side-menu-width");
+											}
+										},
+										error : function(jqXhr, textStatus,
+												errorThrown) {
+											console.log(errorThrown);
+											hideProgressbar();
+										}
+									});
+
+							sessionStorage.setItem('dynamicAppId', '');
+							sessionStorage.setItem('dynamicAppAttr', '');
+						}
+
+						//Public Notice Section
+						var dynamicWhatsNewName = sessionStorage.getItem('dynamicWhatsNewName');
+						if (dynamicWhatsNewName) {
+							document.getElementById("screenId").value = '10000001';
+							document.getElementById("classification").value = dynamicWhatsNewName;
+							var url = 'scan?requestType=ApplicationRH&actionVal=viewAllService';
+							$(".tab-pane").removeClass("active");
+							if (dynamicWhatsNewName !== undefined
+									&& dynamicWhatsNewName !== false) {
+								history.pushState({}, dynamicWhatsNewName,"?page=" + dynamicWhatsNewName);
+							}
+							showProgressbar();
+							$.ajax({
+										url : url,
+										dataType : 'text',
+										type : 'post',
+										contentType : 'application/x-www-form-urlencoded',
+										async : "false",
+										data : $('#hiddenForm').serialize(),
+										success : function(data, textStatus,
+												jQxhr) {
+											$('.loadContent').show().html(data);
+											loadMenuContent(dynamicWhatsNewName);
+											hideProgressbar();
+											if ($(window).width() <= 768) {
+												$(".side-tabs").hide();
+												$(".side-menu-page")
+														.removeClass(
+																"side-menu-width");
+											}
+										},
+										error : function(jqXhr, textStatus,
+												errorThrown) {
+											console.log(errorThrown);
+											hideProgressbar();
+										}
+									});
+							sessionStorage.setItem('dynamicWhatsNewName', '');
+						}
+						
+							 //Back to top
+							 //Check to see if the window is top if not then display button
+							 $('.back-to-top').fadeOut();
+							 $(window).scroll(function(){
+
+							  // Show button after 100px
+							  var showAfter = 100;
+							  if ( $(this).scrollTop() > showAfter ) { 
+							   $('.back-to-top').fadeIn();
+							  } else { 
+							   $('.back-to-top').fadeOut();
+							  }
+							 });
+							 //Click event to scroll to top
+							 $('.back-to-top').click(function(){
+							  $('html, body').animate({scrollTop : 0},800);
+							  return false;
+							 });
+					});
+	function viewCertificateVerificationPage() {
+		document.forms[0].method = 'post';
+		document.forms[0].action = 'scan?requestType=ApplicationRH&actionFlag=getCertVerificationPage';
+		document.forms[0].submit();
+	}
+</script>
+
+
+	<script src="assets/DGCA/script/side-tabs.js"></script>
+
+
+
+<script>
+
+window.onload = function () {
+
+	$('.header-owl').owlCarousel({
+	        items: 1,
+	        loop: true,
+	        nav: true,
+	        dots: false,
+	        autoplay: true
+	    });
+
+  document.body.style.visibility = "visible";
+};
+
+var certVerfMainDiv=document.getElementById("certVerfMainDiv");
+console.log("certVerfMainDiv modal show false");
+if (certVerfMainDiv!=null)  {
+	console.log("certVerfMainDiv modal show true");
+	$("#certVerfMainDiv").modal("show");
+}
+</script></body></html>

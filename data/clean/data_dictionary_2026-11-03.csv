@@ -1,0 +1,16 @@
+column,dtype,unit,source,meaning,allowed_range,observed_range
+Type,str,-,derived,Section of the DGCA workbook,ScheduledDomestic | NonScheduledDomestic,
+Group,str,-,derived,"Airline brand mapped to today's group (our grouping, see cleaning log)",20 values,
+Airline,string,-,derived,Airline brand as named in the DGCA file,-,
+Date,datetime64[ns],month start,derived,First day of the reporting month (from file year + month row),2017-01-01 to latest published month,2017-01 to 2026-09
+Year,int64,year,derived,Reporting year,2017-2026,
+Month,int64,month number,derived,Reporting month,1-12,
+Source File,str,-,derived,DGCA workbook the row came from,-,
+Source Sheet,str,-,derived,Sheet the row was read from,-,
+Aircraft Number,Float64,departures (count),DGCA monthly traffic statistics,Header: AIRCRAFT FLOWN / DEPARTURES (IN NUMBER),>= 0,"0.0 to 62,993.0"
+Aircraft Hours,Float64,hours,DGCA monthly traffic statistics,Header: AIRCRAFT FLOWN / HOURS (IN NUMBER),>= 0,"0.0 to 113,100.6"
+Aircraft Kilometres,Float64,thousand km,DGCA monthly traffic statistics,Header: AIRCRAFT FLOWN / KILOMETRE (IN THOUSAND),>= 0,"0.0 to 56,001.8"
+Passenger Number,Float64,passengers (count),DGCA monthly traffic statistics,Header: PASSENGERS CARRIED (IN NUMBER),>= 0,"0.0 to 9,991,048.0"
+Passenger Kilometers,Float64,thousand passenger-km,DGCA monthly traffic statistics,Header: PASSENGER KMS. PERFORMED (IN THOUSAND),>= 0 and <= Seat Kilometers,"0.0 to 9,603,478.0"
+Seat Kilometers,Float64,thousand seat-km,DGCA monthly traffic statistics,Header: AVAILABLE SEAT KILOMETRE (IN THOUSAND),>= 0,"0.0 to 11,112,753.0"
+Passenger Load Factor,Float64,percent,DGCA monthly traffic statistics,DGCA note: (PAX KM PERFORMED / AVAILABLE SEAT KMS) x 100,0-100; empty when seat km = 0,0.0 to 100.0

@@ -1,0 +1,54 @@
+Airline,Date,Passenger Number,dev_vs_median,avg_trip_km,trip_ok,lf_ok,github_ok,likely_cause,event_note,diagnosis,action
+Jet Airways,2019-05-01,0.0,-1.0,,True,True,True,last month(s) of operation: airline stopped or merged,Jet Airways suspended operations in April 2019,real value,keep as reported
+SpiceJet,2020-05-01,48156.0,-0.86,1009.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+AirAsia India,2020-05-01,21941.0,-0.84,1154.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+Akasa Air,2022-08-01,23744.0,-0.74,592.0,True,True,True,"launch month: first traffic, partial month",Akasa Air began flying in August 2022,real value,keep as reported
+AirAsia India,2021-05-01,63532.0,-0.61,1102.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+JetLite,2019-05-01,0.0,-1.0,,True,True,True,last month(s) of operation: airline stopped or merged,,real value,keep as reported
+IndiGo,2020-05-01,142254.0,-0.89,994.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+Alliance Air,2020-05-01,3772.0,-0.91,410.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+SpiceJet,2021-05-01,198792.0,-0.56,1135.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+Air India,2020-05-01,41595.0,-0.79,938.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+AirAsia India,2022-01-01,295094.0,-0.53,1063.0,True,True,True,no rule matched: check news and the neighbouring months,,"real value, cause still to confirm",keep as reported
+Vistara,2020-05-01,18416.0,-0.84,1029.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+SpiceJet,2026-09-01,72891.0,-0.48,801.0,True,True,True,newest month in the data: may still be provisional,,real value,keep as reported
+Star Air,2020-05-01,403.0,-0.93,635.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+Zoom Air,2017-08-01,0.0,-1.0,,True,True,True,temporary suspension: zero month between operating months,,real value,keep as reported
+Go First,2023-05-01,48296.0,-0.94,946.0,True,True,True,last month(s) of operation: airline stopped or merged,Go First stopped flying in early May 2023 (insolvency filing),real value,keep as reported
+Vistara,2021-05-01,97031.0,-0.69,1119.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+Fly91,2024-03-01,1351.0,-0.7,513.0,True,True,True,"launch month: first traffic, partial month",,real value,keep as reported
+Vistara,2024-11-01,415141.0,-0.67,1068.0,True,True,True,last month(s) of operation: airline stopped or merged,Vistara merged into Air India in November 2024,real value,keep as reported
+IndiGo,2021-05-01,1168738.0,-0.6,999.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+Star Air,2019-01-01,637.0,-0.76,2795.0,True,True,True,"launch month: first traffic, partial month",,real value,keep as reported
+TruJet,2020-05-01,1548.0,-0.9,327.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+Alliance Air,2021-05-01,29756.0,-0.53,409.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+India One Air,2022-10-01,17.0,-0.96,376.0,True,True,True,"launch month: first traffic, partial month",,real value,keep as reported
+IndiGo,2021-06-01,1701955.0,-0.42,944.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+Fly91,2025-02-01,11757.0,-0.42,466.0,True,True,True,small carrier: a few hundred passengers move the percentage a lot,,real value,keep as reported
+Air India Express,2020-05-01,332.0,-0.9,1880.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+Go First,2021-05-01,138417.0,-0.6,901.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+Air India Express,2022-03-01,277.0,-0.89,689.0,True,True,True,small carrier: a few hundred passengers move the percentage a lot,,real value,keep as reported
+Star Air,2021-05-01,6847.0,-0.46,828.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+TruJet,2022-02-01,2056.0,-0.62,391.0,True,True,True,last month(s) of operation: airline stopped or merged,,real value,keep as reported
+Air India Express,2021-10-01,271.0,-0.84,1913.0,True,True,True,small carrier: a few hundred passengers move the percentage a lot,,real value,keep as reported
+Flybig,2024-01-01,84.0,-0.77,303.0,True,True,True,small carrier: a few hundred passengers move the percentage a lot,,real value,keep as reported
+Go First,2020-07-01,79358.0,-0.4,1043.0,True,True,True,no rule matched: check news and the neighbouring months,,"real value, cause still to confirm",keep as reported
+Air India Express,2022-10-01,972.0,-0.7,705.0,True,True,True,small carrier: a few hundred passengers move the percentage a lot,,real value,keep as reported
+Air Carnival,2017-04-01,1008.0,-0.92,418.0,True,True,True,last month(s) of operation: airline stopped or merged,,real value,keep as reported
+Zoom Air,2017-02-01,1141.0,-0.53,795.0,True,True,True,"launch month: first traffic, partial month",,real value,keep as reported
+Air India Express,2021-03-01,689.0,-0.6,1896.0,True,True,True,small carrier: a few hundred passengers move the percentage a lot,,real value,keep as reported
+Zoom Air,2018-03-01,1365.0,-0.51,1042.0,True,True,True,small carrier: a few hundred passengers move the percentage a lot,,real value,keep as reported
+Flybig,2025-10-01,275.0,-0.55,400.0,True,True,True,last month(s) of operation: airline stopped or merged,,real value,keep as reported
+Flybig,2021-05-01,1323.0,-0.49,217.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+India One Air,2023-07-01,783.0,-0.43,271.0,True,True,True,small carrier: a few hundred passengers move the percentage a lot,,real value,keep as reported
+Pawan Hans,2021-12-01,74.0,-0.77,90.0,True,True,True,last month(s) of operation: airline stopped or merged,,real value,keep as reported
+Air India Express,2020-09-01,999.0,-0.42,1581.0,True,True,True,small carrier: a few hundred passengers move the percentage a lot,,real value,keep as reported
+Flybig,2024-07-01,1011.0,-0.44,237.0,True,True,True,small carrier: a few hundred passengers move the percentage a lot,,real value,keep as reported
+Air India Express,2020-06-01,3244.0,0.87,1608.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+Zoom Air,2018-06-01,4258.0,0.89,911.0,True,True,True,last month(s) of operation: airline stopped or merged,,real value,keep as reported
+TruJet,2020-06-01,15125.0,0.5,353.0,True,True,True,COVID-19 restrictions (Mar-Jun 2020 / Apr-Jun 2021 windows),,real value,keep as reported
+Zoom Air,2018-05-01,4772.0,1.12,874.0,True,True,True,small carrier: a few hundred passengers move the percentage a lot,,real value,keep as reported
+Air India Express,2021-12-01,7314.0,1.91,1489.0,True,True,True,small carrier: a few hundred passengers move the percentage a lot,,real value,keep as reported
+Air India Express,2021-11-01,7517.0,1.99,1527.0,True,True,True,small carrier: a few hundred passengers move the percentage a lot,,real value,keep as reported
+TruJet,2021-08-01,26823.0,0.84,390.0,True,True,True,no rule matched: check news and the neighbouring months,,"real value, cause still to confirm",keep as reported
+SpiceJet,2021-12-01,1150688.0,0.4,999.0,True,True,True,no rule matched: check news and the neighbouring months,,"real value, cause still to confirm",keep as reported
