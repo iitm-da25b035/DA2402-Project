@@ -1,5 +1,5 @@
 column,dtype,unit,source,definition_or_validation
-Type,string,-,DGCA workbook section,ScheduledDomestic or NonScheduledDomestic
+Type,string,-,DGCA workbook section,ScheduledDomestic only (non-scheduled rows are removed during cleaning)
 Group,string,-,Derived analytical grouping,Historical airline brands grouped using the mapping in the cleaning cell
 Airline,string,-,DGCA source filename,Original airline brand label retained
 Date,datetime64,month start,Derived from Year and Month,First day of reporting month

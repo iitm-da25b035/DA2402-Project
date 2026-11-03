@@ -1,10 +1,11 @@
 step,rows_before,rows_after,rows_affected,note
 remove empty template rows,5844,3034,2810,All 16 metric fields were empty.
 retain domestic traffic sections,3034,2191,843,International traffic sections excluded.
-separate Total Domestic aggregate,2191,1957,234,Aggregate retained separately for reconciliation.
-remove non-core cargo/mail/tonne metrics,1957,1957,0,"Removed from analysis table: Freight, Mail, Total Cargo, Passenger Tonne Kilometer, Mail Tonne Kilometer, Freight Tonne Kilometer, Total Tonne Kilometer, Available Tonne Kilometer, Weight Load Factor"
-duplicate key validation,1957,1957,0,"No duplicate (Type, Airline, Date) keys found."
-map historical airline brands to groups,25,20,679,Historical brands grouped for analysis; this is a retrospective analytical grouping.
-retain reported zero-traffic rows,94,94,0,"Passenger Number, Passenger Kilometers and Seat Kilometers are all zero; reported zero values retained."
-retain undefined load factors,94,94,0,Load factor is undefined when passenger and seat kilometres are both zero; no imputation.
-leave genuine missing values unimputed,7,7,0,5 rows have missing passenger counts and 100 rows have missing load factors overall. Missing core values remain NA; investigate source records before any imputation.
+remove non-scheduled domestic rows,2191,1426,765,NonScheduledDomestic rows (charter and other unscheduled flying) are out of scope.
+separate Total Domestic aggregate,1426,1309,117,Aggregate retained separately for reconciliation.
+remove non-core cargo/mail/tonne metrics,1309,1309,0,"Removed from analysis table: Freight, Mail, Total Cargo, Passenger Tonne Kilometer, Mail Tonne Kilometer, Freight Tonne Kilometer, Total Tonne Kilometer, Available Tonne Kilometer, Weight Load Factor"
+duplicate key validation,1309,1309,0,"No duplicate (Type, Airline, Date) keys found."
+map historical airline brands to groups,25,20,415,Historical brands grouped for analysis; this is a retrospective analytical grouping.
+retain reported zero-traffic rows,16,16,0,"Passenger Number, Passenger Kilometers and Seat Kilometers are all zero; reported zero values retained."
+retain undefined load factors,16,16,0,Load factor is undefined when passenger and seat kilometres are both zero; no imputation.
+leave genuine missing values unimputed,5,5,0,1 rows have missing passenger counts and 18 rows have missing load factors overall. Missing core values remain NA; investigate source records before any imputation.
