@@ -7,12 +7,18 @@ stage,step,rows_before,rows_after,rows_affected,note
 1 airline table,add Date column,1309,1309,1309,"First day of the month, built from Year and Month, added to every row."
 1 airline table,check for duplicate airline-months,1309,1309,0,"Check only: no duplicate (Type, Airline, Date) keys."
 1 airline table,map historical airline brands to groups,1309,1309,415,Group column added; 25 airline labels become 20 groups. Airline column kept.
+1 airline table,check for exact duplicate rows,1309,1309,0,Check only: 0 exact duplicates; 4 traffic rows repeat another month's numbers (Alliance Air); kept as reported.
+1 airline table,match records across DGCA and Vonter,1309,1309,0,"Check only: 2,966 records match on Type, Airline, Year, Month; passengers agree on 2,966. Vonter rows are not added, so none are removed."
 1 airline table,keep reported zero-traffic rows,1309,1309,0,"Kept unchanged: 16 rows with zero passengers, passenger-km and seat-km."
 1 airline table,leave undefined load factors empty,1309,1309,0,Kept unchanged: 16 zero-traffic rows where load factor is 0/0.
 1 airline table,"leave real gaps empty, no imputation",1309,1309,0,"Kept unchanged: 5 rows with a missing core value, 1 of them with no passenger count."
 1 airline table,flag statistical outliers for review,1309,1309,0,Check only: 53 rows flagged (20 in COVID windows); none changed.
 1 airline table,check hard rules,1309,1309,0,"Check only: 4 rules, 0 rows broke one."
+1 airline table,check units with trip length and aircraft speed,1309,1309,0,"Check only: 2 rows with an odd trip length, 26 with an odd aircraft speed; none changed."
 1 airline table,reconcile airlines with DGCA's Total Domestic,1309,1309,0,Check only: 103 of 116 months within 2%; last one is Aug 2026.
+1 airline table,standardise airline names (done when parsing),5844,5844,5292,42 spellings in file names become 27 names.
+1 airline table,standardise month labels (done when parsing),5844,5844,4524,"14 spellings become 12 months, for example JUL and JULY."
+1 airline table,convert numbers stored as text (done when parsing),5844,5844,0,0 text cells became numbers.
 1 airline table,placeholder text cells made empty (done when parsing),5844,5844,2330,"Done in the download notebook, on the 5,844 parsed rows: 209 '-', 4426 space-only and 13 'NR' cells."
 2 domestic analysis (in the dashboard),stop at the last reconciled month,1309,1301,8,Rows after Aug 2026 are not used by the dashboard.
 2 domestic analysis (in the dashboard),add airline brands up to group-months,1301,1002,299,Brands of one group flying in the same month become one row.

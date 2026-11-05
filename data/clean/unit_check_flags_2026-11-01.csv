@@ -1,0 +1,29 @@
+Airline,Date,Passenger Number,Passenger Kilometers,Aircraft Kilometres,Aircraft Hours,Source File,avg_trip_km,implied_speed_kmh,trip_flag,speed_flag
+Air Carnival,2017-04-01,1008.0,421.368,8.792,4.68,aircarnival17.xlsx,418.0,1879.0,False,True
+Air Deccan,2018-03-01,302.0,93.724,98.13,32.0,deccanair18.xlsx,310.0,3067.0,False,True
+Air Deccan,2018-09-01,1268.0,377.093,511.67,150.0,deccanair18.xlsx,297.0,3411.0,False,True
+Air India Express,2019-10-01,14043.0,21771.7,352.08,196.07999999999998,airindiaexpress19.xlsx,1550.0,1796.0,False,True
+Air India Express,2023-11-01,145064.0,137357.15799999997,4.061000000000001,1854.8166666666664,air india express23.xlsx,947.0,2.0,False,True
+Air Odisha,2018-07-01,186.0,7.264,7.264,30.0,airodisha18.xlsx,39.0,242.0,True,False
+AirAsia India,2023-09-01,815677.0,823615.0,80.0,10287.0,Air Asia23.xlsx,1010.0,8.0,False,True
+AirAsia India,2023-10-01,832328.0,849790.0140000003,85.43399999999998,10531.833333333338,Air Asia23.xlsx,1021.0,8.0,False,True
+AirAsia India,2023-11-01,835856.0,846100.9079999995,78.52900000000002,10221.583333333332,Air Asia23.xlsx,1012.0,8.0,False,True
+Flybig,2021-01-01,1717.0,777.2,1.928,67.0,Flybig21.xlsx,453.0,29.0,False,True
+Flybig,2021-04-01,1765.0,803.45,131.1,88.0,Flybig21.xlsx,455.0,1490.0,False,True
+Flybig,2021-05-01,1323.0,286.96,62.86,59.5,Flybig21.xlsx,217.0,1056.0,False,True
+Flybig,2021-06-01,3253.0,897.64,334.33,103.4,Flybig21.xlsx,276.0,3233.0,False,True
+Flybig,2021-07-01,4982.0,1620.46,508.76,144.0,Flybig21.xlsx,325.0,3533.0,False,True
+Flybig,2021-08-01,5663.0,2036.66,758.99,161.5,Flybig21.xlsx,360.0,4700.0,False,True
+Flybig,2021-09-01,5571.0,2093.76,805.27,203.4,Flybig21.xlsx,376.0,3959.0,False,True
+Flybig,2021-10-01,8398.0,3139.44,819.16,218.08,Flybig21.xlsx,374.0,3756.0,False,True
+Flybig,2021-11-01,10081.0,3763.2,1277.2,280.0,Flybig21.xlsx,373.0,4561.0,False,True
+Flybig,2021-12-01,10244.0,3984.02,1315.22,291.5,Flybig21.xlsx,389.0,4512.0,False,True
+Flybig,2022-01-01,6962.0,2680.46,1244.76,278.25,Flybig22.xlsx,385.0,4474.0,False,True
+Flybig,2022-02-01,9930.0,3788.01,1396.3,308.0,Flybig22.xlsx,381.0,4533.0,False,True
+Flybig,2022-03-01,13096.0,5402.71,3209.82,492.0,Flybig22.xlsx,413.0,6524.0,False,True
+Pawan Hans,2021-08-01,102.0,0.789,3.342,26.5,pawanhans21.xlsx,8.0,126.0,True,False
+SpiceJet,2022-09-01,753485.0,766968.579,9703.966666666667,5774.455,spicejet22.xlsx,1018.0,1680.0,False,True
+SpiceJet,2022-12-01,963522.0,999968.668,10585.4,6496.279,spicejet22.xlsx,1038.0,1629.0,False,True
+Star Air,2023-07-01,28405.0,19496.293,19219.424,1011.0,star air23.xlsx,686.0,19010.0,False,True
+Vistara,2021-10-01,696351.0,776158.8,6159.935,1201.54,vistara21.xlsx,1115.0,5127.0,False,True
+Vistara,2021-11-01,793152.0,873064.279,6764.922,1291.41,vistara21.xlsx,1101.0,5238.0,False,True
