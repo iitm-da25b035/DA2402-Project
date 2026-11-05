@@ -1,16 +1,35 @@
-column,dtype,unit,source,definition_or_validation
-Type,string,-,DGCA workbook section,ScheduledDomestic only (non-scheduled rows are removed during cleaning)
-Group,string,-,Derived analytical grouping,Historical airline brands grouped using the mapping in the cleaning cell
-Airline,string,-,DGCA source filename,Original airline brand label retained
-Date,datetime64,month start,Derived from Year and Month,First day of reporting month
-Year,integer,year,DGCA source filename,Reporting year
-Month,integer,month number,DGCA workbook row label,1 to 12
-Source File,string,-,Collection manifest,Original DGCA workbook filename
-Source Sheet,string,-,Excel workbook,Sheet from which the row was parsed
-Aircraft Number,numeric,count; verify source header,DGCA,Non-negative; exact unit/definition to be verified
-Aircraft Hours,numeric,hours; verify source header,DGCA,Non-negative; exact definition to be verified
-Aircraft Kilometres,numeric,unverified,DGCA,Non-negative; verify scale and unit against source header
-Passenger Number,numeric,passengers,DGCA,Non-negative passenger count
-Passenger Kilometers,numeric,unverified,DGCA,Non-negative; verify scale and unit against source header
-Seat Kilometers,numeric,unverified,DGCA,Non-negative; verify scale and unit against source header
-Passenger Load Factor,numeric,percent,DGCA,Normally 0 to 100; undefined when seat kilometres are zero
+table,column,dtype,unit,definition
+dgca_domestic_clean_2026-11-01.parquet,Type,string,-,Workbook section.
+dgca_domestic_clean_2026-11-01.parquet,Group,string,-,Airline group: brands combined using GROUP in section 3.
+dgca_domestic_clean_2026-11-01.parquet,Airline,string,-,"Airline brand, from the DGCA file name."
+dgca_domestic_clean_2026-11-01.parquet,Date,datetime,month start,First day of the reporting month.
+dgca_domestic_clean_2026-11-01.parquet,Year,integer,year,"Reporting year, from the file name."
+dgca_domestic_clean_2026-11-01.parquet,Month,integer,month number,"1 to 12, from the row label."
+dgca_domestic_clean_2026-11-01.parquet,Source File,string,-,Original DGCA workbook name.
+dgca_domestic_clean_2026-11-01.parquet,Source Sheet,string,-,Sheet the row was parsed from.
+dgca_domestic_clean_2026-11-01.parquet,Aircraft Number,numeric,departures,Aircraft flown: departures. Non-negative.
+dgca_domestic_clean_2026-11-01.parquet,Aircraft Hours,numeric,hours,Aircraft flown: hours. Non-negative.
+dgca_domestic_clean_2026-11-01.parquet,Aircraft Kilometres,numeric,thousand km,Aircraft flown: kilometres. Non-negative.
+dgca_domestic_clean_2026-11-01.parquet,Passenger Number,numeric,passengers,Passengers carried. Non-negative.
+dgca_domestic_clean_2026-11-01.parquet,Passenger Kilometers,numeric,thousand passenger-km,Passenger-km performed. Non-negative.
+dgca_domestic_clean_2026-11-01.parquet,Seat Kilometers,numeric,thousand seat-km,Available seat-km. Non-negative.
+dgca_domestic_clean_2026-11-01.parquet,Passenger Load Factor,numeric,percent,0 to 100; empty when seat-km is zero.
+dgca_international_clean_2026-11-01.parquet,Type,string,-,Workbook section.
+dgca_international_clean_2026-11-01.parquet,Group,string,-,Airline group: brands combined using GROUP in section 3.
+dgca_international_clean_2026-11-01.parquet,Airline,string,-,"Airline brand, from the DGCA file name."
+dgca_international_clean_2026-11-01.parquet,Date,datetime,month start,First day of the reporting month.
+dgca_international_clean_2026-11-01.parquet,Year,integer,year,"Reporting year, from the file name."
+dgca_international_clean_2026-11-01.parquet,Month,integer,month number,"1 to 12, from the row label."
+dgca_international_clean_2026-11-01.parquet,Source File,string,-,Original DGCA workbook name.
+dgca_international_clean_2026-11-01.parquet,Source Sheet,string,-,Sheet the row was parsed from.
+dgca_international_clean_2026-11-01.parquet,Aircraft Number,numeric,departures,Aircraft flown: departures. Non-negative.
+dgca_international_clean_2026-11-01.parquet,Aircraft Hours,numeric,hours,Aircraft flown: hours. Non-negative.
+dgca_international_clean_2026-11-01.parquet,Aircraft Kilometres,numeric,thousand km,Aircraft flown: kilometres. Non-negative.
+dgca_international_clean_2026-11-01.parquet,Passenger Number,numeric,passengers,Passengers carried. Non-negative.
+dgca_international_clean_2026-11-01.parquet,Passenger Kilometers,numeric,thousand passenger-km,Passenger-km performed. Non-negative.
+dgca_international_clean_2026-11-01.parquet,Seat Kilometers,numeric,thousand seat-km,Available seat-km. Non-negative.
+dgca_international_clean_2026-11-01.parquet,Passenger Load Factor,numeric,percent,0 to 100; empty when seat-km is zero.
+dgca_citypair_routes_2026-11-01.csv,Date,datetime,month start,First day of the reporting month.
+dgca_citypair_routes_2026-11-01.csv,City_A,string,-,Standardised city; first of the pair alphabetically.
+dgca_citypair_routes_2026-11-01.csv,City_B,string,-,Standardised city; second of the pair alphabetically.
+dgca_citypair_routes_2026-11-01.csv,Passengers,numeric,passengers,Both directions added together.

@@ -1,143 +1,143 @@
-file,rows_parsed,dash_cells,airline_unmapped,status
-Air Asia21.xlsx,48,0,False,parsed
-Air Asia22.xlsx,48,0,False,parsed
-Air Asia23.xlsx,48,0,False,parsed
-Air India21.xlsx,48,0,False,parsed
-Air India22.xlsx,48,0,False,parsed
-Air India23.xlsx,48,0,False,parsed
-Air India24.xlsx,48,0,False,parsed
-Air India25.xlsx,48,0,False,parsed
-Air India26.xlsx,48,0,False,parsed
-Air taxi23.xlsx,48,0,False,parsed
-Flybig21.xlsx,48,0,False,parsed
-Flybig22.xlsx,48,0,False,parsed
-Flybig23.xlsx,48,0,False,parsed
-Flybig24.xlsx,48,0,False,parsed
-Flybig25.xlsx,48,0,False,parsed
-Spicejet20.xlsx,48,0,False,parsed
-TruJet17.xlsx,12,0,False,parsed
-TruJet18.xlsx,12,0,False,parsed
-Trujet20.xlsx,48,0,False,parsed
-air deccan20.xlsx,48,0,False,parsed
-air heritage20.xlsx,48,0,False,parsed
-air heritage21.xlsx,48,0,False,parsed
-air india express21.xlsx,48,0,False,parsed
-air india express22.xlsx,48,0,False,parsed
-air india express23.xlsx,48,0,False,parsed
-air india express24.xlsx,48,0,False,parsed
-air india express25.xlsx,48,0,False,parsed
-air india express26.xlsx,48,0,False,parsed
-air india20.xlsx,48,0,False,parsed
-air taxi21.xlsx,48,0,False,parsed
-air taxi22.xlsx,48,0,False,parsed
-airasia18.xlsx,12,0,False,parsed
-airasia19.xlsx,48,0,False,parsed
-airasia20.xlsx,48,0,False,parsed
-aircarnival17.xlsx,12,0,False,parsed
-aircosta17.xlsx,12,0,False,parsed
-airdeccan21.xlsx,48,0,False,parsed
-airheritage19.xlsx,48,0,False,parsed
-airindia17.xlsx,36,0,False,parsed
-airindia18.xlsx,36,0,False,parsed
-airindia19.xlsx,48,0,False,parsed
-airindiaexpress17.xlsx,24,0,False,parsed
-airindiaexpress18.xlsx,24,0,False,parsed
-airindiaexpress19.xlsx,48,0,False,parsed
-airindiaexpress20.xlsx,48,0,False,parsed
-airodisha18.xlsx,12,8,False,parsed
-airpegasus17.xlsx,12,0,False,parsed
-aix connect 24.xlsx,48,0,False,parsed
-akasa air 22.xlsx,48,0,False,parsed
-akasa air 23.xlsx,48,0,False,parsed
-akasa air 24.xlsx,48,0,False,parsed
-akasa air 25.xlsx,48,0,False,parsed
-akasa air 26.xlsx,48,0,False,parsed
-alliance air20.xlsx,48,0,False,parsed
-alliance air21.xlsx,48,0,False,parsed
-alliance air22.xlsx,48,0,False,parsed
-alliance air23.xlsx,48,0,False,parsed
-alliance air24.xlsx,48,0,False,parsed
-alliance air25.xlsx,48,0,False,parsed
-alliance air26.xlsx,48,0,False,parsed
-alliance17.xlsx,24,24,False,parsed
-alliance18.xlsx,12,0,False,parsed
-alliance19.xlsx,48,0,False,parsed
-deccanair17.xlsx,12,1,False,parsed
-deccanair18.xlsx,12,4,False,parsed
-fly91 24.xlsx,48,0,False,parsed
-fly91 25.xlsx,48,0,False,parsed
-fly91 26.xlsx,48,0,False,parsed
-go air20.xlsx,48,0,False,parsed
-go air21.xlsx,48,0,False,parsed
-go air22.xlsx,48,0,False,parsed
-go air23.xlsx,48,0,False,parsed
-go air24.xlsx,48,0,False,parsed
-goair17.xlsx,24,20,False,parsed
-goair18.xlsx,36,0,False,parsed
-goair19.xlsx,48,0,False,parsed
-india one air22.xlsx,48,0,False,parsed
-india one air23.xlsx,48,0,False,parsed
-india one air24.xlsx,48,0,False,parsed
-india one air25.xlsx,48,0,False,parsed
-india one air26.xlsx,48,0,False,parsed
-indigo17.xlsx,36,24,False,parsed
-indigo18.xlsx,24,0,False,parsed
-indigo19.xlsx,48,0,False,parsed
-indigo20.xlsx,48,0,False,parsed
-indigo21.xlsx,48,0,False,parsed
-indigo22.xlsx,48,0,False,parsed
-indigo23.xlsx,48,0,False,parsed
-indigo24.xlsx,48,0,False,parsed
-indigo25.xlsx,48,0,False,parsed
-indigo26.xlsx,48,0,False,parsed
-jetairways17.xlsx,48,10,False,parsed
-jetairways18.xlsx,48,8,False,parsed
-jetairways19.xlsx,48,24,False,parsed
-jetlite17.xlsx,24,18,False,parsed
-jetlite18.xlsx,24,12,False,parsed
-jetlite19.xlsx,24,14,False,parsed
-pawan hans20.xlsx,48,0,False,parsed
-pawanhans19.xlsx,48,0,False,parsed
-pawanhans21.xlsx,48,0,False,parsed
-pawanhans22.xlsx,48,0,False,parsed
-spicejet17.xlsx,36,16,False,parsed
-spicejet18.xlsx,48,0,False,parsed
-spicejet19.xlsx,48,0,False,parsed
-spicejet21.xlsx,48,0,False,parsed
-spicejet22.xlsx,48,0,False,parsed
-spicejet23.xlsx,48,0,False,parsed
-spicejet24.xlsx,48,0,False,parsed
-spicejet25.xlsx,48,0,False,parsed
-spicejet26.xlsx,48,0,False,parsed
-star air20.xlsx,48,0,False,parsed
-star air21.xlsx,48,0,False,parsed
-star air22.xlsx,48,0,False,parsed
-star air23.xlsx,48,0,False,parsed
-star air24.xlsx,48,0,False,parsed
-star air25.xlsx,48,0,False,parsed
-star air26.xlsx,48,0,False,parsed
-starair19.xlsx,48,0,False,parsed
-totaldom17.xlsx,24,0,False,parsed
-totaldom18.xlsx,24,0,False,parsed
-totaldom19.xlsx,24,0,False,parsed
-totaldom20.xlsx,24,0,False,parsed
-totaldom21.xlsx,24,0,False,parsed
-totaldom22.xlsx,24,0,False,parsed
-totaldom23.xlsx,24,0,False,parsed
-totaldom24.xlsx,24,0,False,parsed
-totaldom25.xlsx,24,0,False,parsed
-totaldom26.xlsx,24,0,False,parsed
-trujet19.xlsx,48,0,False,parsed
-trujet21.xlsx,48,0,False,parsed
-trujet22.xlsx,48,0,False,parsed
-trujet23.xlsx,48,0,False,parsed
-vistara17.xlsx,24,0,False,parsed
-vistara18.xlsx,24,12,False,parsed
-vistara19.xlsx,48,0,False,parsed
-vistara20.xlsx,48,0,False,parsed
-vistara21.xlsx,48,0,False,parsed
-vistara22.xlsx,48,0,False,parsed
-vistara23.xlsx,48,0,False,parsed
-vistara24.xlsx,48,0,False,parsed
-zoomair17.xlsx,12,2,False,parsed
-zoomair18.xlsx,12,12,False,parsed
+file,rows_parsed,dash_cells,blank_cells,nr_cells,placeholder_rows,airline_unmapped,status
+Air Asia21.xlsx,48,0,50,0,25,False,parsed
+Air Asia22.xlsx,48,0,46,0,23,False,parsed
+Air Asia23.xlsx,48,0,52,0,26,False,parsed
+Air India21.xlsx,48,0,24,0,12,False,parsed
+Air India22.xlsx,48,0,34,0,17,False,parsed
+Air India23.xlsx,48,0,36,0,18,False,parsed
+Air India24.xlsx,48,0,20,0,10,False,parsed
+Air India25.xlsx,48,0,0,0,0,False,parsed
+Air India26.xlsx,48,0,0,0,0,False,parsed
+Air taxi23.xlsx,48,0,96,0,48,False,parsed
+Flybig21.xlsx,48,0,72,0,36,False,parsed
+Flybig22.xlsx,48,0,68,0,34,False,parsed
+Flybig23.xlsx,48,0,72,0,36,False,parsed
+Flybig24.xlsx,48,0,72,0,36,False,parsed
+Flybig25.xlsx,48,0,0,0,0,False,parsed
+Spicejet20.xlsx,48,0,28,0,15,False,parsed
+TruJet17.xlsx,12,0,0,0,0,False,parsed
+TruJet18.xlsx,12,0,0,0,0,False,parsed
+Trujet20.xlsx,48,0,74,0,37,False,parsed
+air deccan20.xlsx,48,0,95,0,48,False,parsed
+air heritage20.xlsx,48,0,90,0,45,False,parsed
+air heritage21.xlsx,48,0,96,0,48,False,parsed
+air india express21.xlsx,48,0,60,0,30,False,parsed
+air india express22.xlsx,48,0,64,0,32,False,parsed
+air india express23.xlsx,48,0,56,0,28,False,parsed
+air india express24.xlsx,48,0,32,0,16,False,parsed
+air india express25.xlsx,48,0,0,0,0,False,parsed
+air india express26.xlsx,48,0,0,0,0,False,parsed
+air india20.xlsx,48,0,26,0,13,False,parsed
+air taxi21.xlsx,48,0,78,0,39,False,parsed
+air taxi22.xlsx,48,0,76,0,38,False,parsed
+airasia18.xlsx,12,0,0,0,0,False,parsed
+airasia19.xlsx,48,0,72,0,36,False,parsed
+airasia20.xlsx,48,0,67,0,34,False,parsed
+aircarnival17.xlsx,12,0,0,0,0,False,parsed
+aircosta17.xlsx,12,0,0,0,0,False,parsed
+airdeccan21.xlsx,48,0,96,0,48,False,parsed
+airheritage19.xlsx,48,0,84,0,42,False,parsed
+airindia17.xlsx,36,0,0,0,0,False,parsed
+airindia18.xlsx,36,0,0,0,0,False,parsed
+airindia19.xlsx,48,0,24,0,12,False,parsed
+airindiaexpress17.xlsx,24,0,0,0,0,False,parsed
+airindiaexpress18.xlsx,24,0,0,0,0,False,parsed
+airindiaexpress19.xlsx,48,0,48,0,24,False,parsed
+airindiaexpress20.xlsx,48,0,51,0,26,False,parsed
+airodisha18.xlsx,12,8,0,12,4,False,parsed
+airpegasus17.xlsx,12,0,0,0,0,False,parsed
+aix connect 24.xlsx,48,0,62,0,31,False,parsed
+akasa air 22.xlsx,48,0,86,0,43,False,parsed
+akasa air 23.xlsx,48,0,54,0,27,False,parsed
+akasa air 24.xlsx,48,0,26,0,13,False,parsed
+akasa air 25.xlsx,48,0,0,0,0,False,parsed
+akasa air 26.xlsx,48,0,0,0,0,False,parsed
+alliance air20.xlsx,48,0,68,0,34,False,parsed
+alliance air21.xlsx,48,0,72,0,36,False,parsed
+alliance air22.xlsx,48,0,70,0,35,False,parsed
+alliance air23.xlsx,48,0,24,0,12,False,parsed
+alliance air24.xlsx,48,0,32,0,16,False,parsed
+alliance air25.xlsx,48,0,0,0,0,False,parsed
+alliance air26.xlsx,48,0,0,0,0,False,parsed
+alliance17.xlsx,24,24,0,0,12,False,parsed
+alliance18.xlsx,12,0,0,0,0,False,parsed
+alliance19.xlsx,48,0,66,0,33,False,parsed
+deccanair17.xlsx,12,1,0,1,1,False,parsed
+deccanair18.xlsx,12,4,0,0,2,False,parsed
+fly91 24.xlsx,48,0,70,0,35,False,parsed
+fly91 25.xlsx,48,0,0,0,0,False,parsed
+fly91 26.xlsx,48,0,0,0,0,False,parsed
+go air20.xlsx,48,0,48,0,24,False,parsed
+go air21.xlsx,48,0,33,0,17,False,parsed
+go air22.xlsx,48,0,24,0,12,False,parsed
+go air23.xlsx,48,0,62,0,31,False,parsed
+go air24.xlsx,48,0,64,0,33,False,parsed
+goair17.xlsx,24,20,0,0,10,False,parsed
+goair18.xlsx,36,0,0,0,0,False,parsed
+goair19.xlsx,48,0,44,0,22,False,parsed
+india one air22.xlsx,48,0,80,0,40,False,parsed
+india one air23.xlsx,48,0,50,0,25,False,parsed
+india one air24.xlsx,48,0,60,0,30,False,parsed
+india one air25.xlsx,48,0,0,0,0,False,parsed
+india one air26.xlsx,48,0,0,0,0,False,parsed
+indigo17.xlsx,36,24,0,0,12,False,parsed
+indigo18.xlsx,24,0,0,0,0,False,parsed
+indigo19.xlsx,48,0,42,0,21,False,parsed
+indigo20.xlsx,48,0,32,0,16,False,parsed
+indigo21.xlsx,48,0,24,0,12,False,parsed
+indigo22.xlsx,48,0,10,0,5,False,parsed
+indigo23.xlsx,48,0,18,0,9,False,parsed
+indigo24.xlsx,48,0,11,0,11,False,parsed
+indigo25.xlsx,48,0,0,0,0,False,parsed
+indigo26.xlsx,48,0,0,0,0,False,parsed
+jetairways17.xlsx,48,10,0,0,5,False,parsed
+jetairways18.xlsx,48,8,0,0,4,False,parsed
+jetairways19.xlsx,48,24,0,0,12,False,parsed
+jetlite17.xlsx,24,18,0,0,9,False,parsed
+jetlite18.xlsx,24,12,0,0,6,False,parsed
+jetlite19.xlsx,24,14,0,0,7,False,parsed
+pawan hans20.xlsx,48,0,76,0,38,False,parsed
+pawanhans19.xlsx,48,0,80,0,40,False,parsed
+pawanhans21.xlsx,48,0,74,0,37,False,parsed
+pawanhans22.xlsx,48,0,72,0,36,False,parsed
+spicejet17.xlsx,36,16,0,0,8,False,parsed
+spicejet18.xlsx,48,0,0,0,0,False,parsed
+spicejet19.xlsx,48,0,24,0,12,False,parsed
+spicejet21.xlsx,48,0,24,0,12,False,parsed
+spicejet22.xlsx,48,0,4,0,2,False,parsed
+spicejet23.xlsx,48,0,2,0,2,False,parsed
+spicejet24.xlsx,48,0,8,0,5,False,parsed
+spicejet25.xlsx,48,0,0,0,0,False,parsed
+spicejet26.xlsx,48,0,0,0,0,False,parsed
+star air20.xlsx,48,0,74,0,37,False,parsed
+star air21.xlsx,48,0,72,0,36,False,parsed
+star air22.xlsx,48,0,72,0,36,False,parsed
+star air23.xlsx,48,0,72,0,36,False,parsed
+star air24.xlsx,48,0,72,0,36,False,parsed
+star air25.xlsx,48,0,0,0,0,False,parsed
+star air26.xlsx,48,0,0,0,0,False,parsed
+starair19.xlsx,48,0,72,0,36,False,parsed
+totaldom17.xlsx,24,0,0,0,0,False,parsed
+totaldom18.xlsx,24,0,0,0,0,False,parsed
+totaldom19.xlsx,24,0,0,0,0,False,parsed
+totaldom20.xlsx,24,0,0,0,0,False,parsed
+totaldom21.xlsx,24,0,0,0,0,False,parsed
+totaldom22.xlsx,24,0,0,0,0,False,parsed
+totaldom23.xlsx,24,0,0,0,0,False,parsed
+totaldom24.xlsx,24,0,0,0,0,False,parsed
+totaldom25.xlsx,24,0,0,0,0,False,parsed
+totaldom26.xlsx,24,0,0,0,0,False,parsed
+trujet19.xlsx,48,0,72,0,36,False,parsed
+trujet21.xlsx,48,0,72,0,36,False,parsed
+trujet22.xlsx,48,0,92,0,46,False,parsed
+trujet23.xlsx,48,0,96,0,48,False,parsed
+vistara17.xlsx,24,0,0,0,0,False,parsed
+vistara18.xlsx,24,12,0,0,6,False,parsed
+vistara19.xlsx,48,0,62,0,31,False,parsed
+vistara20.xlsx,48,0,41,0,21,False,parsed
+vistara21.xlsx,48,0,26,0,13,False,parsed
+vistara22.xlsx,48,0,22,0,11,False,parsed
+vistara23.xlsx,48,0,20,0,10,False,parsed
+vistara24.xlsx,48,0,34,0,17,False,parsed
+zoomair17.xlsx,12,2,0,0,1,False,parsed
+zoomair18.xlsx,12,12,0,0,6,False,parsed

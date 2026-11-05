@@ -1,12 +1,30 @@
-step,rows_before,rows_after,rows_affected,note
-remove empty template rows,5844,3034,2810,All 16 metric fields were empty.
-retain domestic traffic sections,3034,2191,843,International traffic sections excluded.
-remove non-scheduled domestic rows,2191,1426,765,NonScheduledDomestic rows (charter and other unscheduled flying) are out of scope.
-separate Total Domestic aggregate,1426,1309,117,Aggregate retained separately for reconciliation.
-remove non-core cargo/mail/tonne metrics,1309,1309,0,"Removed from analysis table: Freight, Mail, Total Cargo, Passenger Tonne Kilometer, Mail Tonne Kilometer, Freight Tonne Kilometer, Total Tonne Kilometer, Available Tonne Kilometer, Weight Load Factor"
-duplicate key validation,1309,1309,0,"No duplicate (Type, Airline, Date) keys found."
-map historical airline brands to groups,25,20,415,Historical brands grouped for analysis; this is a retrospective analytical grouping.
-retain reported zero-traffic rows,16,16,0,"Passenger Number, Passenger Kilometers and Seat Kilometers are all zero; reported zero values retained."
-retain undefined load factors,16,16,0,Load factor is undefined when passenger and seat kilometres are both zero; no imputation.
-leave genuine missing values unimputed,5,5,0,1 rows have missing passenger counts and 18 rows have missing load factors overall. Missing core values remain NA; investigate source records before any imputation.
-airline-month status table,2320,2320,19,Each group-month labelled reported / blank / no source row. Zero is filled only where DGCA reported zero or DGCA's Total Domestic still agrees; others stay unknown.
+stage,step,rows_before,rows_after,rows_affected,note
+1 airline table,remove empty template rows,5844,3034,2810,All 16 metric columns were empty.
+1 airline table,retain domestic traffic sections,3034,2191,843,International sections removed from this table; stage 3 uses them.
+1 airline table,remove non-scheduled domestic rows,2191,1426,765,Charter and other unscheduled flying is out of scope.
+1 airline table,separate Total Domestic aggregate,1426,1309,117,"DGCA's own total, kept aside for the reconciliation check."
+1 airline table,"remove cargo, mail and tonne columns",1309,1309,0,"9 columns removed; no rows removed: Freight, Mail, Total Cargo, Passenger Tonne Kilometer, Mail Tonne Kilometer, Freight Tonne Kilometer, Total Tonne Kilometer, Available Tonne Kilometer, Weight Load Factor."
+1 airline table,add Date column,1309,1309,1309,"First day of the month, built from Year and Month, added to every row."
+1 airline table,check for duplicate airline-months,1309,1309,0,"Check only: no duplicate (Type, Airline, Date) keys."
+1 airline table,map historical airline brands to groups,1309,1309,415,Group column added; 25 airline labels become 20 groups. Airline column kept.
+1 airline table,keep reported zero-traffic rows,1309,1309,0,"Kept unchanged: 16 rows with zero passengers, passenger-km and seat-km."
+1 airline table,leave undefined load factors empty,1309,1309,0,Kept unchanged: 16 zero-traffic rows where load factor is 0/0.
+1 airline table,"leave real gaps empty, no imputation",1309,1309,0,"Kept unchanged: 5 rows with a missing core value, 1 of them with no passenger count."
+1 airline table,flag statistical outliers for review,1309,1309,0,Check only: 53 rows flagged (20 in COVID windows); none changed.
+1 airline table,check hard rules,1309,1309,0,"Check only: 4 rules, 0 rows broke one."
+1 airline table,reconcile airlines with DGCA's Total Domestic,1309,1309,0,Check only: 103 of 116 months within 2%; last one is Aug 2026.
+1 airline table,placeholder text cells made empty (done when parsing),5844,5844,2330,"Done in the download notebook, on the 5,844 parsed rows: 209 '-', 4426 space-only and 13 'NR' cells."
+2 domestic analysis (in the dashboard),stop at the last reconciled month,1309,1301,8,Rows after Aug 2026 are not used by the dashboard.
+2 domestic analysis (in the dashboard),add airline brands up to group-months,1301,1002,299,Brands of one group flying in the same month become one row.
+2 domestic analysis (in the dashboard),set April-May 2020 to zero where nothing was reported,1002,1012,10,10 group-months filled; listed in zero_filled_months. Not applied to the clean table.
+3 international (in the dashboard),keep scheduled international rows,5844,1356,4488,Starts again from the parsed table.
+3 international (in the dashboard),remove aggregate rows,1356,1356,0,Total rows are not airlines; 0 found in this section.
+3 international (in the dashboard),stop at the last reconciled month,1356,1320,36,Same cut as the domestic data: Aug 2026.
+3 international (in the dashboard),map airline brands to groups,1320,1320,376,Same brand groups as the domestic data.
+3 international (in the dashboard),remove rows with no passenger count,1320,536,784,784 of them are empty template rows; the other 0 have other numbers but no passengers.
+3 international (in the dashboard),add airline brands up to group-months,536,406,130,Brands of one group flying in the same month become one row.
+3 international (in the dashboard),set April 2020-March 2022 to zero where nothing was reported,406,522,116,116 group-months filled; listed in zero_filled_months.
+4 city-pair (in the dashboard),standardise city names,66453,66453,8752,"194 names become 144: spaces, case, 'AIRPORT', renamed cities, two Goa airports, Navi Mumbai into Mumbai."
+4 city-pair (in the dashboard),drop rows whose two ends became the same city,66453,66448,5,Both ends mapped to one name after standardising.
+4 city-pair (in the dashboard),merge both directions and split records into one route per month,66448,65764,684,"2,183 directional pairs become 1,470 routes; passengers summed, 20 split records included."
+4 city-pair (in the dashboard),stop at the last usable month,65764,65764,0,"Data ends Jul 2026, inside the airline cut of Aug 2026. Goes back to Apr 2015."
